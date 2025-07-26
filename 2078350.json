@@ -4,24 +4,24 @@
     "type": "Game",
     "schinese_name": "布鲁伊: 电子游戏",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 22:24:38",
-    "change_number": 29669975,
+    "update_time": "2025-07-23 14:24:47",
+    "change_number": 30207109,
     "depot": {
         "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,polish,danish,dutch,finnish,norwegian,swedish,arabic,brazilian,latam",
         "2078351": {
             "manifests": {
                 "public": {
-                    "gid": "8271454879754129027",
-                    "size": "820531417",
-                    "download": "689759152"
+                    "gid": "719860457491147271",
+                    "size": "815534990",
+                    "download": "684956560"
                 }
             },
             "decryptionkey": "250878d5f554855c09d59af0963ea4e9968fedf5f29415da830146c5de2d40fb"
         },
         "branches": {
             "public": {
-                "buildid": "18242855",
-                "timeupdated": "1747383749"
+                "buildid": "18808161",
+                "timeupdated": "1751010949"
             }
         },
         "privatebranches": "1"
