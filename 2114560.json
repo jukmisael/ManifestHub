@@ -1,0 +1,32 @@
+{
+    "appid": 2114560,
+    "name": "Succubus - Onoskelis",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-26 19:50:19",
+    "change_number": 29766646,
+    "depot": {
+        "2114560": {
+            "config": {
+                "oslist": "windows",
+                "osarch": "64"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "7573780897679084523",
+                    "size": "4343957205",
+                    "download": "1834915376"
+                }
+            },
+            "dlcappid": "2114560",
+            "decryptionkey": "6d302a6bd95da65a309d7742dfb8309df06a28a6472b36a7c0e45b167a26c75e"
+        },
+        "branches": {
+            "public": {
+                "buildid": "15132282",
+                "timeupdated": "1721828969"
+            }
+        }
+    }
+}
