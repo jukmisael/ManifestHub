@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 01:43:33",
-    "change_number": 29533680,
+    "update_time": "2025-07-07 20:02:19",
+    "change_number": 29936288,
     "depot": {
         "workshopdepot": "2151290",
         "2151291": {
@@ -14,14 +14,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7735274029675844470",
-                    "size": "433075669",
-                    "download": "111326736"
+                    "gid": "287845770726747528",
+                    "size": "433078583",
+                    "download": "111205088"
                 },
                 "beta": {
-                    "gid": "7735274029675844470",
-                    "size": "433075669",
-                    "download": "111326736"
+                    "gid": "287845770726747528",
+                    "size": "433078583",
+                    "download": "111205088"
                 }
             },
             "decryptionkey": "4510fce6947cb8c25d77ebf3aa7a8883594265d1f4ed82ba98b2e062caa1687c"
@@ -33,26 +33,26 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3539330702444028933",
-                    "size": "467588889",
-                    "download": "116133440"
+                    "gid": "2644411963153711556",
+                    "size": "467591760",
+                    "download": "117948368"
                 },
                 "beta": {
-                    "gid": "3539330702444028933",
-                    "size": "467588889",
-                    "download": "116133440"
+                    "gid": "2644411963153711556",
+                    "size": "467591760",
+                    "download": "117948368"
                 }
             }
         },
         "branches": {
             "public": {
-                "buildid": "18832736",
-                "timeupdated": "1749749415"
+                "buildid": "19086197",
+                "timeupdated": "1751914933"
             },
             "beta": {
-                "buildid": "18832736",
+                "buildid": "19086197",
                 "description": "Beta branch to test features before they are released more broadly.",
-                "timeupdated": "1749685884"
+                "timeupdated": "1751576590"
             }
         },
         "privatebranches": "1",
