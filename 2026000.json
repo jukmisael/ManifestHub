@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "我们的冒险者公会",
     "isfreeapp": 0,
-    "update_time": "2025-06-21 07:48:36",
-    "change_number": 29677153,
+    "update_time": "2025-07-13 05:41:14",
+    "change_number": 30032979,
     "depot": {
         "2026001": {
             "config": {
@@ -13,9 +13,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4785578499696644296",
-                    "size": "3546205271",
-                    "download": "1106553888"
+                    "gid": "523606894748616458",
+                    "size": "3411211446",
+                    "download": "1128653264"
                 },
                 "p1-54": {
                     "gid": "1356357162246784071",
@@ -32,18 +32,18 @@
                     "size": "3409987012",
                     "download": "1107583968"
                 },
-                "zh-fonts": {
-                    "gid": "779715063107297678",
-                    "size": "3350265129",
-                    "download": "1087176992"
+                "p1-6": {
+                    "gid": "4785578499696644296",
+                    "size": "3546205271",
+                    "download": "1106553888"
                 }
             },
             "decryptionkey": "84cc41d4a398837fe7ba525ebdccd5e5e3a671b5165418a1a88733b1dee4322c"
         },
         "branches": {
             "public": {
-                "buildid": "18873052",
-                "timeupdated": "1750065085"
+                "buildid": "19205214",
+                "timeupdated": "1752381669"
             },
             "p1-54": {
                 "buildid": "17383862",
@@ -60,10 +60,10 @@
                 "description": "Patch 1.56",
                 "timeupdated": "1750065040"
             },
-            "zh-fonts": {
-                "buildid": "17826270",
-                "description": "Chinese Simplified font",
-                "timeupdated": "1742734101"
+            "p1-6": {
+                "buildid": "18873052",
+                "description": "Patch 1.6",
+                "timeupdated": "1751631290"
             }
         },
         "privatebranches": "1"
