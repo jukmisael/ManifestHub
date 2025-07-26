@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 22:41:37",
-    "change_number": 29670272,
+    "update_time": "2025-07-10 06:01:27",
+    "change_number": 29981277,
     "depot": {
         "baselanguages": "english",
         "workshopdepot": "2105910",
@@ -31,9 +31,9 @@
                     "download": "206227408"
                 },
                 "test": {
-                    "gid": "1214804438012389010",
-                    "size": "550515061",
-                    "download": "363666496"
+                    "gid": "375015897209487290",
+                    "size": "552915951",
+                    "download": "363794496"
                 }
             },
             "decryptionkey": "6f37c7df68861c61298f0adb97a6295ee6d2bf6461cdf769bb29ce3e14ae9e8c"
@@ -59,9 +59,9 @@
                     "download": "208557424"
                 },
                 "test": {
-                    "gid": "6834930708645594375",
-                    "size": "552026973",
-                    "download": "363316272"
+                    "gid": "6176155775363285471",
+                    "size": "554427863",
+                    "download": "363444288"
                 }
             }
         },
@@ -86,9 +86,9 @@
                     "download": "208972160"
                 },
                 "test": {
-                    "gid": "6291419186264735450",
-                    "size": "552994980",
-                    "download": "363646256"
+                    "gid": "7466679901687139266",
+                    "size": "555395870",
+                    "download": "363774272"
                 }
             }
         },
@@ -104,9 +104,9 @@
                     "download": "360857408"
                 },
                 "test": {
-                    "gid": "2893930505747394736",
-                    "size": "544014120",
-                    "download": "361057984"
+                    "gid": "6598694617277522361",
+                    "size": "546415010",
+                    "download": "361185984"
                 }
             },
             "decryptionkey": ""
@@ -127,9 +127,9 @@
                 "timeupdated": "1725449622"
             },
             "test": {
-                "buildid": "18941405",
+                "buildid": "18969325",
                 "description": "Testing Branch",
-                "timeupdated": "1750430492"
+                "timeupdated": "1750705876"
             }
         },
         "workshopdepotdecryptionkey": ""
