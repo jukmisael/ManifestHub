@@ -1,0 +1,28 @@
+{
+    "appid": 2133190,
+    "name": "RPG Developer Bakin 3D Monster Pack Vol.1",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 1,
+    "update_time": "2025-06-23 11:35:14",
+    "change_number": 26201212,
+    "depot": {
+        "2133190": {
+            "manifests": {
+                "public": {
+                    "gid": "6515896370101426661",
+                    "size": "344166796",
+                    "download": "131256880"
+                }
+            },
+            "dlcappid": "2133190",
+            "decryptionkey": "9f392c626ebacf0ec8e8c2cb45ef6cf9b834def9872ad1fd648af426da4d30cd"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9735991",
+                "timeupdated": "1666003038"
+            }
+        }
+    }
+}
