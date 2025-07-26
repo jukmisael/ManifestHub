@@ -1,11 +1,11 @@
 {
     "appid": 2147380,
-    "name": "Silence of the Siren",
+    "name": "Heroes of Science and Fiction",
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 23:03:35",
-    "change_number": 29552063,
+    "update_time": "2025-07-17 14:26:53",
+    "change_number": 30111490,
     "depot": {
         "2147381": {},
         "2147382": {
@@ -14,19 +14,19 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7858684776283703478",
-                    "size": "4302674518",
-                    "download": "1662914016"
+                    "gid": "6442663706967343178",
+                    "size": "4539283049",
+                    "download": "1765198688"
                 },
                 "editor-beta-test-2025": {
-                    "gid": "7649481571575996017",
-                    "size": "4404107772",
-                    "download": "1717256592"
+                    "gid": "6442663706967343178",
+                    "size": "4539283049",
+                    "download": "1765198688"
                 },
                 "test": {
-                    "gid": "7858684776283703478",
-                    "size": "4302674518",
-                    "download": "1662914016"
+                    "gid": "6442663706967343178",
+                    "size": "4539283049",
+                    "download": "1765198688"
                 }
             },
             "decryptionkey": "176adf9439ff6a2910198d8c854431276a869cb36bbc35a8d318df9186d07f20"
@@ -37,37 +37,37 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "6526563544428749397",
-                    "size": "4372363806",
-                    "download": "1669751248"
+                    "gid": "3196459225834413228",
+                    "size": "4608527665",
+                    "download": "1772512496"
                 },
                 "editor-beta-test-2025": {
-                    "gid": "5171742962874875883",
-                    "size": "4473038244",
-                    "download": "1723801344"
+                    "gid": "3196459225834413228",
+                    "size": "4608527665",
+                    "download": "1772512496"
                 },
                 "test": {
-                    "gid": "6526563544428749397",
-                    "size": "4372363806",
-                    "download": "1669751248"
+                    "gid": "3196459225834413228",
+                    "size": "4608527665",
+                    "download": "1772512496"
                 }
             }
         },
         "workshopdepot": "2147380",
         "branches": {
             "public": {
-                "buildid": "18222862",
-                "timeupdated": "1745500331"
+                "buildid": "19244483",
+                "timeupdated": "1752672180"
             },
             "editor-beta-test-2025": {
-                "buildid": "18857865",
+                "buildid": "19244483",
                 "description": "Testing map editor",
-                "timeupdated": "1749827009"
+                "timeupdated": "1752672080"
             },
             "test": {
-                "buildid": "18222862",
+                "buildid": "19244483",
                 "description": "staging branch for builds",
-                "timeupdated": "1745493651"
+                "timeupdated": "1752672105"
             }
         },
         "privatebranches": "1",
