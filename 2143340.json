@@ -1,0 +1,52 @@
+{
+    "appid": 2143340,
+    "name": "Dark Nights",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 1,
+    "update_time": "2025-07-20 15:52:29",
+    "change_number": 30155272,
+    "depot": {
+        "baselanguages": "english",
+        "hasdepotsindlc": "1",
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2143341": {
+            "config": {
+                "oslist": "windows,linux"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "8027587849012379562",
+                    "size": "508338225",
+                    "download": "407344000"
+                }
+            },
+            "decryptionkey": "e5135766af8c4702e82a6e6f4e13c2d4bfb5eddeec93f53287a4dcdab67ec368"
+        },
+        "2143342": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "7721023507957075088",
+                    "size": "414620716",
+                    "download": "380014544"
+                }
+            },
+            "decryptionkey": "0c0b06829041e7529088774beaa6b550c928c6ed0e2b36591e6e56d7d59dcc7d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "10199524",
+                "timeupdated": "1671712273"
+            }
+        }
+    }
+}
