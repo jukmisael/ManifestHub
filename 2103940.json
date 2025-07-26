@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 10:16:48",
-    "change_number": 29687228,
+    "update_time": "2025-07-15 12:57:28",
+    "change_number": 30067673,
     "depot": {
         "workshopdepot": "2103940",
         "2103941": {
@@ -14,14 +14,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2411006526754837343",
-                    "size": "5720693",
-                    "download": "1800352"
+                    "gid": "3561197888420407051",
+                    "size": "12675623",
+                    "download": "3648720"
                 },
                 "beta": {
-                    "gid": "5396593132705759726",
-                    "size": "5720693",
-                    "download": "1800336"
+                    "gid": "6244842429531107632",
+                    "size": "12675623",
+                    "download": "3649648"
                 }
             },
             "decryptionkey": "9e0afbb3e0a02a0c77440c374b6bfaa78edce2890eae7f161a2bbd7c4a25225d"
@@ -32,14 +32,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "9212912902416948914",
-                    "size": "7569918",
-                    "download": "2263712"
+                    "gid": "1105280477885137881",
+                    "size": "7534377",
+                    "download": "2292576"
                 },
                 "beta": {
-                    "gid": "7086174316751659920",
-                    "size": "7568006",
-                    "download": "2263152"
+                    "gid": "2775444341003980931",
+                    "size": "7534321",
+                    "download": "2292688"
                 }
             }
         },
@@ -75,13 +75,13 @@
         },
         "branches": {
             "public": {
-                "buildid": "18931440",
-                "timeupdated": "1750364480"
+                "buildid": "19229405",
+                "timeupdated": "1752580641"
             },
             "beta": {
-                "buildid": "18929258",
+                "buildid": "19228944",
                 "description": "high chance of brokenness!",
-                "timeupdated": "1750350005"
+                "timeupdated": "1752578125"
             }
         },
         "workshopdepotdecryptionkey": ""
