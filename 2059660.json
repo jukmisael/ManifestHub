@@ -1,0 +1,28 @@
+{
+    "appid": 2059660,
+    "name": "Cavern of Dreams",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-18 16:39:33",
+    "change_number": 30134705,
+    "depot": {
+        "2059661": {
+            "manifests": {
+                "public": {
+                    "gid": "4992058258613500092",
+                    "size": "254484545",
+                    "download": "137180832"
+                }
+            },
+            "decryptionkey": "00e3ba6fdf8a430f900ccd13522c7f9d835a4b7e9403fc64863c768b59db595a"
+        },
+        "branches": {
+            "public": {
+                "buildid": "13947382",
+                "timeupdated": "1712242565"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
