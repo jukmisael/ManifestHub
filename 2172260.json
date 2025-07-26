@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "复体：远征",
     "isfreeapp": 0,
-    "update_time": "2025-06-15 20:15:53",
-    "change_number": 29573894,
+    "update_time": "2025-07-22 22:18:36",
+    "change_number": 30194248,
     "depot": {
         "228989": {
             "config": {
@@ -24,17 +24,17 @@
         "2172261": {
             "manifests": {
                 "public": {
-                    "gid": "7175120733322222104",
-                    "size": "3708924812",
-                    "download": "3511770720"
+                    "gid": "6918848690941247083",
+                    "size": "7144615811",
+                    "download": "6887345008"
                 }
             },
             "decryptionkey": "83d83ec58cff9c5a8d4a6c3d49ff5bf3bbd73d72cf9f5fd84508d69d716c5748"
         },
         "branches": {
             "public": {
-                "buildid": "11736896",
-                "timeupdated": "1689765459"
+                "buildid": "19269549",
+                "timeupdated": "1752843618"
             }
         }
     }
