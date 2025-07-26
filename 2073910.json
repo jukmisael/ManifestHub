@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "蛛友之家",
     "isfreeapp": 0,
-    "update_time": "2025-06-07 15:04:30",
-    "change_number": 29432466,
+    "update_time": "2025-07-03 13:10:24",
+    "change_number": 29878327,
     "depot": {
         "baselanguages": "english",
         "2073911": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2530865385603147764",
-                    "size": "1197304542",
-                    "download": "292955168"
+                    "gid": "5996037406416006479",
+                    "size": "638320998",
+                    "download": "293749888"
                 }
             },
             "decryptionkey": "b3ae7461810864e27c36bd149241b1306ad3ec5010f6b8dc0468ffb6f4a4f84e"
@@ -27,11 +27,12 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1663582815591513402",
-                    "size": "1190764762",
-                    "download": "291319152"
+                    "gid": "6002719228042009100",
+                    "size": "631631432",
+                    "download": "292010192"
                 }
-            }
+            },
+            "decryptionkey": "2289fbb79fb8c4703004d8badb359ddeedb8f02f34d20e785200c926a065d62a"
         },
         "2073913": {
             "config": {
@@ -39,16 +40,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5322777308711470869",
-                    "size": "1199802582",
-                    "download": "294349728"
+                    "gid": "3079634253327975596",
+                    "size": "639799014",
+                    "download": "295030880"
                 }
-            }
+            },
+            "decryptionkey": "06ebf7801074876dfd84d74d32cbb071d0ef345b43d621987c25c4736a4ec9d4"
         },
         "branches": {
             "public": {
-                "buildid": "18692054",
-                "timeupdated": "1748778588"
+                "buildid": "19014340",
+                "timeupdated": "1750956690"
             }
         },
         "privatebranches": "1"
