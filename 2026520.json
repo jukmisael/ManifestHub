@@ -1,0 +1,28 @@
+{
+    "appid": 2026520,
+    "name": "东方异乡录 ~the Apocryphal Gensoukyou",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-20 06:52:35",
+    "change_number": 30152304,
+    "depot": {
+        "2026521": {
+            "manifests": {
+                "public": {
+                    "gid": "8138695635038114522",
+                    "size": "1996498675",
+                    "download": "652349600"
+                }
+            },
+            "decryptionkey": "93f2ce82dc24db312df791c3c12bec8e76f095c5c1c4aad66f0447cdf06f453f"
+        },
+        "baselanguages": "schinese,japanese",
+        "branches": {
+            "public": {
+                "buildid": "9624500",
+                "timeupdated": "1664524039"
+            }
+        }
+    }
+}
