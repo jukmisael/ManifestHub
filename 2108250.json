@@ -1,0 +1,40 @@
+{
+    "appid": 2108250,
+    "name": "The Wandering Village Soundtrack",
+    "type": "Music",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-09 15:40:18",
+    "change_number": 29970249,
+    "depot": {
+        "2108251": {
+            "manifests": {
+                "public": {
+                    "gid": "398426517631679072",
+                    "size": "169801465",
+                    "download": "169414160"
+                }
+            },
+            "decryptionkey": "d6fb0ed010c06dfdca387061f1bb4892e0482bf705aee95f2c71ed9d70eb2eab"
+        },
+        "2108252": {
+            "config": {
+                "highqualityaudio": "1"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "6558190687885558422",
+                    "size": "1084255298",
+                    "download": "1000924000"
+                }
+            },
+            "decryptionkey": "ee894065f752a31854dd17794a896892c26017992ce7610165edeaf3adf6a338"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19162036",
+                "timeupdated": "1752071843"
+            }
+        }
+    }
+}
