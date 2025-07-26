@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-18 20:36:48",
-    "change_number": 29628756,
+    "update_time": "2025-07-23 10:18:24",
+    "change_number": 30203111,
     "depot": {
         "baselanguages": "english,schinese,japanese",
         "workshopdepot": "2135150",
@@ -17,27 +17,27 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "9135156218866949222",
-                    "size": "3105813231",
-                    "download": "1076537904"
+                    "gid": "6427237534599924731",
+                    "size": "3109543862",
+                    "download": "1080204400"
                 },
                 "nightly": {
-                    "gid": "3221736859637617708",
-                    "size": "3105821956",
-                    "download": "1076535824"
+                    "gid": "4881052262697321135",
+                    "size": "3109595040",
+                    "download": "1080285392"
                 }
             },
             "decryptionkey": "b800fa7ccfbea4d3c24ba4e8d50bdab1b39bf15b492ac44ad91b5af2af02cc14"
         },
         "branches": {
             "public": {
-                "buildid": "18822961",
-                "timeupdated": "1749635698"
+                "buildid": "19295743",
+                "timeupdated": "1753073433"
             },
             "nightly": {
-                "buildid": "18912145",
+                "buildid": "19326678",
                 "description": "Unstable Nightly Version",
-                "timeupdated": "1750250202"
+                "timeupdated": "1753262299"
             }
         },
         "privatebranches": "1",
