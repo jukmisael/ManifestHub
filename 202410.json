@@ -1,0 +1,65 @@
+{
+    "appid": 202410,
+    "name": "Scoregasm",
+    "type": "Game",
+    "schinese_name": "三维弹幕游戏",
+    "isfreeapp": 0,
+    "update_time": "2025-07-05 20:12:23",
+    "change_number": 29912841,
+    "depot": {
+        "202413": {
+            "config": {
+                "oslist": "macos"
+            },
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "2130730471886704059",
+                    "size": "92477828",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "989eed3623de58170cfdafd1d64c1538b4e65233a87d0a51a870e2b4237158a4"
+        },
+        "202412": {
+            "optional": "1",
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "8906770020947733385",
+                    "size": "251004826",
+                    "download": "0"
+                }
+            },
+            "dlcappid": "202412",
+            "decryptionkey": "fc3c7b0585d5e7f1013888a158ab51d9253bb82ede81049d1ea4c47a85eecb93"
+        },
+        "202411": {
+            "config": {
+                "oslist": "windows"
+            },
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "3527823317926579213",
+                    "size": "71326590",
+                    "download": "49865360"
+                }
+            },
+            "decryptionkey": "c49623d716dcc6446030c73065d24a1e459ebfb0758db272ae7a7194168ad560"
+        },
+        "202414": {
+            "config": {
+                "oslist": "linux"
+            },
+            "systemdefined": "1"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "2342271",
+                "timeupdated": "1512496201"
+            }
+        }
+    }
+}
