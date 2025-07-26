@@ -1,0 +1,105 @@
+{
+    "appid": 211260,
+    "name": "They Bleed Pixels",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-11 13:48:03",
+    "change_number": 30011037,
+    "depot": {
+        "overridescddb": "1",
+        "211261": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "3510953833464920734",
+                    "size": "359773269",
+                    "download": "322646656"
+                },
+                "linux32": {
+                    "gid": "7522945435347848964",
+                    "size": "280081099",
+                    "download": "244863760"
+                },
+                "xnaversion": {
+                    "gid": "472276650960356979",
+                    "size": "339534204",
+                    "download": "0"
+                },
+                "sdl3": {
+                    "gid": "5521172609022458451",
+                    "size": "365078378",
+                    "download": "324080672"
+                }
+            },
+            "decryptionkey": "541e58f830b39e10a2904b71e580e6c33a2b56c8cd197c91aadb9d50a0ab5942"
+        },
+        "211263": {
+            "config": {
+                "oslist": "linux"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "6094883562503021809",
+                    "size": "361017465",
+                    "download": "322927152"
+                },
+                "linux32": {
+                    "gid": "4412577946161431075",
+                    "size": "280902746",
+                    "download": "239996016"
+                },
+                "sdl3": {
+                    "gid": "1438817287764584301",
+                    "size": "362039030",
+                    "download": "323353072"
+                }
+            },
+            "decryptionkey": "0a7b1bebc80e82e11dc8b770c536c423d68be9b6f9674b790da3abde37bdb5e8"
+        },
+        "211264": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "3926365291026859360",
+                    "size": "360367717",
+                    "download": "322691168"
+                },
+                "linux32": {
+                    "gid": "7403344077350121037",
+                    "size": "284809228",
+                    "download": "241253712"
+                },
+                "sdl3": {
+                    "gid": "6872066790627334818",
+                    "size": "359994678",
+                    "download": "322671648"
+                }
+            },
+            "decryptionkey": "2f900a1343da78ecb219baf9486584ec8b32a138b0b575df841b2d78abfa7499"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19191019",
+                "timeupdated": "1752238032"
+            },
+            "linux32": {
+                "buildid": "1020325",
+                "description": "32-bit Linux (unsupported!)",
+                "timeupdated": "1603309873"
+            },
+            "xnaversion": {
+                "buildid": "27459"
+            },
+            "sdl3": {
+                "buildid": "19153222",
+                "description": "SDL 3.0 Testing, UNSTABLE",
+                "timeupdated": "1752156695"
+            }
+        }
+    }
+}
