@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "海山：昆仑镜",
     "isfreeapp": 0,
-    "update_time": "2025-06-03 09:48:10",
-    "change_number": 29338382,
+    "update_time": "2025-07-23 06:34:15",
+    "change_number": 30199978,
     "depot": {
         "baselanguages": "schinese",
         "hasdepotsindlc": "1",
@@ -17,27 +17,27 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3522139090393146535",
-                    "size": "11658218277",
-                    "download": "4167505744"
+                    "gid": "2201502981512371161",
+                    "size": "11658686708",
+                    "download": "4233448784"
                 },
                 "test": {
-                    "gid": "3522139090393146535",
-                    "size": "11658218277",
-                    "download": "4167505744"
+                    "gid": "2201502981512371161",
+                    "size": "11658686708",
+                    "download": "4233448784"
                 }
             },
             "decryptionkey": "b06b675177eaea9c518bc577e7a3cc94ebc9856603ba5009e0eb3d4589c54e05"
         },
         "branches": {
             "public": {
-                "buildid": "18278743",
-                "timeupdated": "1745989351"
+                "buildid": "19315577",
+                "timeupdated": "1753248851"
             },
             "test": {
-                "buildid": "18278743",
+                "buildid": "19315577",
                 "description": "unstable branch",
-                "timeupdated": "1745924066"
+                "timeupdated": "1753191999"
             }
         },
         "privatebranches": "1"
