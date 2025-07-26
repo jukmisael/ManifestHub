@@ -2,25 +2,25 @@
     "appid": 2011240,
     "name": "残神觉醒-BROKEN God Awakening",
     "type": "Game",
-    "schinese_name": "",
+    "schinese_name": "残神觉醒",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 10:58:50",
-    "change_number": 29660564,
+    "update_time": "2025-07-22 10:59:03",
+    "change_number": 30183539,
     "depot": {
         "2011241": {
             "manifests": {
                 "public": {
-                    "gid": "1056839095473521220",
-                    "size": "1776163651",
-                    "download": "1455827344"
+                    "gid": "4094566231064352594",
+                    "size": "1776445879",
+                    "download": "1456118208"
                 }
             },
             "decryptionkey": "a30d26204a8404ef8c9008b14427a65f1ea96a4a52085cb7b219c1b1cbcfb247"
         },
         "branches": {
             "public": {
-                "buildid": "18934599",
-                "timeupdated": "1750388323"
+                "buildid": "19312728",
+                "timeupdated": "1753178327"
             }
         }
     }
