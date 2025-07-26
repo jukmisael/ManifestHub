@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "孤星猎人",
     "isfreeapp": 0,
-    "update_time": "2025-06-21 15:59:17",
-    "change_number": 29680390,
+    "update_time": "2025-07-21 07:53:53",
+    "change_number": 30161964,
     "depot": {
         "baselanguages": "english,schinese",
         "2056211": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1761386416516661940",
-                    "size": "841521688",
-                    "download": "200553648"
+                    "gid": "3763172787012443141",
+                    "size": "845145848",
+                    "download": "201607840"
                 }
             },
             "decryptionkey": "db55b6a3697cc7a9858c2fdbc7ceca468881c73c4818db0332a670d8f6232689"
@@ -27,9 +27,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7024262672088991757",
-                    "size": "865290878",
-                    "download": "207499200"
+                    "gid": "5305610948437377466",
+                    "size": "868918194",
+                    "download": "211902256"
                 }
             },
             "decryptionkey": "70d027876a747085373950690337c52de0b8b0663f9cf25b276ad1510999f297"
@@ -37,8 +37,8 @@
         "workshopdepot": "2056210",
         "branches": {
             "public": {
-                "buildid": "18500127",
-                "timeupdated": "1747551542"
+                "buildid": "18996808",
+                "timeupdated": "1750947019"
             }
         },
         "privatebranches": "1",
