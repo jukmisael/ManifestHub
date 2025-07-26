@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "放置文明",
     "isfreeapp": 1,
-    "update_time": "2025-06-22 06:00:30",
-    "change_number": 29685327,
+    "update_time": "2025-07-20 10:03:31",
+    "change_number": 30153184,
     "depot": {
         "baselanguages": "english",
         "228989": {
@@ -21,14 +21,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1466764157048160106",
-                    "size": "264969112",
-                    "download": "99857584"
+                    "gid": "6623524843706065129",
+                    "size": "266971647",
+                    "download": "101662864"
                 },
                 "beta": {
-                    "gid": "1378271201468844123",
-                    "size": "265327883",
-                    "download": "100213808"
+                    "gid": "2142055264733787839",
+                    "size": "266979157",
+                    "download": "101671024"
                 }
             },
             "decryptionkey": "9e92101116da086f1ae243d5106e9a14e396d4939f7fb6478e24ce44fcf91cc6"
@@ -39,27 +39,44 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8172118049839692515",
-                    "size": "270816909",
-                    "download": "96084944"
+                    "gid": "5898508037424644631",
+                    "size": "272819444",
+                    "download": "97910704"
                 },
                 "beta": {
-                    "gid": "6758096635608799451",
-                    "size": "271175680",
-                    "download": "96442080"
+                    "gid": "5744349796882301604",
+                    "size": "272826954",
+                    "download": "97918176"
                 }
             },
             "decryptionkey": "27dce31b28acfaa09f802887dda334ba1e219af107871d3f76c80e78ade80675"
         },
+        "2181943": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "4238897473134847377",
+                    "size": "260098684",
+                    "download": "112908592"
+                },
+                "beta": {
+                    "gid": "3465306874932556213",
+                    "size": "260100926",
+                    "download": "112910768"
+                }
+            }
+        },
         "branches": {
             "public": {
-                "buildid": "17941322",
-                "timeupdated": "1743520333"
+                "buildid": "19248979",
+                "timeupdated": "1752689194"
             },
             "beta": {
-                "buildid": "18908512",
+                "buildid": "19290283",
                 "description": "Beta builds",
-                "timeupdated": "1750231279"
+                "timeupdated": "1753002206"
             }
         }
     }
