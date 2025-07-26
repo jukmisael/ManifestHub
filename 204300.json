@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "王牌英雄",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 22:53:52",
-    "change_number": 29670526,
+    "update_time": "2025-07-22 14:51:54",
+    "change_number": 30187226,
     "depot": {
         "overridescddb": "1",
         "workshopdepot": "204300",
@@ -26,9 +26,9 @@
                     "download": "2472178512"
                 },
                 "premium-beta": {
-                    "gid": "838225731453338149",
-                    "size": "3620802531",
-                    "download": "3589175264"
+                    "gid": "6763109864285400513",
+                    "size": "3621369238",
+                    "download": "3590696368"
                 }
             },
             "decryptionkey": "ac312f30d5a5f33a459352c2b3d347e9e77d39f6e46209c2c5d54c5f3078f13e"
@@ -190,27 +190,6 @@
                 "optionaldlc": "561520"
             }
         },
-        "204303": {
-            "dlcappid": "204303",
-            "manifests": {
-                "public": {
-                    "gid": "8657758077129066646",
-                    "size": "2531576509",
-                    "download": "2533654912"
-                },
-                "local": {
-                    "gid": "9145560123615229255",
-                    "size": "2425721749",
-                    "download": "2426745440"
-                },
-                "premium-beta": {
-                    "gid": "7270098509498326994",
-                    "size": "0",
-                    "download": "0"
-                }
-            },
-            "decryptionkey": ""
-        },
         "branches": {
             "public": {
                 "buildid": "12216198",
@@ -223,13 +202,13 @@
                 "timeupdated": "1459427007"
             },
             "premium-beta": {
-                "buildid": "18941380",
+                "buildid": "19315631",
                 "description": "beta for premium relaunch",
-                "timeupdated": "1750431226"
+                "timeupdated": "1753192308"
             }
         },
         "privatebranches": "1",
         "appmanagesdlc": "1",
-        "workshopdepotdecryptionkey": ""
+        "workshopdepotdecryptionkey": "42a04e6d2d9ab41d50bbdd55992896cad4ae19eb0a0db626aecb8264984f1c46"
     }
 }
