@@ -1,0 +1,40 @@
+{
+    "appid": 2082410,
+    "name": "Anomaly Collapse",
+    "type": "Game",
+    "schinese_name": "异界失控",
+    "isfreeapp": 0,
+    "update_time": "2025-07-16 17:13:35",
+    "change_number": 30093203,
+    "depot": {
+        "baselanguages": "english,schinese",
+        "2082411": {
+            "manifests": {
+                "public": {
+                    "gid": "4590552585877990463",
+                    "size": "923213145",
+                    "download": "635691168"
+                },
+                "local": {
+                    "gid": "2717790785152592393",
+                    "size": "779480468",
+                    "download": "437334640"
+                }
+            },
+            "decryptionkey": "a6a8f8e8bfbb9bafb66382aeb438c6bb9e7a075236e4283ebfc7d510e4b0e8ad"
+        },
+        "branches": {
+            "public": {
+                "buildid": "16417968",
+                "timeupdated": "1752681162"
+            },
+            "local": {
+                "buildid": "11389914",
+                "description": "Local Content Server",
+                "lcsrequired": "1",
+                "timeupdated": "1685872857"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
