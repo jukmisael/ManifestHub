@@ -1,0 +1,28 @@
+{
+    "appid": 2109320,
+    "name": "守卫英雄",
+    "type": "Game",
+    "schinese_name": "守卫英雄",
+    "isfreeapp": 0,
+    "update_time": "2025-07-10 22:58:43",
+    "change_number": 29998209,
+    "depot": {
+        "2109321": {
+            "manifests": {
+                "public": {
+                    "gid": "8089267023022784844",
+                    "size": "969512053",
+                    "download": "327750496"
+                }
+            },
+            "decryptionkey": "ce0fe7127da4ec097125391874e4b025ddaae3dd3e9b646508ac439c62f8df6f"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9736549",
+                "timeupdated": "1666008818"
+            }
+        }
+    },
+    "access_token": 3837652466020873860
+}
