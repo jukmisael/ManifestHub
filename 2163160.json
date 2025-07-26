@@ -4,15 +4,15 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-15 11:51:36",
-    "change_number": 29571025,
+    "update_time": "2025-07-21 21:42:32",
+    "change_number": 30174200,
     "depot": {
         "2163161": {
             "manifests": {
                 "public": {
-                    "gid": "5031850106808807935",
-                    "size": "5432835620",
-                    "download": "1514108832"
+                    "gid": "6522906320979799266",
+                    "size": "5341004455",
+                    "download": "1522682048"
                 },
                 "old-version": {
                     "gid": "2355350804931886259",
@@ -20,9 +20,9 @@
                     "download": "1034544208"
                 },
                 "public-testing": {
-                    "gid": "5031850106808807935",
-                    "size": "5432835620",
-                    "download": "1514108832"
+                    "gid": "6522906320979799266",
+                    "size": "5341004455",
+                    "download": "1522682048"
                 },
                 "very-old-version": {
                     "gid": "3379153061006338530",
@@ -35,8 +35,8 @@
         "workshopdepot": "2163160",
         "branches": {
             "public": {
-                "buildid": "18871160",
-                "timeupdated": "1749955677"
+                "buildid": "19049634",
+                "timeupdated": "1751279848"
             },
             "old-version": {
                 "buildid": "17083787",
@@ -44,9 +44,9 @@
                 "timeupdated": "1742907307"
             },
             "public-testing": {
-                "buildid": "18871160",
+                "buildid": "19049634",
                 "description": "For trying out experimental features.",
-                "timeupdated": "1749956239"
+                "timeupdated": "1751279833"
             },
             "very-old-version": {
                 "buildid": "15642113",
@@ -54,6 +54,6 @@
                 "timeupdated": "1729813753"
             }
         },
-        "workshopdepotdecryptionkey": ""
+        "workshopdepotdecryptionkey": "ac896797f387868832d055ae1087e6ef075988b68b7e8812504bec8a52f7eaa9"
     }
 }
