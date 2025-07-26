@@ -4,15 +4,15 @@
     "type": "Application",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-19 05:17:58",
-    "change_number": 29637249,
+    "update_time": "2025-07-23 23:38:00",
+    "change_number": 30215903,
     "depot": {
         "2098511": {
             "manifests": {
                 "public": {
-                    "gid": "7766123780471336223",
+                    "gid": "4480764064162566900",
                     "size": "255833328",
-                    "download": "58168000"
+                    "download": "58260784"
                 },
                 "lastatlasbuild": {
                     "gid": "304117710320857782",
@@ -34,8 +34,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18517858",
-                "timeupdated": "1747658585"
+                "buildid": "19335684",
+                "timeupdated": "1753310276"
             },
             "lastatlasbuild": {
                 "buildid": "10196130",
