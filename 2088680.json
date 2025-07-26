@@ -1,0 +1,46 @@
+{
+    "appid": 2088680,
+    "name": "天香与小百合 - Tinheung & Sayuri",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-01 11:14:07",
+    "change_number": 29840450,
+    "depot": {
+        "hasdepotsindlc": "0",
+        "baselanguages": "english,schinese,tchinese",
+        "2088681": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "7534112645963782178",
+                    "size": "444222370",
+                    "download": "327210592"
+                }
+            },
+            "decryptionkey": "44875adbdfd142647365d93407087dec6367b7fac2eb332f3eaaf2b3f95a7e0f"
+        },
+        "2088682": {
+            "config": {
+                "language": "english",
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2090185741897189611",
+                    "size": "444954551",
+                    "download": "336708880"
+                }
+            },
+            "decryptionkey": ""
+        },
+        "branches": {
+            "public": {
+                "buildid": "19043712",
+                "timeupdated": "1751221167"
+            }
+        }
+    }
+}
