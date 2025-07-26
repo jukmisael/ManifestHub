@@ -1,0 +1,45 @@
+{
+    "appid": 2095250,
+    "name": "LASER LAB",
+    "type": "Game",
+    "schinese_name": "光束实验室",
+    "isfreeapp": 1,
+    "update_time": "2025-07-20 01:52:32",
+    "change_number": 30150880,
+    "depot": {
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "baselanguages": "english",
+        "2095251": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2005942812676283292",
+                    "size": "843232018",
+                    "download": "763096416"
+                }
+            },
+            "decryptionkey": "60f9b9d8e83a87337cd375400dffbb459ffbae1fa033a3f700f4d8b515c6239b"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9381975",
+                "timeupdated": "1661380023"
+            }
+        }
+    }
+}
