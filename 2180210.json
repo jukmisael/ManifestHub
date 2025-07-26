@@ -3,9 +3,9 @@
     "name": "冒险日记  Adventure Diary",
     "type": "Game",
     "schinese_name": "",
-    "isfreeapp": 0,
-    "update_time": "2025-06-04 23:07:43",
-    "change_number": 29374608,
+    "isfreeapp": 1,
+    "update_time": "2025-07-23 20:10:13",
+    "change_number": 30213177,
     "depot": {
         "baselanguages": "schinese",
         "2180211": {
