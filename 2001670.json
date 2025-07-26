@@ -1,0 +1,27 @@
+{
+    "appid": 2001670,
+    "name": "BURST WITCH",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-19 05:53:08",
+    "change_number": 30143217,
+    "depot": {
+        "2001671": {
+            "manifests": {
+                "public": {
+                    "gid": "8645130200195767217",
+                    "size": "1319160329",
+                    "download": "584958560"
+                }
+            },
+            "decryptionkey": "b38ed7601fca89e5fbe1ab4d13c948eb64d6e4681733cc0ec95ccae50d575af6"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9184905",
+                "timeupdated": "1658752807"
+            }
+        }
+    }
+}
