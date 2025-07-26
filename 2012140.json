@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-19 18:18:08",
-    "change_number": 29647334,
+    "update_time": "2025-07-20 18:21:16",
+    "change_number": 30156335,
     "depot": {
         "2012141": {
             "config": {
@@ -24,9 +24,9 @@
                     "download": "9201862848"
                 },
                 "sectorsystem": {
-                    "gid": "8529569277692595553",
-                    "size": "17760853504",
-                    "download": "7825571312"
+                    "gid": "9000371436665738320",
+                    "size": "18130952177",
+                    "download": "8337492576"
                 },
                 "stresstest": {
                     "gid": "973238741826827310",
@@ -53,9 +53,9 @@
                 "timeupdated": "1742399564"
             },
             "sectorsystem": {
-                "buildid": "18868967",
+                "buildid": "19292318",
                 "description": "Sector System Beta",
-                "timeupdated": "1749924346"
+                "timeupdated": "1753032072"
             },
             "stresstest": {
                 "buildid": "18180273",
