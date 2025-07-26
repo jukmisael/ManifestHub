@@ -1,0 +1,30 @@
+{
+    "appid": 2101670,
+    "name": "Miners and Machines",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-08 01:06:56",
+    "change_number": 29939792,
+    "depot": {
+        "2101674": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "8321992461675127117",
+                    "size": "130511515",
+                    "download": "33177424"
+                }
+            },
+            "decryptionkey": "f2672959709f2a762c6a466c02dca66b0978be899a2c643f7a36963c95eaebed"
+        },
+        "branches": {
+            "public": {
+                "buildid": "18249658",
+                "timeupdated": "1745671480"
+            }
+        }
+    }
+}
