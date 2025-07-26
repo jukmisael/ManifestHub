@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "Staffer Case - 异能缉凶",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 08:07:50",
-    "change_number": 29539158,
+    "update_time": "2025-07-02 02:05:35",
+    "change_number": 29852109,
     "depot": {
         "hasdepotsindlc": "1",
         "baselanguages": "",
@@ -36,7 +36,7 @@
                     "download": "33643600"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "f3b15e694ef1e7d9e0c49bf6224701ffa1744b7e1c374e97291f1071076ed5b7"
         },
         "2486608": {
             "config": {
