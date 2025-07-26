@@ -4,25 +4,25 @@
     "type": "Game",
     "schinese_name": "凯撒朋克",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 05:58:45",
-    "change_number": 29684691,
+    "update_time": "2025-07-08 18:07:04",
+    "change_number": 29953831,
     "depot": {
         "baselanguages": "english,german,french,italian,koreana,spanish,schinese,russian,thai,japanese,polish,swedish,brazilian,ukrainian",
         "hasdepotsindlc": "1",
         "2012191": {
             "manifests": {
                 "public": {
-                    "gid": "1410222991679200974",
-                    "size": "4621687877",
-                    "download": "2742638464"
+                    "gid": "9197450125726684539",
+                    "size": "4613406137",
+                    "download": "2950898928"
                 }
             },
             "decryptionkey": "d563cc1e972880af6c0ef3a7d0074401446803137170f7d69b35db1a59764936"
         },
         "branches": {
             "public": {
-                "buildid": "18462507",
-                "timeupdated": "1747238450"
+                "buildid": "18983390",
+                "timeupdated": "1750946578"
             }
         },
         "privatebranches": "1"
