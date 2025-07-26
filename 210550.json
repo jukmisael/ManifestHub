@@ -1,0 +1,30 @@
+{
+    "appid": 210550,
+    "name": "Angry Birds Space",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-20 19:50:36",
+    "change_number": 30156943,
+    "depot": {
+        "preloadonly": "1",
+        "210551": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "7755649356718600135",
+                    "size": "139761902",
+                    "download": "37188376200"
+                }
+            },
+            "decryptionkey": "7bf50929c3097fb087324de3c9d71f14e4b7d84acd0b711be35d0732e925a781"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "474378"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
