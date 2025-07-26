@@ -4,8 +4,8 @@
     "type": "Application",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-17 21:59:16",
-    "change_number": 29609466,
+    "update_time": "2025-07-19 02:38:55",
+    "change_number": 30141953,
     "depot": {
         "2158671": {
             "config": {
@@ -13,9 +13,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4019755367492805087",
-                    "size": "131237220",
-                    "download": "43546848"
+                    "gid": "4902889464402284873",
+                    "size": "133457090",
+                    "download": "50757680"
                 }
             },
             "decryptionkey": "d40993fa4f0cc48e88e518a471000f1a49ba2c42bb6c90d800adf30ca108a0b7"
@@ -26,9 +26,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "772257668495458714",
-                    "size": "141993290",
-                    "download": "46304400"
+                    "gid": "486108909218642006",
+                    "size": "144161544",
+                    "download": "52703600"
                 }
             }
         },
@@ -38,26 +38,26 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1611482364782844996",
-                    "size": "131074519",
-                    "download": "43155200"
+                    "gid": "4412305084778056535",
+                    "size": "133253085",
+                    "download": "49758944"
                 }
             }
         },
         "2158674": {
             "manifests": {
                 "public": {
-                    "gid": "906061825848929700",
-                    "size": "690748644",
-                    "download": "417143136"
+                    "gid": "1912875063879975603",
+                    "size": "690843684",
+                    "download": "431462864"
                 }
             },
             "decryptionkey": "b4d692290245a248588ef55e621206b00e68545965373178d692c280525d58ca"
         },
         "branches": {
             "public": {
-                "buildid": "18898353",
-                "timeupdated": "1750168749"
+                "buildid": "19282308",
+                "timeupdated": "1752889131"
             }
         }
     }
