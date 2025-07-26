@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 1,
-    "update_time": "2025-06-07 08:59:24",
-    "change_number": 29429723,
+    "update_time": "2025-07-10 08:03:41",
+    "change_number": 29982665,
     "depot": {
         "hasdepotsindlc": "1",
         "2102021": {
@@ -15,9 +15,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2441507996876569264",
-                    "size": "104911054",
-                    "download": "35682880"
+                    "gid": "6737416333649660508",
+                    "size": "105058933",
+                    "download": "42546832"
                 },
                 "windows7": {
                     "gid": "7581080423035830437",
@@ -35,9 +35,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2640822493924330057",
-                    "size": "104911054",
-                    "download": "35687168"
+                    "gid": "2357461155169621335",
+                    "size": "105058933",
+                    "download": "42547360"
                 },
                 "windows7": {
                     "gid": "1777377633528903607",
@@ -49,8 +49,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18598192",
-                "timeupdated": "1748136630"
+                "buildid": "19171416",
+                "timeupdated": "1752131017"
             },
             "windows7": {
                 "buildid": "17639828",
