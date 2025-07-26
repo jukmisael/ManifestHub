@@ -1,0 +1,30 @@
+{
+    "appid": 211780,
+    "name": "Conflict Desert Storm",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-15 11:20:11",
+    "change_number": 30066073,
+    "depot": {
+        "211781": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2129847654636529165",
+                    "size": "969443861",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "a55c0f30889aa5da769fc173e0764eb0d5bc2c955ef2419bc54307f4b72ea7b3"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "2535"
+            }
+        }
+    }
+}
