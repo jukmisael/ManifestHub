@@ -1,0 +1,76 @@
+{
+    "appid": 215690,
+    "name": "Zeno Clash 2",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-13 21:10:47",
+    "change_number": 30038554,
+    "depot": {
+        "228983": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "229002": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "229020": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "229030": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "overridescddb": "1",
+        "baselanguages": "english,german,french,italian,spanish,russian",
+        "215691": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "870559019708799916",
+                    "size": "2856773286",
+                    "download": "2312964320"
+                }
+            },
+            "decryptionkey": "2150095b5a1788aa3d4255cd1dc7d33ba14b5ed88ac7316f1bd1f2648f3e7437"
+        },
+        "237491": {
+            "manifests": {
+                "public": {
+                    "gid": "596302058496017208",
+                    "size": "367878563",
+                    "download": "347948240"
+                }
+            },
+            "dlcappid": "237491",
+            "decryptionkey": "23949bd0d399d2a6e1c67db5b15061e2614e1058b6a89fea1a7f85245551102b"
+        },
+        "branches": {
+            "public": {
+                "buildid": "651392"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
