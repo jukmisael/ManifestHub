@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "钴蓝核心",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 06:59:42",
-    "change_number": 29658011,
+    "update_time": "2025-07-22 09:57:14",
+    "change_number": 30182530,
     "depot": {
         "2179851": {
             "config": {
@@ -25,6 +25,13 @@
                 }
             },
             "decryptionkey": "bc615c0333a243446cace8a2e902062b5450891478f8a8468c419bca793be235"
+        },
+        "2179852": {
+            "config": {
+                "oslist": "macos",
+                "osarch": "64"
+            },
+            "manifests": {}
         },
         "branches": {
             "public": {
