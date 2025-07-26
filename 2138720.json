@@ -4,23 +4,23 @@
     "type": "Game",
     "schinese_name": "开球! REMATCH",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 05:54:37",
-    "change_number": 29684148,
+    "update_time": "2025-07-23 14:37:26",
+    "change_number": 30207328,
     "depot": {
         "2138721": {
             "manifests": {
                 "public": {
-                    "gid": "3785782685723086685",
-                    "size": "6780637325",
-                    "download": "6238684576"
+                    "gid": "5582227186789954162",
+                    "size": "6820597904",
+                    "download": "6287137616"
                 }
             },
             "decryptionkey": "c1a2b9eea7346395b175b2d8458f566dcabe83b99822111d3446a5ce377bdc52"
         },
         "branches": {
             "public": {
-                "buildid": "18950596",
-                "timeupdated": "1750520060"
+                "buildid": "19301353",
+                "timeupdated": "1753274203"
             }
         },
         "privatebranches": "1"
