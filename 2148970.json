@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "天境争锋 Skygard Arena",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 11:45:54",
-    "change_number": 29660961,
+    "update_time": "2025-07-23 10:14:39",
+    "change_number": 30203028,
     "depot": {
         "baselanguages": "english",
         "2148974": {
@@ -17,9 +17,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3149082636528953355",
-                    "size": "13993788099",
-                    "download": "2910276768"
+                    "gid": "4413162609662705535",
+                    "size": "13435540610",
+                    "download": "2918242112"
                 },
                 "offline_demo": {
                     "gid": "876708269690010181",
@@ -65,8 +65,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18925026",
-                "timeupdated": "1750335240"
+                "buildid": "19250276",
+                "timeupdated": "1752697022"
             },
             "offline_demo": {
                 "buildid": "12927587",
