@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "真实战争2：北方十字军",
     "isfreeapp": 0,
-    "update_time": "2025-06-01 23:24:56",
-    "change_number": 29312026,
+    "update_time": "2025-07-16 11:18:05",
+    "change_number": 30086860,
     "depot": {
         "228990": {
             "config": {
@@ -41,7 +41,7 @@
                     "download": "361149362251"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "379b2df6c978bfb4adf223fec072c18dd46e8fe075000d3697cf88d947158197"
         },
         "202863": {
             "config": {
@@ -55,7 +55,7 @@
                     "download": "693884822487"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "362e2b5a3b91639d23d52f6b658acc62b9781546642fbdb608000617754aaf32"
         },
         "202864": {
             "config": {
@@ -69,7 +69,7 @@
                     "download": "48086684036"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "3d7cc93f640b9ac8bfcc20c5eda8c4b3c952dea74cab2918d1a6fb376396b471"
         },
         "branches": {
             "public": {
