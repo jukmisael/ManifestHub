@@ -1,0 +1,27 @@
+{
+    "appid": 2159520,
+    "name": "Desktop Farm Remastered",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-12 17:11:41",
+    "change_number": 30028851,
+    "depot": {
+        "2159521": {
+            "manifests": {
+                "public": {
+                    "gid": "5443773391103107522",
+                    "size": "270787475",
+                    "download": "147501152"
+                }
+            },
+            "decryptionkey": "6a845b646dd6ee72603ac40264d5eab5dea4d860ed89a2fe8e2919fe9419f862"
+        },
+        "branches": {
+            "public": {
+                "buildid": "10327761",
+                "timeupdated": "1673821232"
+            }
+        }
+    }
+}
