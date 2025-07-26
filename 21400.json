@@ -1,0 +1,28 @@
+{
+    "appid": 21400,
+    "name": "Project Aftermath",
+    "type": "Game",
+    "schinese_name": "战后余波",
+    "isfreeapp": 0,
+    "update_time": "2025-07-08 01:35:50",
+    "change_number": 29940092,
+    "depot": {
+        "21401": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "1503529405278228082",
+                    "size": "423174643",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "9aafd5c97c0b183dbf2a836de1d18f80daaa79682f4aa2a0a0870260adc05d01"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "11299"
+            }
+        }
+    }
+}
