@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "Ravenswatch 鸦卫奇旅",
     "isfreeapp": 0,
-    "update_time": "2025-06-19 07:28:57",
-    "change_number": 29638867,
+    "update_time": "2025-07-23 19:51:14",
+    "change_number": 30212914,
     "depot": {
         "228988": {
             "config": {
@@ -17,9 +17,9 @@
         "2071281": {
             "manifests": {
                 "public": {
-                    "gid": "5972165477209912917",
-                    "size": "6617597003",
-                    "download": "2371062432"
+                    "gid": "8110870665415912029",
+                    "size": "6616725759",
+                    "download": "2371028672"
                 }
             },
             "decryptionkey": "708c675853989cbd400455e166d30f9dec051473847f4577ef48f7c9331edb97"
@@ -28,8 +28,8 @@
         "hasdepotsindlc": "1",
         "branches": {
             "public": {
-                "buildid": "18638940",
-                "timeupdated": "1748869581"
+                "buildid": "18847089",
+                "timeupdated": "1751374929"
             }
         },
         "privatebranches": "1"
