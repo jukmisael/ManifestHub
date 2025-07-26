@@ -4,15 +4,15 @@
     "type": "Game",
     "schinese_name": "灾变前夜",
     "isfreeapp": 0,
-    "update_time": "2025-06-15 14:57:18",
-    "change_number": 29572002,
+    "update_time": "2025-07-18 20:01:51",
+    "change_number": 30137749,
     "depot": {
         "2093921": {
             "manifests": {
                 "public": {
-                    "gid": "2619882128253085696",
-                    "size": "29014412793",
-                    "download": "28263049760"
+                    "gid": "3343650569407411909",
+                    "size": "29015205645",
+                    "download": "28263871920"
                 }
             },
             "decryptionkey": "0b7690fca6032ce22908ebba2fc124ecd63424ccd07fa2e5d02381c53b208595"
@@ -20,8 +20,8 @@
         "workshopdepot": "0",
         "branches": {
             "public": {
-                "buildid": "18871638",
-                "timeupdated": "1749969103"
+                "buildid": "19279058",
+                "timeupdated": "1752865308"
             }
         },
         "workshopdepotdecryptionkey": ""
