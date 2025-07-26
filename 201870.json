@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "刺客信条：启示录",
     "isfreeapp": 0,
-    "update_time": "2025-06-12 17:05:46",
-    "change_number": 29524701,
+    "update_time": "2025-06-25 22:26:50",
+    "change_number": 29750193,
     "depot": {
         "overridescddb": "1",
         "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,portuguese,polish,danish,dutch,norwegian,swedish,czech",
@@ -83,9 +83,9 @@
         "1716751": {
             "manifests": {
                 "public": {
-                    "gid": "7692967814764193714",
-                    "size": "631944",
-                    "download": "515248"
+                    "gid": "818295193716041715",
+                    "size": "632424",
+                    "download": "551504"
                 }
             },
             "depotfromapp": "1716750",
