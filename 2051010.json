@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 05:54:38",
-    "change_number": 29657362,
+    "update_time": "2025-07-24 00:13:12",
+    "change_number": 30216308,
     "depot": {
         "baselanguages": "japanese",
         "228989": {
@@ -30,9 +30,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7226899874852234549",
-                    "size": "46084683574",
-                    "download": "42768697968"
+                    "gid": "1784451962634134099",
+                    "size": "46228658175",
+                    "download": "42933876976"
                 }
             },
             "decryptionkey": "11c7b8b636e2de7713ab47075ea3c370c7292b2851dcd0781e01c99350eac2f9"
@@ -1267,7 +1267,7 @@
                     "download": "7050608"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "693e57694f398343e314fee2ed47d3db2c7af93a97aa61bfb33012d223969e87"
         },
         "2442572": {
             "dlcappid": "2442572",
@@ -1283,7 +1283,7 @@
                     "download": "6939600"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "62f3e75eb36bbda9924b9a78a4a82248140d832a222c2916ac04a52ce27bce9c"
         },
         "2442573": {
             "dlcappid": "2442573",
@@ -1299,7 +1299,7 @@
                     "download": "6312560"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "0f6b90439b1deab4602b3e20a897fe5a34c3e79379a13ddd5091d66aa28bfb56"
         },
         "2442574": {
             "dlcappid": "2442574",
@@ -1331,7 +1331,7 @@
                     "download": "6775072"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "9b9f29eed0073a2060be58bb251d361fa0d26de0c3a7f3a4e2b4dea21acac61f"
         },
         "2442576": {
             "dlcappid": "2442576",
@@ -2506,8 +2506,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18637212",
-                "timeupdated": "1748826050"
+                "buildid": "19240508",
+                "timeupdated": "1753146120"
             }
         },
         "privatebranches": "1"
