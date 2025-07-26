@@ -1,0 +1,53 @@
+{
+    "appid": 2121360,
+    "name": "东北之夏",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 1,
+    "update_time": "2025-07-05 04:44:31",
+    "change_number": 29907268,
+    "depot": {
+        "baselanguages": "english,schinese,tchinese",
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2121361": {
+            "manifests": {
+                "public": {
+                    "gid": "5320521485009994740",
+                    "size": "1924109688",
+                    "download": "1681647264"
+                }
+            },
+            "decryptionkey": "cdb2eea95ce5d57010ab3cfbc7bc845629e3859fb33723a3de6970fd6835fb02"
+        },
+        "2447690": {
+            "dlcappid": "2447690",
+            "manifests": {
+                "public": {
+                    "gid": "6987825690759175429",
+                    "size": "690111338",
+                    "download": "671301152"
+                }
+            },
+            "decryptionkey": ""
+        },
+        "branches": {
+            "public": {
+                "buildid": "11297367",
+                "timeupdated": "1684848013"
+            }
+        }
+    }
+}
