@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "星之侵略者",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 05:30:23",
-    "change_number": 29655365,
+    "update_time": "2025-07-23 18:32:19",
+    "change_number": 30211709,
     "depot": {
         "2097571": {
             "config": {
@@ -13,9 +13,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1383419673348728959",
-                    "size": "810276081",
-                    "download": "488723104"
+                    "gid": "998426951605128997",
+                    "size": "820207973",
+                    "download": "526279696"
                 }
             },
             "decryptionkey": "162f5956918437b675aeb87b3b4b3392bb4b253d3d41aeb4701ffa463b0d1f1e"
@@ -26,16 +26,16 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7320717534846607692",
-                    "size": "909735261",
-                    "download": "509374032"
+                    "gid": "2743924439536367347",
+                    "size": "919879035",
+                    "download": "551298016"
                 }
             }
         },
         "branches": {
             "public": {
-                "buildid": "18588168",
-                "timeupdated": "1748032723"
+                "buildid": "19099776",
+                "timeupdated": "1751579345"
             }
         },
         "privatebranches": "1"
