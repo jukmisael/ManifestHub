@@ -1,0 +1,65 @@
+{
+    "appid": 2150830,
+    "name": "黄泉：孤岛惊魂",
+    "type": "Game",
+    "schinese_name": "黄泉：孤岛惊魂",
+    "isfreeapp": 0,
+    "update_time": "2025-07-10 22:58:43",
+    "change_number": 29998209,
+    "depot": {
+        "228988": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "hasdepotsindlc": "1",
+        "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,brazilian,ukrainian,latam,vietnamese",
+        "2150834": {},
+        "2150832": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "7118983224678761595",
+                    "size": "32165065522",
+                    "download": "31441404064"
+                }
+            },
+            "decryptionkey": "78aab0cf76109ee14f93dd17c03275bc6107e7eeb0398c20be760ac773a5e129"
+        },
+        "2150833": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2971150921213688358",
+                    "size": "26519103665",
+                    "download": "26320837648"
+                }
+            },
+            "decryptionkey": "ed8742f5973beaa65d447bcfdef47dbb6a90162a839f108fc4ba54626d191879"
+        },
+        "2241430": {
+            "dlcappid": "2241430"
+        },
+        "branches": {
+            "public": {
+                "buildid": "10913227",
+                "timeupdated": "1680943176"
+            }
+        },
+        "privatebranches": "1"
+    },
+    "access_token": 9569488870928695832
+}
