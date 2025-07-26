@@ -1,0 +1,43 @@
+{
+    "appid": 2060480,
+    "name": "PomoFarm",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-20 09:18:02",
+    "change_number": 30152965,
+    "depot": {
+        "2060481": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "5209902894935192761",
+                    "size": "88925157",
+                    "download": "23441088"
+                }
+            },
+            "decryptionkey": "2ffa8d070c22bdf8e3b1ec3ed7f92208a6b3c4e51b5066b7f46a09b47bccafec"
+        },
+        "2060482": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "4724785396661236848",
+                    "size": "124569667",
+                    "download": "33055168"
+                }
+            }
+        },
+        "branches": {
+            "public": {
+                "buildid": "13460491",
+                "timeupdated": "1707964418"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
