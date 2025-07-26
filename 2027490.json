@@ -1,0 +1,27 @@
+{
+    "appid": 2027490,
+    "name": "Paramnesia",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-30 14:56:46",
+    "change_number": 29823720,
+    "depot": {
+        "2027491": {
+            "manifests": {
+                "public": {
+                    "gid": "1309714935823676837",
+                    "size": "496470001",
+                    "download": "252047856"
+                }
+            },
+            "decryptionkey": "85257cbeeeec1378157e1c1cfb7f43f6f154605eead28e18fd538eef26286490"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9533598",
+                "timeupdated": "1663357423"
+            }
+        }
+    }
+}
