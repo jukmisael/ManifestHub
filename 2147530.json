@@ -1,0 +1,38 @@
+{
+    "appid": 2147530,
+    "name": "Raining Blood: Hellfire",
+    "type": "Game",
+    "schinese_name": "活魔人",
+    "isfreeapp": 0,
+    "update_time": "2025-07-24 03:56:22",
+    "change_number": 30218800,
+    "depot": {
+        "baselanguages": "",
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2147531": {
+            "manifests": {
+                "public": {
+                    "gid": "2734291281214008717",
+                    "size": "2424725964",
+                    "download": "197994384"
+                }
+            },
+            "decryptionkey": "fb31e66f583fb6609b0587b988db6c21f560cf9e7efd00abf3446ce0bc80eede"
+        },
+        "3869040": {
+            "dlcappid": "3869040"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19337866",
+                "timeupdated": "1753325778"
+            }
+        }
+    }
+}
