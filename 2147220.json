@@ -1,0 +1,55 @@
+{
+    "appid": 2147220,
+    "name": "暖雪 Warm Snow - FirstDLC",
+    "type": "DLC",
+    "schinese_name": "暖雪 Warm Snow - 烬梦",
+    "isfreeapp": 1,
+    "update_time": "2025-07-04 02:50:46",
+    "change_number": 26602770,
+    "depot": {
+        "2147220": {
+            "dlcappid": "2147220",
+            "config": {
+                "realm": "steamglobal"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "1125160281922234017",
+                    "size": "10",
+                    "download": "64"
+                }
+            },
+            "decryptionkey": "d9be6d05aa5eca0530a97338b5ce85d0aa680ea87d3cf330e242af3d908a44ef"
+        },
+        "2147222": {
+            "config": {
+                "oslist": "windows",
+                "realm": "steamchina"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "6068627155823496470",
+                    "size": "15043922642",
+                    "download": "2231308448"
+                }
+            },
+            "dlcappid": "2147220",
+            "decryptionkey": "f90956526a139781a45069ee419ce8aed9d0642bdbd267ca0cec80f2e86ac481"
+        },
+        "2147221": {
+            "config": {
+                "oslist": "windows",
+                "realm": "steamglobal"
+            },
+            "manifests": {},
+            "dlcappid": "2147220"
+        },
+        "branches": {
+            "public": {
+                "buildid": "12950679",
+                "timeupdated": "1702470597"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
