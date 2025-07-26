@@ -1,0 +1,31 @@
+{
+    "appid": 2151820,
+    "name": "Zombie Arena",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-01 09:51:57",
+    "change_number": 29839002,
+    "depot": {
+        "2151821": {
+            "config": {
+                "language": "english",
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "125003030085722035",
+                    "size": "14797652955",
+                    "download": "5735142560"
+                }
+            },
+            "decryptionkey": "cb9c2684b6384e540361f3ee5d97a4e0072bf2156004b67019c66d15c0dc6277"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11356066",
+                "timeupdated": "1685504936"
+            }
+        }
+    }
+}
