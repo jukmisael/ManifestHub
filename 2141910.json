@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "万智牌：竞技场",
     "isfreeapp": 1,
-    "update_time": "2025-06-18 06:07:10",
-    "change_number": 29611192,
+    "update_time": "2025-07-22 16:26:35",
+    "change_number": 30189034,
     "depot": {
         "baselanguages": "english",
         "228988": {
@@ -22,9 +22,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "6639793315728090883",
-                    "size": "418468541",
-                    "download": "134278976"
+                    "gid": "6469383261260684324",
+                    "size": "419023104",
+                    "download": "136778224"
                 },
                 "local": {
                     "gid": "3627858795308679842",
@@ -41,9 +41,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7375685278025201436",
-                    "size": "11470305396",
-                    "download": "10198482496"
+                    "gid": "1223447087163559500",
+                    "size": "11844937883",
+                    "download": "10627011840"
                 },
                 "local": {
                     "gid": "5346417929162504227",
@@ -81,8 +81,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18846326",
-                "timeupdated": "1750174058"
+                "buildid": "19283009",
+                "timeupdated": "1753197990"
             },
             "local": {
                 "buildid": "13499385",
