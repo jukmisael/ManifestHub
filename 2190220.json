@@ -4,17 +4,17 @@
     "type": "Game",
     "schinese_name": "东方弹幕神乐 失落幻想",
     "isfreeapp": 0,
-    "update_time": "2025-06-15 12:57:09",
-    "change_number": 29571291,
+    "update_time": "2025-07-20 12:02:48",
+    "change_number": 30153829,
     "depot": {
         "baselanguages": "english,koreana,schinese,tchinese,japanese",
         "hasdepotsindlc": "1",
         "2190221": {
             "manifests": {
                 "public": {
-                    "gid": "2237850672957851215",
-                    "size": "6632479071",
-                    "download": "5883378736"
+                    "gid": "1929499461698592663",
+                    "size": "6756109038",
+                    "download": "6016601488"
                 }
             },
             "decryptionkey": "d94856de16f133e42d1d1c4c4c4bd5fb5c79ab25709f242ad77cd1cd5b69ba96"
@@ -24,8 +24,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18371773",
-                "timeupdated": "1746777004"
+                "buildid": "19011674",
+                "timeupdated": "1750989907"
             }
         },
         "privatebranches": "1"
