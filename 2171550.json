@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "铁路物语",
     "isfreeapp": 0,
-    "update_time": "2025-05-31 07:25:08",
-    "change_number": 29288411,
+    "update_time": "2025-07-01 09:42:39",
+    "change_number": 29838869,
     "depot": {
         "2171551": {
             "config": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7711837127496488898",
-                    "size": "75040818",
-                    "download": "54353632"
+                    "gid": "6722361860342128385",
+                    "size": "75238974",
+                    "download": "54764752"
                 }
             },
             "decryptionkey": "3e033228545e2a01581bf2533e64b768f33cd24416e4aab8f3d6c3a69bfb1f27"
@@ -28,17 +28,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "893529124343359861",
-                    "size": "74355403",
-                    "download": "54172992"
+                    "gid": "4430310987185068933",
+                    "size": "74552471",
+                    "download": "54567104"
                 }
             }
         },
         "baselanguages": "english,schinese,tchinese",
         "branches": {
             "public": {
-                "buildid": "18675795",
-                "timeupdated": "1748621878"
+                "buildid": "19056979",
+                "timeupdated": "1751359352"
             }
         },
         "privatebranches": "1"
