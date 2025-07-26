@@ -1,0 +1,27 @@
+{
+    "appid": 2112680,
+    "name": "Darkness Revenge",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-16 07:29:46",
+    "change_number": 30083339,
+    "depot": {
+        "2112681": {
+            "manifests": {
+                "public": {
+                    "gid": "7036104469256818791",
+                    "size": "2129705949",
+                    "download": "2061203760"
+                }
+            },
+            "decryptionkey": "bcf472476a0d6d31e633762c440c8173498e6ccdc1d19960fc36f923b8bdb004"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11353531",
+                "timeupdated": "1688371715"
+            }
+        }
+    }
+}
