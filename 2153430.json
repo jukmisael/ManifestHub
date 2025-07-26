@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "信号迷局 Signal Maze",
     "isfreeapp": 0,
-    "update_time": "2025-06-09 16:24:01",
-    "change_number": 29457860,
+    "update_time": "2025-07-15 02:47:03",
+    "change_number": 30059464,
     "depot": {
         "hasdepotsindlc": "0",
         "2153433": {
@@ -15,9 +15,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8303501757953821731",
-                    "size": "1576484873",
-                    "download": "561177152"
+                    "gid": "3336064149336658042",
+                    "size": "2005183879",
+                    "download": "710529456"
                 }
             },
             "decryptionkey": "a4a99e3c8e5ba8878790d4f8065073e1ad95f41c240140b36385f2edcb9cb565"
@@ -29,9 +29,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7046035737948981957",
-                    "size": "1576484873",
-                    "download": "561358640"
+                    "gid": "4154859474186977262",
+                    "size": "2005183879",
+                    "download": "710634112"
                 }
             },
             "decryptionkey": ""
@@ -43,9 +43,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7899120478260746863",
-                    "size": "1576484873",
-                    "download": "561411536"
+                    "gid": "5256386358938140128",
+                    "size": "2005183879",
+                    "download": "710742816"
                 }
             },
             "decryptionkey": ""
@@ -53,8 +53,8 @@
         "workshopdepot": "2153430",
         "branches": {
             "public": {
-                "buildid": "18672174",
-                "timeupdated": "1748600642"
+                "buildid": "19215039",
+                "timeupdated": "1752544018"
             }
         },
         "privatebranches": "1",
