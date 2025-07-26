@@ -1,0 +1,38 @@
+{
+    "appid": 1999320,
+    "name": "Sailist",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-16 18:41:56",
+    "change_number": 30094790,
+    "depot": {
+        "1999321": {
+            "manifests": {
+                "public": {
+                    "gid": "8667883174844791890",
+                    "size": "5097682233",
+                    "download": "1817451408"
+                },
+                "previous_version": {
+                    "gid": "1147556527090661424",
+                    "size": "5011930257",
+                    "download": "1754490224"
+                }
+            },
+            "decryptionkey": "8cee331d3ccd3c9a4c72b4a8e38188a434d96c6edc80300e96b788578f964dc6"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19248481",
+                "timeupdated": "1752687709"
+            },
+            "previous_version": {
+                "buildid": "18099089",
+                "description": "previous version",
+                "timeupdated": "1752687667"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
