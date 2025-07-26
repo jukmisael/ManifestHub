@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "乐高：蝙蝠侠",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 22:56:10",
-    "change_number": 29551904,
+    "update_time": "2025-07-10 01:39:37",
+    "change_number": 29978457,
     "depot": {
         "overridescddb": "1",
         "21001": {
@@ -119,14 +119,21 @@
         },
         "21007": {
             "config": {
-                "oslist": "windows",
-                "steamdeck": "1"
+                "oslist": "windows"
             },
-            "manifests": {}
+            "manifests": {
+                "public": {
+                    "gid": "6690420575247744391",
+                    "size": "7561216",
+                    "download": "2408832"
+                }
+            },
+            "decryptionkey": "b6c97168a1cafde4fada8f1503890edf2a324f7b34a8223590b23825a9b9e68a"
         },
         "branches": {
             "public": {
-                "buildid": "10631"
+                "buildid": "19129138",
+                "timeupdated": "1752075742"
             },
             "beta": {
                 "buildid": "10631"
