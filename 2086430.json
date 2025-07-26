@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "NIMRODS: 枪匠幸存者",
     "isfreeapp": 0,
-    "update_time": "2025-06-17 19:19:18",
-    "change_number": 29606692,
+    "update_time": "2025-07-23 17:56:40",
+    "change_number": 30211027,
     "depot": {
         "2086432": {
             "config": {
@@ -14,9 +14,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "6721571812681938193",
-                    "size": "872714517",
-                    "download": "188460080"
+                    "gid": "715522924405621883",
+                    "size": "966084306",
+                    "download": "231946192"
+                },
+                "mono": {
+                    "gid": "3489544797415669462",
+                    "size": "869111210",
+                    "download": "206250736"
                 }
             },
             "decryptionkey": "027b957a020894379976c203d53558eacd1459e14c73fd73986c6e45e423fd19"
@@ -28,6 +33,11 @@
             },
             "manifests": {
                 "public": {
+                    "gid": "1870688849933825438",
+                    "size": "1197046769",
+                    "download": "275883936"
+                },
+                "mono": {
                     "gid": "7092350092037632061",
                     "size": "1097533488",
                     "download": "223445472"
@@ -43,8 +53,13 @@
         },
         "branches": {
             "public": {
-                "buildid": "18434708",
-                "timeupdated": "1747086307"
+                "buildid": "19331634",
+                "timeupdated": "1753288858"
+            },
+            "mono": {
+                "buildid": "19331630",
+                "description": "mono enabled builds (no il2cpp)",
+                "timeupdated": "1753286741"
             }
         },
         "privatebranches": "1"
