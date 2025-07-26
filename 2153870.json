@@ -4,8 +4,8 @@
     "type": "DLC",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-10 20:09:44",
-    "change_number": 29485676,
+    "update_time": "2025-07-09 20:01:35",
+    "change_number": 29974370,
     "depot": {
         "2153872": {
             "manifests": {
@@ -30,7 +30,7 @@
                 }
             },
             "dlcappid": "2153870",
-            "decryptionkey": ""
+            "decryptionkey": "35ec66577bad165531ed3faa7d57db174dc5c411d7fa334cfac933a406119c7b"
         },
         "branches": {
             "public": {
