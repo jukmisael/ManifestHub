@@ -4,17 +4,17 @@
     "type": "Game",
     "schinese_name": "炎鹰队长之激光恋曲",
     "isfreeapp": 0,
-    "update_time": "2025-05-23 05:55:21",
-    "change_number": 29136965,
+    "update_time": "2025-07-14 00:12:15",
+    "change_number": 30039769,
     "depot": {
         "hasdepotsindlc": "1",
         "baselanguages": "english",
         "2054691": {
             "manifests": {
                 "public": {
-                    "gid": "786071379686565783",
-                    "size": "3439018912",
-                    "download": "707293248"
+                    "gid": "4124056889590679238",
+                    "size": "3440954881",
+                    "download": "718022016"
                 }
             },
             "decryptionkey": "9eae1ff98817892668a0ecd1a577b0e87b68fa93e96d04fc385e48178227d4f0"
@@ -32,8 +32,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "17460726",
-                "timeupdated": "1740172182"
+                "buildid": "19084854",
+                "timeupdated": "1751491651"
             }
         }
     }
