@@ -1,0 +1,56 @@
+{
+    "appid": 2020240,
+    "name": "We Who Are About To Die Demo",
+    "type": "Demo",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-23 18:39:52",
+    "change_number": 29702740,
+    "depot": {
+        "228985": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228988": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2020241": {
+            "manifests": {
+                "public": {
+                    "gid": "5434092795113646701",
+                    "size": "6536465716",
+                    "download": "6414721248"
+                }
+            },
+            "decryptionkey": "0bbda09e4359719105f10a848a3f837b9d1720e676415040b9c60b43195f8449"
+        },
+        "branches": {
+            "public": {
+                "buildid": "18957737",
+                "timeupdated": "1750678551"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
