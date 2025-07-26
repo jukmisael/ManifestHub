@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "越来越黑暗 Dark and Darker",
     "isfreeapp": 1,
-    "update_time": "2025-06-21 18:56:07",
-    "change_number": 29617107,
+    "update_time": "2025-07-17 09:20:08",
+    "change_number": 30105946,
     "depot": {
         "228989": {
             "config": {
@@ -28,17 +28,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5032819564190262317",
-                    "size": "10663462752",
-                    "download": "9806029312"
+                    "gid": "3797452351411495719",
+                    "size": "11601321397",
+                    "download": "10317584800"
                 }
             },
             "decryptionkey": "317a5c70883ad23bbef6b5944503332e3bc3af8049ae6fb372da6a9e3ce63931"
         },
         "branches": {
             "public": {
-                "buildid": "18808031",
-                "timeupdated": "1749551408"
+                "buildid": "19256710",
+                "timeupdated": "1752740402"
             }
         }
     }
