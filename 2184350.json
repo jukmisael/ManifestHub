@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "公会传说 遗落的世界",
     "isfreeapp": 0,
-    "update_time": "2025-06-03 07:22:15",
-    "change_number": 29336634,
+    "update_time": "2025-07-09 19:01:34",
+    "change_number": 29973541,
     "depot": {
         "228989": {
             "config": {
@@ -27,9 +27,9 @@
                     "download": "202630048"
                 },
                 "experimental": {
-                    "gid": "1469211321220454425",
-                    "size": "5321407327",
-                    "download": "515972640"
+                    "gid": "2343683622064187663",
+                    "size": "6175680280",
+                    "download": "550141968"
                 },
                 "legacy": {
                     "gid": "8242424517427191003",
@@ -62,9 +62,9 @@
                 "timeupdated": "1678450015"
             },
             "experimental": {
-                "buildid": "17625555",
+                "buildid": "18709544",
                 "description": "Experimental release",
-                "timeupdated": "1741293775"
+                "timeupdated": "1751133553"
             },
             "legacy": {
                 "buildid": "16300894",
