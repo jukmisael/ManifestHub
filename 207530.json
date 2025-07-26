@@ -1,0 +1,28 @@
+{
+    "appid": 207530,
+    "name": "Noitu Love 2 Devolution",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-11 20:35:45",
+    "change_number": 30018836,
+    "depot": {
+        "207531": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "8375213877285824754",
+                    "size": "12695134",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "65a8f56a93429d13f0cd8a33a531f7f1b521833f8e43438a9ce687e422513335"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "30041"
+            }
+        }
+    }
+}
