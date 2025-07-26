@@ -1,0 +1,27 @@
+{
+    "appid": 2017610,
+    "name": "CORPUS EDAX",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-10 12:01:45",
+    "change_number": 29986506,
+    "depot": {
+        "2017611": {
+            "manifests": {
+                "public": {
+                    "gid": "1356996011262276062",
+                    "size": "9297893638",
+                    "download": "3549312784"
+                }
+            },
+            "decryptionkey": "1ef4f53fafeab2bca07a911a0cc4e1eca9200f8e4cb854d04add3e8ee9450f5f"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19148811",
+                "timeupdated": "1751992643"
+            }
+        }
+    }
+}
