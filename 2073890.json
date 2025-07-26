@@ -4,23 +4,23 @@
     "type": "Music",
     "schinese_name": "",
     "isfreeapp": 1,
-    "update_time": "2025-05-21 06:29:02",
-    "change_number": 29091501,
+    "update_time": "2025-07-23 10:38:38",
+    "change_number": 30203439,
     "depot": {
         "2073891": {
             "manifests": {
                 "public": {
-                    "gid": "6929443489611218178",
-                    "size": "125276462",
-                    "download": "122819040"
+                    "gid": "3365172832746877024",
+                    "size": "113819692",
+                    "download": "113105872"
                 }
             },
             "decryptionkey": "9eec519b8798d3420e97eb0a4a3d53c06e06555c080c0806be60dcd30d3b86d1"
         },
         "branches": {
             "public": {
-                "buildid": "11829859",
-                "timeupdated": "1690816757"
+                "buildid": "19326920",
+                "timeupdated": "1753263398"
             }
         }
     }
