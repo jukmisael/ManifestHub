@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "东方凋梦录 ~ Fading illusion",
     "isfreeapp": 1,
-    "update_time": "2025-06-01 17:42:29",
-    "change_number": 29309646,
+    "update_time": "2025-06-29 02:15:45",
+    "change_number": 29806388,
     "depot": {
         "baselanguages": "",
         "hasdepotsindlc": "1",
@@ -15,9 +15,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5740377143735566092",
-                    "size": "1710489242",
-                    "download": "1336638064"
+                    "gid": "3744901406096178175",
+                    "size": "1710574818",
+                    "download": "1336812224"
                 }
             },
             "decryptionkey": "bbbc6e6d4e06bd01daf072c0bfd4da1cbdea370f4bc3901e0fc7e5ac704d3529"
@@ -28,9 +28,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1468892921038950794",
-                    "size": "1698928282",
-                    "download": "1331107280"
+                    "gid": "8395155085088650696",
+                    "size": "1699013858",
+                    "download": "1331281456"
                 }
             },
             "decryptionkey": "a1f857f83fe76c91c8ca88639c747fa0b6fa31a90761815047df7bbfb14a0fdd"
@@ -41,17 +41,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4939583885431675212",
-                    "size": "1666519919",
-                    "download": "1320554368"
+                    "gid": "5630040939498840831",
+                    "size": "1666605495",
+                    "download": "1320728528"
                 }
             },
             "decryptionkey": "3afe95412346af0675a4a31607f2a3979bdaf2ca249569973ccde6e1ca6a2182"
         },
         "branches": {
             "public": {
-                "buildid": "18691416",
-                "timeupdated": "1748770940"
+                "buildid": "19021964",
+                "timeupdated": "1751006278"
             }
         },
         "privatebranches": "1"
