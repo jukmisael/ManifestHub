@@ -1,0 +1,29 @@
+{
+    "appid": 200940,
+    "name": "Sonic CD",
+    "type": "Game",
+    "schinese_name": "索尼克CD",
+    "isfreeapp": 0,
+    "update_time": "2025-06-25 20:08:12",
+    "change_number": 29748199,
+    "depot": {
+        "200941": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "1188294469488480143",
+                    "size": "337177250",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "ffaf0eda656cdfed561eea11d77130a60b5421fcaf13f888eb80d2b590639cff"
+        },
+        "overridescddb": "1",
+        "baselanguages": "english,french,german,spanish,italian,japanese",
+        "branches": {
+            "public": {
+                "buildid": "25954"
+            }
+        }
+    }
+}
