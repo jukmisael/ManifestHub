@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 22:46:18",
-    "change_number": 29670404,
+    "update_time": "2025-07-24 02:26:00",
+    "change_number": 30217778,
     "depot": {
         "2124781": {
             "config": {
@@ -24,15 +24,15 @@
                     "size": "187172152",
                     "download": "94134192"
                 },
-                "beta": {
-                    "gid": "7386215110395823792",
-                    "size": "247968784",
-                    "download": "116511632"
-                },
                 "modding": {
                     "gid": "7386215110395823792",
                     "size": "247968784",
                     "download": "116511632"
+                },
+                "beta": {
+                    "gid": "2326949282670608744",
+                    "size": "209999296",
+                    "download": "109089376"
                 }
             },
             "decryptionkey": "7021198d8037477a5f50f35fa35819c9bfee08353f056a224ade3a2b7f433093"
@@ -54,15 +54,15 @@
                     "size": "187599942",
                     "download": "93536832"
                 },
-                "beta": {
-                    "gid": "4751217960538411354",
-                    "size": "248394526",
-                    "download": "115911056"
-                },
                 "modding": {
                     "gid": "4751217960538411354",
                     "size": "248394526",
                     "download": "115911056"
+                },
+                "beta": {
+                    "gid": "2308781121409573573",
+                    "size": "210720974",
+                    "download": "107847584"
                 }
             },
             "decryptionkey": "08eccfe3432c48bc6191c5ed405d4d8a2388b8d66bea20d2179b0d3198d5bfa6"
@@ -83,15 +83,15 @@
                     "size": "201448681",
                     "download": "98288992"
                 },
-                "beta": {
-                    "gid": "7902844159893100808",
-                    "size": "219235145",
-                    "download": "108877568"
-                },
                 "modding": {
                     "gid": "7902844159893100808",
                     "size": "219235145",
                     "download": "108877568"
+                },
+                "beta": {
+                    "gid": "2237035401913025991",
+                    "size": "172205025",
+                    "download": "99291600"
                 }
             },
             "decryptionkey": "6f7f5d68f328f5e3da31b348d3ab9101d656c9c6c035c0890b85e18ef618e950"
@@ -112,15 +112,15 @@
                     "size": "241092738",
                     "download": "107556016"
                 },
-                "beta": {
-                    "gid": "8342767239668932290",
-                    "size": "260519433",
-                    "download": "118623440"
-                },
                 "modding": {
                     "gid": "8342767239668932290",
                     "size": "260519433",
                     "download": "118623440"
+                },
+                "beta": {
+                    "gid": "6182437134844105638",
+                    "size": "129963911",
+                    "download": "90671312"
                 }
             },
             "decryptionkey": "19e462b76162bf9609982a87d2a16f647cfc90be846bb08057322877a902c8bd"
@@ -136,15 +136,15 @@
                 "description": "for speedrunners",
                 "timeupdated": "1667339893"
             },
-            "beta": {
-                "buildid": "11895605",
-                "description": "for testing new updates",
-                "timeupdated": "1691520843"
-            },
             "modding": {
                 "buildid": "11895605",
                 "description": "For accessing the mod uploader utility",
                 "timeupdated": "1691520864"
+            },
+            "beta": {
+                "buildid": "19337124",
+                "description": "for testing new updates",
+                "timeupdated": "1753320354"
             }
         }
     }
