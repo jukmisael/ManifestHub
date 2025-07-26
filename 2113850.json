@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "精神城市：洛菲会议",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 18:35:54",
-    "change_number": 29666386,
+    "update_time": "2025-07-11 13:44:36",
+    "change_number": 30010971,
     "depot": {
         "228988": {
             "config": {
@@ -34,9 +34,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3718192795374659354",
-                    "size": "2950213061",
-                    "download": "2540548816"
+                    "gid": "9210757483427391896",
+                    "size": "3103973545",
+                    "download": "2687709712"
                 }
             },
             "decryptionkey": "c96341ff6c37bb63b6a46045e820f5c956aeea66a47703fb62c8476f09300ae9"
@@ -47,16 +47,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4738884973656512528",
-                    "size": "3520036789",
-                    "download": "2602197808"
+                    "gid": "3860900471156963324",
+                    "size": "3679097950",
+                    "download": "2780386784"
                 }
-            }
+            },
+            "decryptionkey": "554e69a56122534ea8d5ddaab8928c69bcd639fd5ca10425459c1617d2f3f908"
         },
         "branches": {
             "public": {
-                "buildid": "18554335",
-                "timeupdated": "1747859914"
+                "buildid": "19177005",
+                "timeupdated": "1752157835"
             }
         },
         "privatebranches": "1"
