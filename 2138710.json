@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "师父",
     "isfreeapp": 0,
-    "update_time": "2025-06-21 02:38:54",
-    "change_number": 29673994,
+    "update_time": "2025-07-01 22:07:26",
+    "change_number": 29849718,
     "depot": {
         "228988": {
             "config": {
@@ -58,6 +58,6 @@
             }
         },
         "privatebranches": "1",
-        "workshopdepotdecryptionkey": ""
+        "workshopdepotdecryptionkey": "74d4a05e74098d220d35e2bbba100a19cbadaeed357bb503d152a1b4294219ca"
     }
 }
