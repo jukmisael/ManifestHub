@@ -1,0 +1,30 @@
+{
+    "appid": 2140570,
+    "name": "Time Is Honey",
+    "type": "Game",
+    "schinese_name": "时间就是蜂蜜",
+    "isfreeapp": 0,
+    "update_time": "2025-07-19 18:51:54",
+    "change_number": 30148413,
+    "depot": {
+        "2140572": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "4891497351797380231",
+                    "size": "314875003",
+                    "download": "80552928"
+                }
+            },
+            "decryptionkey": "3c5d5fc59d344b6066d774153652f9a9b63eb4a2a40c87068ab517a50a000c7d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19012160",
+                "timeupdated": "1750952379"
+            }
+        }
+    }
+}
