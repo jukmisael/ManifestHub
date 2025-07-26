@@ -1,0 +1,28 @@
+{
+    "appid": 2079950,
+    "name": "残秽的我们第二章",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-17 13:36:52",
+    "change_number": 30110507,
+    "depot": {
+        "2079951": {
+            "manifests": {
+                "public": {
+                    "gid": "4175372540143647381",
+                    "size": "9860678725",
+                    "download": "1741754624"
+                }
+            },
+            "decryptionkey": "47b71c8e541b51d4d3d013f49cb139ce59ebb1d1462b6551f055ab28c9d82b65"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11414500",
+                "timeupdated": "1686146586"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
