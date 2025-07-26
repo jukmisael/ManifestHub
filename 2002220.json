@@ -4,23 +4,23 @@
     "type": "Game",
     "schinese_name": "守护者之魂",
     "isfreeapp": 0,
-    "update_time": "2025-06-21 00:46:43",
-    "change_number": 29672288,
+    "update_time": "2025-07-23 14:14:55",
+    "change_number": 30206939,
     "depot": {
         "2002221": {
             "manifests": {
                 "public": {
-                    "gid": "4655846233006184423",
-                    "size": "1566908265",
-                    "download": "285493056"
+                    "gid": "5007436480634117805",
+                    "size": "1565771701",
+                    "download": "286203152"
                 }
             },
             "decryptionkey": "d4d948ea316e69a85da5404e1b7e1f1847c798bfb887b9d5ad83621f2e0f3339"
         },
         "branches": {
             "public": {
-                "buildid": "18935222",
-                "timeupdated": "1750437998"
+                "buildid": "19139445",
+                "timeupdated": "1751948200"
             }
         },
         "privatebranches": "1"
