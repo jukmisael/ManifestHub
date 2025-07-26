@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "不给糖就去死!",
     "isfreeapp": 0,
-    "update_time": "2025-06-10 08:21:49",
-    "change_number": 29475702,
+    "update_time": "2025-07-10 20:59:44",
+    "change_number": 29996443,
     "depot": {
         "2096621": {
             "config": {
@@ -32,7 +32,8 @@
                     "size": "15274063621",
                     "download": "1606071840"
                 }
-            }
+            },
+            "decryptionkey": "ad77272af2c0e71cadd7c29219d6aa3a3e2e48b37637017e563b8370b9e3e946"
         },
         "branches": {
             "public": {
