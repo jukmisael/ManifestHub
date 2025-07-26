@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "亚普罗辛",
     "isfreeapp": 0,
-    "update_time": "2025-06-08 06:22:08",
-    "change_number": 29440321,
+    "update_time": "2025-07-10 00:44:28",
+    "change_number": 29977799,
     "depot": {
         "preloadonly": "1",
         "overridescddb": "1",
@@ -87,7 +87,8 @@
                     "size": "1123627888",
                     "download": "581373824"
                 }
-            }
+            },
+            "decryptionkey": "26af9942fa6de446b2931801cb92558d8bbe1f3e65cb2f7ac1b5fe95072b2ba8"
         },
         "208753": {
             "config": {
@@ -119,7 +120,8 @@
                     "size": "1113601550",
                     "download": "578830960"
                 }
-            }
+            },
+            "decryptionkey": "aaf0f16225fb8341f1b9c90f2b08dff28c88023a5ece7cf0ec147a76427dc9bc"
         },
         "344730": {
             "manifests": {
