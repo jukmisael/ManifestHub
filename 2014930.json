@@ -4,7 +4,7 @@
     "type": "Game",
     "schinese_name": "遗嘱：冒险",
     "isfreeapp": 0,
-    "update_time": "2025-06-09 19:01:39",
+    "update_time": "2025-06-23 11:37:51",
     "change_number": 29460561,
     "depot": {
         "baselanguages": "english",
@@ -34,7 +34,7 @@
                     "download": "713562464"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "3cf190d3f843f74b0049fd9ea346db2ccdd2a72c596261ae36df4fbeb6cbffee"
         },
         "2014933": {
             "config": {
