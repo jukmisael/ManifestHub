@@ -1,0 +1,28 @@
+{
+    "appid": 2100180,
+    "name": "Ever Seen a Cat? 2 - Paper Edition + Wallpapers",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-23 11:34:28",
+    "change_number": 26201212,
+    "depot": {
+        "2100181": {
+            "manifests": {
+                "public": {
+                    "gid": "8418311476758094062",
+                    "size": "236535909",
+                    "download": "236806512"
+                }
+            },
+            "dlcappid": "2100180",
+            "decryptionkey": "b00a9b80010dc3caa8aec5c67a4366235a4d2f0cb8829837fc92f61895aee7dc"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9186238",
+                "timeupdated": "1658765407"
+            }
+        }
+    }
+}
