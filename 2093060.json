@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 1,
-    "update_time": "2025-06-21 21:54:35",
-    "change_number": 29682349,
+    "update_time": "2025-07-23 14:52:43",
+    "change_number": 30207575,
     "depot": {
         "2093061": {
             "config": {
@@ -14,23 +14,66 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8911321808339349529",
-                    "size": "159894708",
-                    "download": "78761440"
+                    "gid": "8030835297971153884",
+                    "size": "226867947",
+                    "download": "100134912"
                 }
             },
             "decryptionkey": "e2dd87c0d7b42f5681e7ba9669eb14afaa98b426b2011f3be8989fc9115da5f4"
         },
         "3741740": {
-            "dlcappid": "3741740"
+            "dlcappid": "3741740",
+            "manifests": {
+                "public": {
+                    "gid": "1127629548952277072",
+                    "size": "5716374453",
+                    "download": "5707523520"
+                }
+            },
+            "decryptionkey": ""
         },
         "2093062": {
-            "manifests": {}
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "1061194015213718643",
+                    "size": "226867947",
+                    "download": "95157264"
+                }
+            },
+            "decryptionkey": "77df7fdd6b4d91119d4a3cd815f7aa9042b4436870b10e129286f5ab243301a1"
+        },
+        "2093063": {
+            "config": {
+                "oslist": "linux"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2182476107690119289",
+                    "size": "232628617",
+                    "download": "99571536"
+                }
+            },
+            "decryptionkey": "0607eaa6d22a9fac7406b7740562b858371df7c72d5e6dda8b23a407d7b0a56f"
+        },
+        "2093064": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "4344830120270812769",
+                    "size": "225633815",
+                    "download": "97339408"
+                }
+            }
         },
         "branches": {
             "public": {
-                "buildid": "13158459",
-                "timeupdated": "1705075423"
+                "buildid": "19329943",
+                "timeupdated": "1753278696"
             }
         },
         "privatebranches": "1"
