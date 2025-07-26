@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "总征程",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 10:18:44",
-    "change_number": 29660068,
+    "update_time": "2025-07-19 21:52:18",
+    "change_number": 30149563,
     "depot": {
         "2056201": {
             "config": {
@@ -26,17 +26,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8221822215527711423",
-                    "size": "3031296975",
-                    "download": "598086192"
+                    "gid": "2848632286631107231",
+                    "size": "3044629175",
+                    "download": "634218944"
                 }
             },
             "decryptionkey": "7e60955eb80e94b8902c5f213eb5d4e23572f1e29ff8888e9320fa312a7bdb7e"
         },
         "branches": {
             "public": {
-                "buildid": "18930035",
-                "timeupdated": "1750354621"
+                "buildid": "19181058",
+                "timeupdated": "1752177882"
             }
         },
         "privatebranches": "1"
