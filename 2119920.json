@@ -1,0 +1,32 @@
+{
+    "appid": 2119920,
+    "name": "Succubus - Halloween Nasty Outfits",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-24 20:40:54",
+    "change_number": 28890696,
+    "depot": {
+        "2119920": {
+            "config": {
+                "oslist": "windows",
+                "osarch": "64"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2013571230642874720",
+                    "size": "4481609071",
+                    "download": "1894022560"
+                }
+            },
+            "dlcappid": "2119920",
+            "decryptionkey": "ff2421ef63bf3fa8d3585c9b6fc1014efc743649e3b734527c08c4b57fb7b34b"
+        },
+        "branches": {
+            "public": {
+                "buildid": "15132274",
+                "timeupdated": "1721828908"
+            }
+        }
+    }
+}
