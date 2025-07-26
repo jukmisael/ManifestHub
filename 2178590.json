@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-17 03:56:25",
-    "change_number": 29587947,
+    "update_time": "2025-06-26 19:40:46",
+    "change_number": 29767669,
     "depot": {
         "2178591": {
             "config": {
@@ -14,14 +14,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1185259457048816083",
-                    "size": "912527260",
-                    "download": "531936768"
+                    "gid": "2186363019734951229",
+                    "size": "1040340095",
+                    "download": "612880400"
                 },
                 "experimental": {
-                    "gid": "1185259457048816083",
-                    "size": "912527260",
-                    "download": "531936768"
+                    "gid": "2186363019734951229",
+                    "size": "1040340095",
+                    "download": "612880400"
                 }
             },
             "decryptionkey": "c699d843398fb056d9d3e5ae5012aa328ba50fedacba89ed51fac3020baf1473"
@@ -33,14 +33,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4904619364249820368",
-                    "size": "987074162",
-                    "download": "552878944"
+                    "gid": "7812922607100101533",
+                    "size": "1011988325",
+                    "download": "581808176"
                 },
                 "experimental": {
-                    "gid": "4904619364249820368",
-                    "size": "987074162",
-                    "download": "552878944"
+                    "gid": "7812922607100101533",
+                    "size": "1011988325",
+                    "download": "581808176"
                 }
             },
             "decryptionkey": "05e85e3461f90333c6203be3a011a35032e1c5b7298210fab60283e1e3c74681"
@@ -52,26 +52,26 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4417920183828468118",
-                    "size": "1084887553",
-                    "download": "560013168"
+                    "gid": "5812958523266295124",
+                    "size": "1114469885",
+                    "download": "593389520"
                 },
                 "experimental": {
-                    "gid": "4417920183828468118",
-                    "size": "1084887553",
-                    "download": "560013168"
+                    "gid": "5812958523266295124",
+                    "size": "1114469885",
+                    "download": "593389520"
                 }
             }
         },
         "branches": {
             "public": {
-                "buildid": "18182495",
-                "timeupdated": "1745255990"
+                "buildid": "19008778",
+                "timeupdated": "1750953863"
             },
             "experimental": {
-                "buildid": "18182495",
+                "buildid": "19008778",
                 "description": "Experimental updates",
-                "timeupdated": "1745255923"
+                "timeupdated": "1750936789"
             }
         },
         "privatebranches": "1"
