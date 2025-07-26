@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "后汉稽异录",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 01:38:57",
-    "change_number": 29531808,
+    "update_time": "2025-07-21 18:04:38",
+    "change_number": 30171061,
     "depot": {
         "baselanguages": "schinese",
         "hasdepotsindlc": "1",
@@ -13,9 +13,9 @@
         "2010901": {
             "manifests": {
                 "public": {
-                    "gid": "8907353420078836856",
-                    "size": "1767258319",
-                    "download": "877160512"
+                    "gid": "5940515944286954913",
+                    "size": "1800846871",
+                    "download": "921477376"
                 }
             },
             "decryptionkey": "c3f53ddfca46d00c2c3f9d50d36167d936c18e55cab77e90133bfb10aaf9ee2f"
@@ -26,9 +26,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3932922442316828372",
-                    "size": "1768993794",
-                    "download": "861129264"
+                    "gid": "3688545767725252601",
+                    "size": "1806308884",
+                    "download": "920488800"
                 }
             },
             "decryptionkey": ""
@@ -41,8 +41,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18843005",
-                "timeupdated": "1749743482"
+                "buildid": "19302748",
+                "timeupdated": "1753117472"
             }
         },
         "privatebranches": "1",
