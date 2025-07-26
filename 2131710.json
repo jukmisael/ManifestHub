@@ -1,0 +1,29 @@
+{
+    "appid": 2131710,
+    "name": "CRISIS CORE –FINAL FANTASY VII– REUNION Digital Contents",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-22 18:26:51",
+    "change_number": 30191177,
+    "depot": {
+        "2131710": {
+            "manifests": {
+                "public": {
+                    "gid": "2399211558851438525",
+                    "size": "183861",
+                    "download": "184016"
+                }
+            },
+            "dlcappid": "2131710",
+            "decryptionkey": "d081c2190195947def0c58e5d54c20546d8a23190f1d0334546aa575e2032ad8"
+        },
+        "branches": {
+            "public": {
+                "buildid": "12671967",
+                "timeupdated": "1699625897"
+            }
+        }
+    },
+    "access_token": 7211698039188411880
+}
