@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "竞速空间：赛车体验",
     "isfreeapp": 1,
-    "update_time": "2025-06-19 14:25:51",
-    "change_number": 29643259,
+    "update_time": "2025-07-22 15:35:00",
+    "change_number": 30188015,
     "depot": {
         "228983": {
             "config": {
@@ -24,14 +24,14 @@
         "211501": {
             "manifests": {
                 "public": {
-                    "gid": "4636176483167980055",
-                    "size": "74223257834",
-                    "download": "66081189856"
+                    "gid": "125985709352585083",
+                    "size": "74222937494",
+                    "download": "66081126592"
                 },
                 "preview": {
-                    "gid": "4636176483167980055",
-                    "size": "74223257834",
-                    "download": "66081189856"
+                    "gid": "7119138036994825943",
+                    "size": "74239578034",
+                    "download": "66089313184"
                 }
             },
             "decryptionkey": "34fa6e78a3a214e7e5ff6dc1b445ed0e41ec550f955c972325b6e2f34b986752"
@@ -39,13 +39,13 @@
         "overridescddb": "1",
         "branches": {
             "public": {
-                "buildid": "18917494",
-                "timeupdated": "1750314347"
+                "buildid": "19230724",
+                "timeupdated": "1752587217"
             },
             "preview": {
-                "buildid": "18917494",
+                "buildid": "19260677",
                 "description": "early access",
-                "timeupdated": "1750313735"
+                "timeupdated": "1752759758"
             }
         },
         "privatebranches": "1"
