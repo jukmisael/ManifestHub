@@ -1,0 +1,31 @@
+{
+    "appid": 2139290,
+    "name": "One Tank Army",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-10 22:09:47",
+    "change_number": 29997584,
+    "depot": {
+        "2139291": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2014233311467154689",
+                    "size": "424561072",
+                    "download": "67918016"
+                }
+            },
+            "decryptionkey": "ec2c88771fc564579f331e0f1960517850e1626bc69d9b796de427224d22dce7"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19083017",
+                "timeupdated": "1751479129"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
