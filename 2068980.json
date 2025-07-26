@@ -1,0 +1,46 @@
+{
+    "appid": 2068980,
+    "name": "Escape from Grustovia",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-18 06:39:10",
+    "change_number": 30125018,
+    "depot": {
+        "baselanguages": "english",
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2068981": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "635047333989394089",
+                    "size": "1858933194",
+                    "download": "1617332848"
+                }
+            },
+            "decryptionkey": "62d6c5b3379e55de4dfb75ca89247c5a7e2141dd179cb75f3bfebeb8110d1cf2"
+        },
+        "hasdepotsindlc": "0",
+        "branches": {
+            "public": {
+                "buildid": "16833094",
+                "timeupdated": "1734937658"
+            }
+        }
+    }
+}
