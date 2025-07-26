@@ -4,8 +4,8 @@
     "type": "Tool",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-06 14:42:49",
-    "change_number": 29411762,
+    "update_time": "2025-07-23 19:37:03",
+    "change_number": 30212673,
     "depot": {
         "1004": {
             "config": {
@@ -13,9 +13,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7747775778018907449",
-                    "size": "46727128",
-                    "download": "14307024"
+                    "gid": "8904491048620934740",
+                    "size": "68697032",
+                    "download": "20552544"
                 }
             },
             "depotfromapp": "1007",
@@ -41,9 +41,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "7138471031118904166",
-                    "size": "78382436",
-                    "download": "21254752"
+                    "gid": "5587033981095108078",
+                    "size": "107476144",
+                    "download": "29272144"
                 }
             },
             "depotfromapp": "1007",
@@ -52,17 +52,17 @@
         "2093571": {
             "manifests": {
                 "public": {
-                    "gid": "3411547074643445623",
-                    "size": "326795577",
-                    "download": "120332464"
+                    "gid": "505858987923677570",
+                    "size": "327863800",
+                    "download": "127573888"
                 }
             },
             "decryptionkey": ""
         },
         "branches": {
             "public": {
-                "buildid": "18761997",
-                "timeupdated": "1749192166"
+                "buildid": "19295240",
+                "timeupdated": "1753067157"
             }
         },
         "privatebranches": "1"
