@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "地下城骑士团",
     "isfreeapp": 0,
-    "update_time": "2025-06-17 04:38:32",
-    "change_number": 29595349,
+    "update_time": "2025-07-23 03:51:03",
+    "change_number": 30198233,
     "depot": {
         "baselanguages": "english,koreana",
         "2072981": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4031197089129125205",
-                    "size": "2134913182",
-                    "download": "655351856"
+                    "gid": "2711549047138727919",
+                    "size": "2197831955",
+                    "download": "681029120"
                 }
             },
             "decryptionkey": "ed2f903f534830206601542369719a93a978a1381a1cd76308784b5a560d0c3b"
@@ -43,8 +43,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18806864",
-                "timeupdated": "1749543511"
+                "buildid": "19323198",
+                "timeupdated": "1753239060"
             }
         }
     }
