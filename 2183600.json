@@ -3,9 +3,9 @@
     "name": "Kingdom Under Fire: War of Heroes",
     "type": "Game",
     "schinese_name": "",
-    "isfreeapp": 0,
-    "update_time": "2025-05-23 05:44:09",
-    "change_number": 29135282,
+    "isfreeapp": 1,
+    "update_time": "2025-07-23 07:45:59",
+    "change_number": 30200761,
     "depot": {
         "baselanguages": "english,koreana",
         "228989": {
@@ -21,9 +21,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2612023876209130067",
-                    "size": "3811520480",
-                    "download": "2508357312"
+                    "gid": "5923283250866238334",
+                    "size": "3812267480",
+                    "download": "2512759520"
                 },
                 "local": {
                     "gid": "4634316223441850076",
@@ -35,8 +35,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18292164",
-                "timeupdated": "1746002424"
+                "buildid": "19324684",
+                "timeupdated": "1753253156"
             },
             "local": {
                 "buildid": "9767880",
