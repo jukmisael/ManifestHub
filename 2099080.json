@@ -1,0 +1,48 @@
+{
+    "appid": 2099080,
+    "name": "Hidden Cats in London",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-17 19:06:59",
+    "change_number": 30116711,
+    "depot": {
+        "hasdepotsindlc": "1",
+        "2099081": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "8310258338032896764",
+                    "size": "448950275",
+                    "download": "331250432"
+                }
+            },
+            "decryptionkey": "7b57425b0d967e7026d8ae7034f1318c7a5e5be3f10f15e3784b44c24aac221e"
+        },
+        "2099082": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2850126947305566213",
+                    "size": "534064911",
+                    "download": "353600816"
+                }
+            },
+            "decryptionkey": "1d4f0e534dc3b73a41629ac053e28f311b5a0c0ee503cdf226c67aeeb7d37728"
+        },
+        "2261880": {
+            "dlcappid": "2261880"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19068214",
+                "timeupdated": "1752775614"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
