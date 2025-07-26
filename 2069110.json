@@ -1,0 +1,27 @@
+{
+    "appid": 2069110,
+    "name": "I commissioned some bees 3",
+    "type": "Game",
+    "schinese_name": "我委托了一些蜜蜂3",
+    "isfreeapp": 0,
+    "update_time": "2025-07-03 20:56:21",
+    "change_number": 29885387,
+    "depot": {
+        "2069111": {
+            "manifests": {
+                "public": {
+                    "gid": "1245827736901465828",
+                    "size": "62838438",
+                    "download": "50609728"
+                }
+            },
+            "decryptionkey": "da7b5db65c83898b9a171005d0e6ab24d33e697724e7adbdbbdf642a28f7631d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "10244458",
+                "timeupdated": "1672686577"
+            }
+        }
+    }
+}
