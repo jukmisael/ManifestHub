@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "全面战争：罗马2 - 帝皇版",
     "isfreeapp": 0,
-    "update_time": "2025-06-18 07:19:09",
-    "change_number": 29618228,
+    "update_time": "2025-07-23 01:16:41",
+    "change_number": 30196506,
     "depot": {
         "depotdeltapatches": "1",
         "overridescddb": "1",
@@ -349,7 +349,15 @@
             "decryptionkey": "2270fc716553d7eb8c74890fe28301d9b25418a81a45e95e98e1c4a3bede7fdc"
         },
         "212301": {
-            "dlcappid": "212301"
+            "dlcappid": "212301",
+            "manifests": {
+                "public": {
+                    "gid": "3492730984343187438",
+                    "size": "0",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "ee68bdf9607e7ee475fe8b9130618cceff777309ef9a8084ca0ac556ae81a58c"
         },
         "258270": {
             "dlcappid": "258270",
@@ -437,7 +445,8 @@
         "258271": {
             "config": {
                 "oslist": "linux"
-            }
+            },
+            "manifests": {}
         },
         "694880": {
             "dlcappid": "694880",
@@ -714,7 +723,8 @@
                     "size": "5023440",
                     "download": "3831440"
                 }
-            }
+            },
+            "decryptionkey": "71ed4fd640af5be2e25ed5301a9e50a7ed3210088972f48530c9d066a54793f0"
         },
         "259802": {
             "dlcappid": "694880",
@@ -727,12 +737,13 @@
                     "size": "6054904",
                     "download": "4350464"
                 }
-            }
+            },
+            "decryptionkey": "fd3e2449adb8d171d7833eb9aec348176629eeca2b1f84fa86f652895522da09"
         },
         "branches": {
             "public": {
-                "buildid": "18658985",
-                "timeupdated": "1748525857"
+                "buildid": "19144078",
+                "timeupdated": "1751969389"
             }
         },
         "privatebranches": "1",
