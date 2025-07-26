@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "行星边际2",
     "isfreeapp": 1,
-    "update_time": "2025-06-10 21:11:55",
-    "change_number": 29486735,
+    "update_time": "2025-07-10 18:21:08",
+    "change_number": 29993695,
     "depot": {
         "228983": {
             "config": {
@@ -25,9 +25,9 @@
             "systemdefined": "1",
             "manifests": {
                 "public": {
-                    "gid": "5130285321764523181",
-                    "size": "21057775217",
-                    "download": "19519591568"
+                    "gid": "3111229701700213832",
+                    "size": "21078988541",
+                    "download": "19541012048"
                 }
             },
             "decryptionkey": "b8c7e8641a5c75093fd1e9f9b4a46b05d730380f288d4938e46236a818aa7e01"
@@ -36,8 +36,8 @@
         "preloadonly": "1",
         "branches": {
             "public": {
-                "buildid": "18801672",
-                "timeupdated": "1749561108"
+                "buildid": "19178304",
+                "timeupdated": "1752168064"
             }
         },
         "privatebranches": "1"
