@@ -1,0 +1,30 @@
+{
+    "appid": 2191080,
+    "name": "Poozle Mania",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-20 15:31:44",
+    "change_number": 30155115,
+    "depot": {
+        "hasdepotsindlc": "1",
+        "2191081": {
+            "manifests": {
+                "public": {
+                    "gid": "2933888776838692271",
+                    "size": "1157834503",
+                    "download": "412173408"
+                }
+            },
+            "decryptionkey": "ed77408141afea2662d2341e87a32f30f84f1cec1dc975bf7a85ea43802317c7"
+        },
+        "2191082": {},
+        "branches": {
+            "public": {
+                "buildid": "19291538",
+                "timeupdated": "1753021898"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
