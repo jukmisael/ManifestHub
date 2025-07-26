@@ -4,16 +4,16 @@
     "type": "Game",
     "schinese_name": "百剑讨妖传绮谭",
     "isfreeapp": 0,
-    "update_time": "2025-06-19 18:31:59",
-    "change_number": 29647557,
+    "update_time": "2025-07-10 19:58:09",
+    "change_number": 29995434,
     "depot": {
         "baselanguages": "english,tchinese,japanese",
         "2169951": {
             "manifests": {
                 "public": {
-                    "gid": "8721575192070848883",
-                    "size": "2340793288",
-                    "download": "1910513120"
+                    "gid": "7302946771514754681",
+                    "size": "2346418372",
+                    "download": "1912204464"
                 }
             },
             "decryptionkey": "abf41543840ce6e00b0c343f72d66ae59ca452df07e68b85836ba7a4eec7cb5f"
@@ -21,8 +21,8 @@
         "hasdepotsindlc": "1",
         "branches": {
             "public": {
-                "buildid": "18837492",
-                "timeupdated": "1749801163"
+                "buildid": "18925361",
+                "timeupdated": "1750666663"
             }
         },
         "privatebranches": "1"
