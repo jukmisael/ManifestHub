@@ -1,0 +1,28 @@
+{
+    "appid": 2115380,
+    "name": "Sifu's Quest",
+    "type": "Game",
+    "schinese_name": "无极群侠传",
+    "isfreeapp": 0,
+    "update_time": "2025-07-04 01:36:04",
+    "change_number": 29888508,
+    "depot": {
+        "2115381": {
+            "manifests": {
+                "public": {
+                    "gid": "2322417802790001555",
+                    "size": "3720035995",
+                    "download": "648433104"
+                }
+            },
+            "decryptionkey": "016842e0ab5a1422818defaa98aff5eb6ebdb751580fcdb64cacd6a123382b9d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "13912842",
+                "timeupdated": "1711976304"
+            }
+        }
+    },
+    "access_token": 13163836090918876553
+}
