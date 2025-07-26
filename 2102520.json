@@ -1,11 +1,11 @@
 {
     "appid": 2102520,
-    "name": "Apex Point: Prologue",
+    "name": "Apex Point",
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 06:00:16",
-    "change_number": 29685605,
+    "update_time": "2025-07-02 23:23:57",
+    "change_number": 29868471,
     "depot": {
         "baselanguages": "english",
         "2102521": {
@@ -15,9 +15,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5051921410848572586",
-                    "size": "6226441530",
-                    "download": "1966492064"
+                    "gid": "3832716834504318360",
+                    "size": "6221950795",
+                    "download": "1966223344"
                 }
             },
             "decryptionkey": "01608c961b88d8bf7b87e76c74e85a2bb9a9b9a33b5373b4f92049da6de55c78"
@@ -29,8 +29,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18952088",
-                "timeupdated": "1750539940"
+                "buildid": "19080467",
+                "timeupdated": "1751465655"
             }
         },
         "privatebranches": "1"
