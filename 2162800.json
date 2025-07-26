@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "异形工厂2",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 00:00:44",
-    "change_number": 29676592,
+    "update_time": "2025-07-10 13:44:56",
+    "change_number": 29988164,
     "depot": {
         "228989": {
             "config": {
@@ -28,9 +28,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8546099120081454098",
-                    "size": "1672886086",
-                    "download": "875606944"
+                    "gid": "4645733043704051650",
+                    "size": "1676838416",
+                    "download": "883834336"
                 },
                 "0.0.9-old": {
                     "gid": "758591728910960223",
@@ -46,9 +46,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8250758117624198409",
-                    "size": "1712616715",
-                    "download": "875503616"
+                    "gid": "5810959838591075632",
+                    "size": "1716589137",
+                    "download": "883874720"
                 },
                 "0.0.9-old": {
                     "gid": "578849432103113503",
@@ -64,9 +64,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "6875524339566706788",
-                    "size": "1693231817",
-                    "download": "879484304"
+                    "gid": "3161757862671664441",
+                    "size": "1697204206",
+                    "download": "887591104"
                 },
                 "0.0.9-old": {
                     "gid": "7786025199282239694",
@@ -79,15 +79,16 @@
         "baselanguages": "english",
         "branches": {
             "public": {
-                "buildid": "18656921",
-                "timeupdated": "1748867423"
+                "buildid": "18963735",
+                "timeupdated": "1750695355"
             },
             "0.0.9-old": {
                 "buildid": "16770018",
                 "description": "Available for continuing to play old savegames - not recommended!\t",
                 "timeupdated": "1748514501"
             }
-        }
+        },
+        "privatebranches": "1"
     },
     "access_token": 18007773361721752868
 }
