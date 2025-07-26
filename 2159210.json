@@ -4,16 +4,16 @@
     "type": "Game",
     "schinese_name": "Just a To the Moon Series Beach Episode 《去月球系列海滩特别篇》",
     "isfreeapp": 0,
-    "update_time": "2025-06-06 20:58:55",
-    "change_number": 29418394,
+    "update_time": "2025-07-10 23:46:56",
+    "change_number": 29998442,
     "depot": {
         "baselanguages": "english,schinese",
         "2159211": {
             "manifests": {
                 "public": {
-                    "gid": "6517088516454192556",
-                    "size": "371865800",
-                    "download": "317239792"
+                    "gid": "8607409838853215645",
+                    "size": "369414809",
+                    "download": "315815488"
                 }
             },
             "decryptionkey": "73397dd1a442cac0d9326fe03e0381a4e15d66da98452a08af8695bc16c57a3e"
@@ -83,8 +83,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "17889149",
-                "timeupdated": "1743110654"
+                "buildid": "19017701",
+                "timeupdated": "1750974281"
             }
         },
         "privatebranches": "1"
