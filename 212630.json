@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "幽灵行动：未来战士",
     "isfreeapp": 0,
-    "update_time": "2025-06-12 17:05:57",
-    "change_number": 29524701,
+    "update_time": "2025-07-02 10:05:41",
+    "change_number": 29718826,
     "depot": {
         "overridescddb": "1",
         "baselanguages": "english,german,french,italian,spanish,russian,japanese,polish,danish,dutch,norwegian,swedish,czech,brazilian",
@@ -55,9 +55,9 @@
         "1716751": {
             "manifests": {
                 "public": {
-                    "gid": "7692967814764193714",
-                    "size": "631944",
-                    "download": "515248"
+                    "gid": "818295193716041715",
+                    "size": "632424",
+                    "download": "551504"
                 }
             },
             "depotfromapp": "1716750",
