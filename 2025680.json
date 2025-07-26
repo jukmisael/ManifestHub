@@ -1,0 +1,41 @@
+{
+    "appid": 2025680,
+    "name": "Soccer But Different",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 1,
+    "update_time": "2025-07-20 04:52:11",
+    "change_number": 30151741,
+    "depot": {
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2025681": {
+            "manifests": {
+                "public": {
+                    "gid": "4799796416160623726",
+                    "size": "506442792",
+                    "download": "412144384"
+                }
+            },
+            "decryptionkey": "ca91e807b626ac15b0fc7f6f1b8d67c2e42d9b55222afc879642006b42ec462f"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9041430",
+                "timeupdated": "1656642884"
+            }
+        }
+    }
+}
