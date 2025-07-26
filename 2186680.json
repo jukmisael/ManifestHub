@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "战锤40K：行商浪人",
     "isfreeapp": 0,
-    "update_time": "2025-06-21 21:55:22",
-    "change_number": 29682404,
+    "update_time": "2025-07-23 23:12:01",
+    "change_number": 30215589,
     "depot": {
         "workshopdepot": "2186680",
         "hasdepotsindlc": "1",
@@ -15,9 +15,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "6270845217170520297",
-                    "size": "37904334023",
-                    "download": "27308531888"
+                    "gid": "4235763566580889047",
+                    "size": "40170274258",
+                    "download": "29258138912"
                 }
             },
             "decryptionkey": "28fb2e6880c18c5a8f226e85577726ff170ba4d056a169247856dc1ad15c45a9"
@@ -28,9 +28,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4701771553612351591",
-                    "size": "32920602607",
-                    "download": "25982498528"
+                    "gid": "6143352202355988866",
+                    "size": "34958117965",
+                    "download": "27901355472"
                 }
             },
             "decryptionkey": "9f0466c4c63e89d1a6e336a98079e9635acfd48c7c127c1fbfcb04ccec12e05c"
@@ -69,8 +69,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18623824",
-                "timeupdated": "1748343270"
+                "buildid": "19326536",
+                "timeupdated": "1753261290"
             }
         },
         "privatebranches": "1",
