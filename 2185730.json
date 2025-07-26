@@ -1,0 +1,28 @@
+{
+    "appid": 2185730,
+    "name": "Cosplay Fever!!",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-15 19:11:55",
+    "change_number": 30074537,
+    "depot": {
+        "2185731": {
+            "manifests": {
+                "public": {
+                    "gid": "4063354147518932532",
+                    "size": "534631201",
+                    "download": "335874672"
+                }
+            },
+            "decryptionkey": "291ff514b52bff899ffa8d070a93ab72766d3553731bd418bd4cfdf705c23140"
+        },
+        "baselanguages": "english,japanese",
+        "branches": {
+            "public": {
+                "buildid": "9729193",
+                "timeupdated": "1665900002"
+            }
+        }
+    }
+}
