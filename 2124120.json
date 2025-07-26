@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "火湖",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 05:54:56",
-    "change_number": 29683350,
+    "update_time": "2025-07-23 20:10:13",
+    "change_number": 30213177,
     "depot": {
         "2124121": {
             "config": {
@@ -13,17 +13,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "336899436566128605",
-                    "size": "1133802937",
-                    "download": "696562672"
+                    "gid": "2455271787985757371",
+                    "size": "1213058657",
+                    "download": "811311056"
                 }
             },
             "decryptionkey": "5a0438ea06459ea27a8da1e417a22ffeee9793b472712d0a2a86179b4554bf36"
         },
         "branches": {
             "public": {
-                "buildid": "18624447",
-                "timeupdated": "1748350390"
+                "buildid": "19192689",
+                "timeupdated": "1752246693"
             }
         },
         "privatebranches": "1"
