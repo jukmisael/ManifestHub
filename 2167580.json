@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "魔灵召唤: 克罗尼柯战记",
     "isfreeapp": 1,
-    "update_time": "2025-05-29 10:03:48",
-    "change_number": 29250245,
+    "update_time": "2025-07-24 03:02:38",
+    "change_number": 30218210,
     "depot": {
         "baselanguages": "english,koreana",
         "hasdepotsindlc": "1",
@@ -36,9 +36,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5508609474786856577",
-                    "size": "16466013343",
-                    "download": "14316904128"
+                    "gid": "6181887633534430169",
+                    "size": "16760029510",
+                    "download": "14645852800"
                 }
             },
             "decryptionkey": "07bd2df5442b7d2faf3290d37c5faa84da8fdcad286d5eec8339b3a61d1226c6"
@@ -49,17 +49,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1567115193449878893",
-                    "size": "15507992055",
-                    "download": "13511891872"
+                    "gid": "3726379873958342762",
+                    "size": "15731958360",
+                    "download": "13845014736"
                 }
             },
             "decryptionkey": "9e28d1dfe8c8e44fc1523d7ca9b6d3525eef3b62b28e562cf5ce01eb8618bbf0"
         },
         "branches": {
             "public": {
-                "buildid": "18624753",
-                "timeupdated": "1748484133"
+                "buildid": "19313805",
+                "timeupdated": "1753322554"
             }
         },
         "privatebranches": "1"
