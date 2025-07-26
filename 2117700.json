@@ -1,0 +1,28 @@
+{
+    "appid": 2117700,
+    "name": "RPG Maker MZ - Fantasy Heroine Character Pack 8",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-23 09:49:40",
+    "change_number": 26201212,
+    "depot": {
+        "2117700": {
+            "manifests": {
+                "public": {
+                    "gid": "2331614930255354174",
+                    "size": "315055676",
+                    "download": "313417728"
+                }
+            },
+            "dlcappid": "2117700",
+            "decryptionkey": "3311f14e7d3090cb9b87e58bf8bfdc5d2b2e29c88b375c2242fcbaeb65f1eaf2"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9374927",
+                "timeupdated": "1661302823"
+            }
+        }
+    }
+}
