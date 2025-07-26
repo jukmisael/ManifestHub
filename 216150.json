@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "冒险岛Online",
     "isfreeapp": 1,
-    "update_time": "2025-06-21 03:10:38",
-    "change_number": 29674381,
+    "update_time": "2025-07-22 16:48:05",
+    "change_number": 30189411,
     "depot": {
         "228988": {
             "config": {
@@ -24,9 +24,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "4220792475095737617",
-                    "size": "53269644271",
-                    "download": "50026672624"
+                    "gid": "8283772751300147229",
+                    "size": "53510679079",
+                    "download": "50211640544"
                 }
             },
             "decryptionkey": "45ce0d0da6dd16d67482cc76298dd320ecdd9160df7a27a570fbfc8f028b2333"
@@ -48,8 +48,8 @@
         "hasdepotsindlc": "1",
         "branches": {
             "public": {
-                "buildid": "18900415",
-                "timeupdated": "1750272222"
+                "buildid": "19232876",
+                "timeupdated": "1752719155"
             }
         },
         "privatebranches": "1"
