@@ -4,25 +4,25 @@
     "type": "Game",
     "schinese_name": "打倒白雪公主！乌拉！",
     "isfreeapp": 0,
-    "update_time": "2025-06-18 16:52:44",
-    "change_number": 29625190,
+    "update_time": "2025-06-30 10:00:59",
+    "change_number": 29819253,
     "depot": {
         "hasdepotsindlc": "1",
         "baselanguages": "english",
         "2097031": {
             "manifests": {
                 "public": {
-                    "gid": "5605278990469549167",
-                    "size": "2304632440",
-                    "download": "410837088"
+                    "gid": "8877614146093398149",
+                    "size": "2304831584",
+                    "download": "411703664"
                 }
             },
             "decryptionkey": "5e527f73477ad45f62fe2cf46c642bcf811fd38317c6f02d84d08d1aa61f6122"
         },
         "branches": {
             "public": {
-                "buildid": "18810782",
-                "timeupdated": "1749564401"
+                "buildid": "19048548",
+                "timeupdated": "1751274054"
             }
         },
         "privatebranches": "1"
