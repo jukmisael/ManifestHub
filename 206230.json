@@ -4,7 +4,7 @@
     "type": "Game",
     "schinese_name": "角斗士对决",
     "isfreeapp": 0,
-    "update_time": "2025-06-02 11:37:58",
+    "update_time": "2025-06-23 13:03:26",
     "change_number": 29317726,
     "depot": {
         "overridescddb": "1",
@@ -28,7 +28,7 @@
                 }
             },
             "dlcappid": "215302",
-            "decryptionkey": ""
+            "decryptionkey": "2504bf5603d2e15c6c669bc8944534eaa359b8c11d56380084c4f1e077cf0993"
         },
         "215304": {
             "manifests": {
@@ -39,7 +39,7 @@
                 }
             },
             "dlcappid": "215304",
-            "decryptionkey": ""
+            "decryptionkey": "a21468320182559e8ddaeeed312f85f6de7310b30d4e8664bd5e616720cc89bb"
         },
         "215305": {
             "manifests": {
@@ -50,7 +50,7 @@
                 }
             },
             "dlcappid": "215305",
-            "decryptionkey": ""
+            "decryptionkey": "9eb312d6764f4ae6f5d6bd773569a903f234ac858be4f0ecfcee4f4826cbab4c"
         },
         "215306": {
             "manifests": {
@@ -61,7 +61,7 @@
                 }
             },
             "dlcappid": "215306",
-            "decryptionkey": ""
+            "decryptionkey": "76ec2f9f1d8bd62980a42d06d36b427bc98fb77ae5bdbe992bbaa2b172fab8ee"
         },
         "215307": {
             "manifests": {
@@ -72,7 +72,7 @@
                 }
             },
             "dlcappid": "215307",
-            "decryptionkey": ""
+            "decryptionkey": "12d02953673c0d5c05d6d83bd18e5769984521b823cd01a4a059cb6b440aa58a"
         },
         "215308": {
             "manifests": {
@@ -83,7 +83,7 @@
                 }
             },
             "dlcappid": "215308",
-            "decryptionkey": ""
+            "decryptionkey": "a10befe5079ddce9d1f93dbfa0d8ca6bdc4d082f4f5b10ed6fa9f173ee43b49b"
         },
         "215309": {
             "manifests": {
@@ -94,7 +94,7 @@
                 }
             },
             "dlcappid": "215309",
-            "decryptionkey": ""
+            "decryptionkey": "59f27762b81b6d02aa2650655afdd397ddf2071dd583069ccfd8e0d52d526b46"
         },
         "215310": {
             "manifests": {
@@ -105,7 +105,7 @@
                 }
             },
             "dlcappid": "215310",
-            "decryptionkey": ""
+            "decryptionkey": "865f32b13d1e94dc14936a807eb03c02c19cea3353311bed8b65f3dade142394"
         },
         "215311": {
             "manifests": {
@@ -116,7 +116,7 @@
                 }
             },
             "dlcappid": "215311",
-            "decryptionkey": ""
+            "decryptionkey": "bd92a2e5300cba6631c8620451b831b199d8585a9f054c097a0c89e2c97f2de0"
         },
         "215313": {
             "manifests": {
@@ -127,7 +127,7 @@
                 }
             },
             "dlcappid": "215313",
-            "decryptionkey": ""
+            "decryptionkey": "a337c1c03d18063381dae02b48b19739675883c4d41375ebcff0d412d35b0d38"
         },
         "215314": {
             "manifests": {
@@ -138,7 +138,7 @@
                 }
             },
             "dlcappid": "215314",
-            "decryptionkey": ""
+            "decryptionkey": "1616e0dc6d07215aed782450724e0d1b8994fab43b2640cbea5b710632273c55"
         },
         "215315": {
             "manifests": {
@@ -149,7 +149,7 @@
                 }
             },
             "dlcappid": "215315",
-            "decryptionkey": ""
+            "decryptionkey": "00f78cd6a8ec95c124a5f0ab548a180ac68948251da0c7ccfdd829b61425a329"
         },
         "215316": {
             "manifests": {
@@ -160,7 +160,7 @@
                 }
             },
             "dlcappid": "215316",
-            "decryptionkey": ""
+            "decryptionkey": "1e757e28f8c19150d585fda137fcd9fe802a6b7ebc176a39f1aae26aac9438ed"
         },
         "215320": {
             "manifests": {
@@ -171,7 +171,7 @@
                 }
             },
             "dlcappid": "215320",
-            "decryptionkey": ""
+            "decryptionkey": "82ac6155050bb70f6c3d34e780f52d1de521439d0fca01d5f80bbb3458c35f3f"
         },
         "215321": {
             "manifests": {
@@ -182,7 +182,7 @@
                 }
             },
             "dlcappid": "215321",
-            "decryptionkey": ""
+            "decryptionkey": "1ff574c6c2dd94c9d1d32fb283fe2cceace29ba80cb1400e0161b26c3ba856ae"
         },
         "branches": {
             "public": {
