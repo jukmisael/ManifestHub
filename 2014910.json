@@ -1,0 +1,61 @@
+{
+    "appid": 2014910,
+    "name": "Mom got stuck in the washing machine",
+    "type": "Game",
+    "schinese_name": "妈妈被困在洗衣机里",
+    "isfreeapp": 0,
+    "update_time": "2025-07-17 20:18:31",
+    "change_number": 30117603,
+    "depot": {
+        "228988": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "229007": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2014911": {
+            "config": {
+                "language": "english",
+                "oslist": "windows",
+                "osarch": "64"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "7862344206001061003",
+                    "size": "1845990586",
+                    "download": "1695642496"
+                }
+            },
+            "decryptionkey": "bd8e08f87c9d45d6d0f9390db2cf834687edb3d467ea6c367d14fa432322ee71"
+        },
+        "branches": {
+            "public": {
+                "buildid": "15931613",
+                "timeupdated": "1728055549"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
