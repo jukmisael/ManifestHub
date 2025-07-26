@@ -4,17 +4,12 @@
     "type": "Game",
     "schinese_name": "幻想女武神",
     "isfreeapp": 0,
-    "update_time": "2025-06-16 10:02:10",
-    "change_number": 29579412,
+    "update_time": "2025-07-17 08:43:02",
+    "change_number": 30105363,
     "depot": {
         "2015621": {
             "manifests": {
                 "public": {
-                    "gid": "2626129939898408444",
-                    "size": "4446786915",
-                    "download": "3805893408"
-                },
-                "networktest": {
                     "gid": "2626129939898408444",
                     "size": "4446786915",
                     "download": "3805893408"
@@ -26,11 +21,6 @@
             "public": {
                 "buildid": "16822269",
                 "timeupdated": "1734929324"
-            },
-            "networktest": {
-                "buildid": "16822269",
-                "description": "Network mode test",
-                "timeupdated": "1734929340"
             }
         },
         "privatebranches": "1"
