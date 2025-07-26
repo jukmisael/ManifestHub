@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "阿加斯巴之塔",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 07:29:13",
-    "change_number": 29686421,
+    "update_time": "2025-07-24 00:50:09",
+    "change_number": 30216665,
     "depot": {
         "228989": {
             "config": {
@@ -24,9 +24,9 @@
         "2178071": {
             "manifests": {
                 "public": {
-                    "gid": "8743208462153153316",
-                    "size": "32712784749",
-                    "download": "14062426432"
+                    "gid": "5602090986682064648",
+                    "size": "33173713175",
+                    "download": "14620412400"
                 }
             },
             "decryptionkey": "a0cc1ebf88bc7bfcac11875c070fb0a2b0b439f439779695e2f7a3499ebcc7fd"
@@ -34,8 +34,8 @@
         "hasdepotsindlc": "0",
         "branches": {
             "public": {
-                "buildid": "18849789",
-                "timeupdated": "1749785004"
+                "buildid": "19266411",
+                "timeupdated": "1752790323"
             }
         },
         "privatebranches": "1"
