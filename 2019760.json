@@ -4,9 +4,10 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 21:30:34",
-    "change_number": 29668993,
+    "update_time": "2025-06-23 18:39:47",
+    "change_number": 29704606,
     "depot": {
+        "hasdepotsindlc": "0",
         "228989": {
             "config": {
                 "oslist": "windows"
@@ -31,11 +32,16 @@
             },
             "decryptionkey": "8f8acee5e26a3229f755f338c1a3268e923929e686b8c7b4f7d243d76f99b19a"
         },
+        "3837860": {
+            "dlcappid": "3837860",
+            "manifests": {}
+        },
         "branches": {
             "public": {
                 "buildid": "18940287",
                 "timeupdated": "1750423942"
             }
-        }
+        },
+        "privatebranches": "1"
     }
 }
