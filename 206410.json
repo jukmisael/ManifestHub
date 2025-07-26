@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "疯狂机器：元素",
     "isfreeapp": 0,
-    "update_time": "2025-06-03 19:31:43",
-    "change_number": 29341573,
+    "update_time": "2025-07-07 10:11:11",
+    "change_number": 29927579,
     "depot": {
         "206415": {
             "optional": "1",
@@ -18,7 +18,7 @@
                 }
             },
             "dlcappid": "206415",
-            "decryptionkey": ""
+            "decryptionkey": "e7f5a53c5a551ace6459ac9f6e14ded9833e968b50bc20316104ced3a3887200"
         },
         "206416": {
             "optional": "1",
@@ -31,7 +31,7 @@
                 }
             },
             "dlcappid": "206416",
-            "decryptionkey": ""
+            "decryptionkey": "2e655c3e9aac1df62c4e208f115cf606a6f9a15cd99063bb23dc8cd990ebd9e3"
         },
         "206411": {
             "systemdefined": "1",
