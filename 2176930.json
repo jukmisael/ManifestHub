@@ -1,0 +1,28 @@
+{
+    "appid": 2176930,
+    "name": "Trinity Trigger",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-26 19:55:19",
+    "change_number": 29770311,
+    "depot": {
+        "2176931": {
+            "manifests": {
+                "public": {
+                    "gid": "1043952583778565547",
+                    "size": "2674180091",
+                    "download": "2353439216"
+                }
+            },
+            "decryptionkey": "1800444a46d123c7da7819c3197321658b365d7830382b5eca7b7bb33e4ea8ab"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11046301",
+                "timeupdated": "1682378280"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
