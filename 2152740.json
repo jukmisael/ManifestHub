@@ -1,0 +1,28 @@
+{
+    "appid": 2152740,
+    "name": "亜電",
+    "type": "Game",
+    "schinese_name": "亚电",
+    "isfreeapp": 0,
+    "update_time": "2025-07-22 20:42:47",
+    "change_number": 30193087,
+    "depot": {
+        "2152741": {
+            "manifests": {
+                "public": {
+                    "gid": "1629322772100730953",
+                    "size": "712318378",
+                    "download": "580375936"
+                }
+            },
+            "decryptionkey": "811372d0db86d529dcb0b11a253e9164ec65c9a14a252f165fad85f9538b58fe"
+        },
+        "baselanguages": "japanese",
+        "branches": {
+            "public": {
+                "buildid": "18501851",
+                "timeupdated": "1747476487"
+            }
+        }
+    }
+}
