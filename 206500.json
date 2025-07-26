@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "机甲战机",
     "isfreeapp": 1,
-    "update_time": "2025-06-22 05:57:34",
-    "change_number": 29684802,
+    "update_time": "2025-07-18 04:28:40",
+    "change_number": 30123780,
     "depot": {
         "228988": {
             "config": {
@@ -32,9 +32,9 @@
                     "download": "793909120"
                 },
                 "beta": {
-                    "gid": "8904229024567006382",
-                    "size": "1020803358",
-                    "download": "905227040"
+                    "gid": "20978312997850431",
+                    "size": "1020912942",
+                    "download": "905258000"
                 }
             },
             "decryptionkey": "c1f4008780c08ced071797be6a11ef77e8908fb26e045ca9692019add23db146"
@@ -58,7 +58,7 @@
                     "download": "662949920"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "bd82c8ad83822799bbb5ac0ec26078c0e1786e35f9296fc42cb5dee1f334c83a"
         },
         "888240": {
             "manifests": {
@@ -93,9 +93,9 @@
                 "timeupdated": "1703491163"
             },
             "beta": {
-                "buildid": "17949344",
+                "buildid": "19211279",
                 "description": "public canary",
-                "timeupdated": "1743570091"
+                "timeupdated": "1752463845"
             }
         },
         "privatebranches": "1"
