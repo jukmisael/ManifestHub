@@ -4,7 +4,7 @@
     "type": "Game",
     "schinese_name": "东篱之下",
     "isfreeapp": 0,
-    "update_time": "2025-06-13 01:23:45",
+    "update_time": "2025-06-23 11:24:13",
     "change_number": 29526335,
     "depot": {
         "baselanguages": "english",
@@ -54,7 +54,7 @@
                     "download": "69024400"
                 }
             },
-            "decryptionkey": ""
+            "decryptionkey": "784cbcfb5e2c251e30f6ec0a195863de46a66bae7a1ffd86766d8dff261adeca"
         },
         "branches": {
             "public": {
