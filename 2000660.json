@@ -1,0 +1,62 @@
+{
+    "appid": 2000660,
+    "name": "IN HEAT: Lustful Nights Demo",
+    "type": "Demo",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-07 21:09:13",
+    "change_number": 29937097,
+    "depot": {
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2000662": {
+            "config": {
+                "oslist": "windows"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "1898173889001364384",
+                    "size": "1279562119",
+                    "download": "1004821280"
+                }
+            },
+            "decryptionkey": "361b922fef650352b85e7c886548a60ca182c4eb549a5b2ca3a6be1736c40673"
+        },
+        "2000663": {
+            "config": {
+                "oslist": "linux"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "5311290315802559654",
+                    "size": "1389109031",
+                    "download": "1040917696"
+                }
+            }
+        },
+        "2000664": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "3391705367862285879",
+                    "size": "1267463001",
+                    "download": "924160896"
+                }
+            }
+        },
+        "branches": {
+            "public": {
+                "buildid": "19136498",
+                "timeupdated": "1751918945"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
