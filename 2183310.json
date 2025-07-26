@@ -1,0 +1,46 @@
+{
+    "appid": 2183310,
+    "name": "劍俠．風塵戀曲 - Adult Content DLC -",
+    "type": "DLC",
+    "schinese_name": "剑侠．风尘恋曲 - R18 DLC -",
+    "isfreeapp": 1,
+    "update_time": "2025-07-04 05:10:10",
+    "change_number": 29890723,
+    "depot": {
+        "2183310": {
+            "config": {
+                "oslist": "windows"
+            },
+            "dlcappid": "2183310",
+            "manifests": {
+                "public": {
+                    "gid": "2495848875556665602",
+                    "size": "2619908161",
+                    "download": "2223636416"
+                }
+            },
+            "decryptionkey": "d74052b4617f0addac9696255cf8e5f928cb37e129c5d7b0f208c35075b5cf81"
+        },
+        "2183311": {
+            "config": {
+                "oslist": "macos"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "1719404536379855557",
+                    "size": "2618466717",
+                    "download": "2222847664"
+                }
+            },
+            "dlcappid": "2183310",
+            "decryptionkey": "24bb3c97d369d0659b3644a5923394ef887029f3a37030aa2ff53bbf6e4c46e4"
+        },
+        "branches": {
+            "public": {
+                "buildid": "15093841",
+                "timeupdated": "1721422594"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
