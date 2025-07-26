@@ -1,0 +1,28 @@
+{
+    "appid": 2005370,
+    "name": "Drunk Games",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-29 15:15:15",
+    "change_number": 29810391,
+    "depot": {
+        "2005371": {
+            "manifests": {
+                "public": {
+                    "gid": "1970722323437277819",
+                    "size": "54713672",
+                    "download": "44705120"
+                }
+            },
+            "decryptionkey": "4e9e4a38effd8e19468995722367c4e3b1c1aff67f81c198bc90e7668002112d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "8758019",
+                "timeupdated": "1652822799"
+            }
+        }
+    },
+    "access_token": 4018623626592211175
+}
