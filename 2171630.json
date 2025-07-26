@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "地心归途",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 12:16:19",
-    "change_number": 29661234,
+    "update_time": "2025-07-23 06:50:09",
+    "change_number": 30200126,
     "depot": {
         "2171631": {
             "config": {
@@ -13,9 +13,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5793106439216424180",
-                    "size": "1263898121",
-                    "download": "414560960"
+                    "gid": "1752384774768202730",
+                    "size": "1435259282",
+                    "download": "564502544"
                 }
             },
             "decryptionkey": "a62e00fd9be41fb3cf0c73af2986f688272d6f372e802565be89f70c48a22bef"
@@ -24,12 +24,12 @@
         "workshopdepot": "2171630",
         "branches": {
             "public": {
-                "buildid": "18714364",
-                "timeupdated": "1748938537"
+                "buildid": "19324269",
+                "timeupdated": "1753249803"
             }
         },
         "privatebranches": "1",
-        "workshopdepotdecryptionkey": ""
+        "workshopdepotdecryptionkey": "58325f0cf6335e00011874115cd4892102f21fe929f3b483f52c9dbe788bcfbd"
     },
     "access_token": 12392195659837657818
 }
