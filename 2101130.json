@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "若不疯魔何言爱过",
     "isfreeapp": 0,
-    "update_time": "2025-06-14 10:53:16",
-    "change_number": 29316900,
+    "update_time": "2025-07-10 21:44:36",
+    "change_number": 29997178,
     "depot": {
         "baselanguages": "english,schinese,tchinese,japanese",
         "hasdepotsindlc": "0",
@@ -99,17 +99,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5516882979049686000",
-                    "size": "1269886885",
-                    "download": "1130925536"
+                    "gid": "8549057760695204187",
+                    "size": "1334805757",
+                    "download": "1184534864"
                 }
             },
             "decryptionkey": "772ddab748fe663a334c73ce04eac9f159e3b0d3a0dea45bbc2f652226fcae34"
         },
         "branches": {
             "public": {
-                "buildid": "18621510",
-                "timeupdated": "1748565540"
+                "buildid": "19139449",
+                "timeupdated": "1752045292"
             }
         },
         "privatebranches": "1"
