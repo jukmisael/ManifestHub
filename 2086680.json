@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "最强城堡",
     "isfreeapp": 0,
-    "update_time": "2025-05-31 10:25:56",
-    "change_number": 29296454,
+    "update_time": "2025-07-23 14:18:55",
+    "change_number": 30207017,
     "depot": {
         "228989": {
             "config": {
@@ -24,17 +24,17 @@
         "2086681": {
             "manifests": {
                 "public": {
-                    "gid": "2009088992569259979",
-                    "size": "2405103094",
-                    "download": "2186751136"
+                    "gid": "736611854438205511",
+                    "size": "2383319430",
+                    "download": "2178277024"
                 }
             },
             "decryptionkey": "d26f1082b54bbbc389fc56aedfc2cb3f47a9a5d8257f27f6fab2dcfcbf25bae0"
         },
         "branches": {
             "public": {
-                "buildid": "18460747",
-                "timeupdated": "1747228891"
+                "buildid": "19322629",
+                "timeupdated": "1753276716"
             }
         },
         "privatebranches": "1"
