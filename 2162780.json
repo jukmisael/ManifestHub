@@ -4,15 +4,15 @@
     "type": "Game",
     "schinese_name": "异变战区2",
     "isfreeapp": 0,
-    "update_time": "2025-06-11 00:55:24",
-    "change_number": 29490940,
+    "update_time": "2025-07-19 07:52:46",
+    "change_number": 30143900,
     "depot": {
         "2162781": {
             "manifests": {
                 "public": {
-                    "gid": "3644485303868860082",
-                    "size": "6402577667",
-                    "download": "2607126704"
+                    "gid": "5224898125274425106",
+                    "size": "6556042877",
+                    "download": "2657900016"
                 },
                 "dev_old": {
                     "gid": "8799899849874319683",
@@ -35,8 +35,8 @@
         "workshopdepot": "2162780",
         "branches": {
             "public": {
-                "buildid": "18813194",
-                "timeupdated": "1749574494"
+                "buildid": "18994759",
+                "timeupdated": "1750852440"
             },
             "dev_old": {
                 "buildid": "15261194",
