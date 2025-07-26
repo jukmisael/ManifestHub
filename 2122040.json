@@ -1,0 +1,41 @@
+{
+    "appid": 2122040,
+    "name": "Dimensional Gears",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 1,
+    "update_time": "2025-07-08 09:11:03",
+    "change_number": 29944894,
+    "depot": {
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2122041": {
+            "manifests": {
+                "public": {
+                    "gid": "3700659404377961688",
+                    "size": "353943574",
+                    "download": "155773936"
+                }
+            },
+            "decryptionkey": "cea2051a34951dfaa5b52be6888100141afe5fd52e6afe19dbee0d2e0783e11d"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9315620",
+                "timeupdated": "1660552220"
+            }
+        }
+    }
+}
