@@ -4,15 +4,15 @@
     "type": "Game",
     "schinese_name": "",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 06:00:10",
-    "change_number": 29685161,
+    "update_time": "2025-07-17 10:23:39",
+    "change_number": 30106998,
     "depot": {
         "2009351": {
             "manifests": {
                 "public": {
-                    "gid": "1613903121651639562",
-                    "size": "16008644527",
-                    "download": "15413236656"
+                    "gid": "5755304079695151876",
+                    "size": "16104495947",
+                    "download": "15510092368"
                 },
                 "beforemultiplayer": {
                     "gid": "79947598564800301",
@@ -20,9 +20,9 @@
                     "download": "12068250864"
                 },
                 "beta": {
-                    "gid": "1613903121651639562",
-                    "size": "16008644527",
-                    "download": "15413236656"
+                    "gid": "5755304079695151876",
+                    "size": "16104495947",
+                    "download": "15510092368"
                 }
             },
             "decryptionkey": "41a1bb5707b6d179fc15f341ee3f4481b7d28f3a571eec865f526783430a26a8"
@@ -30,8 +30,8 @@
         "2009352": {},
         "branches": {
             "public": {
-                "buildid": "18706835",
-                "timeupdated": "1749811180"
+                "buildid": "19189589",
+                "timeupdated": "1752235879"
             },
             "beforemultiplayer": {
                 "buildid": "13880188",
@@ -39,9 +39,9 @@
                 "timeupdated": "1730188854"
             },
             "beta": {
-                "buildid": "18706835",
+                "buildid": "19189589",
                 "description": "Latest beta for players",
-                "timeupdated": "1749224483"
+                "timeupdated": "1752235429"
             }
         },
         "privatebranches": "1"
