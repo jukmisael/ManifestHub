@@ -1,0 +1,34 @@
+{
+    "appid": 2092660,
+    "name": "Magnet Block",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-09 10:16:22",
+    "change_number": 29965248,
+    "depot": {
+        "228988": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "2092661": {
+            "manifests": {
+                "public": {
+                    "gid": "3846366965565839618",
+                    "size": "106013870",
+                    "download": "97309712"
+                }
+            },
+            "decryptionkey": "b9c29cadd9ad6b49c41a2ba9a7997e9631a9ef907964b13644a318482a2ceee4"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19158121",
+                "timeupdated": "1752052578"
+            }
+        }
+    }
+}
