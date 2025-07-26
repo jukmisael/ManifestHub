@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "剑湾奇旅",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 05:55:23",
-    "change_number": 29683397,
+    "update_time": "2025-07-23 15:49:37",
+    "change_number": 30208635,
     "depot": {
         "2108181": {
             "config": {
@@ -13,14 +13,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5066095992762988337",
-                    "size": "7964336861",
-                    "download": "3339350256"
+                    "gid": "8601710713403282584",
+                    "size": "8917261116",
+                    "download": "3941897760"
                 },
                 "beta": {
-                    "gid": "633674434334904904",
-                    "size": "7977641653",
-                    "download": "3346174336"
+                    "gid": "3050130425342126777",
+                    "size": "9599150753",
+                    "download": "4244809264"
                 }
             },
             "decryptionkey": "a37535e60a7271c54be954c0153730a979fc027cad187830c9bd0490f3e53710"
@@ -31,14 +31,14 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8794549829779256710",
-                    "size": "8023153621",
-                    "download": "3363577536"
+                    "gid": "4904522931704338244",
+                    "size": "9003780668",
+                    "download": "4035170144"
                 },
                 "beta": {
-                    "gid": "8794549829779256710",
-                    "size": "8023153621",
-                    "download": "3363577536"
+                    "gid": "4904522931704338244",
+                    "size": "9003780668",
+                    "download": "4035170144"
                 }
             }
         },
@@ -48,30 +48,30 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3359250288121676071",
-                    "size": "8203054065",
-                    "download": "3403701120"
+                    "gid": "6299017225262070622",
+                    "size": "9212819737",
+                    "download": "4078330528"
                 },
                 "beta": {
-                    "gid": "3359250288121676071",
-                    "size": "8203054065",
-                    "download": "3403701120"
+                    "gid": "6299017225262070622",
+                    "size": "9212819737",
+                    "download": "4078330528"
                 }
             }
         },
         "workshopdepot": "2108180",
         "branches": {
             "public": {
-                "buildid": "18601722",
-                "timeupdated": "1748189248"
+                "buildid": "19134813",
+                "timeupdated": "1751907873"
             },
             "beta": {
-                "buildid": "18610488",
+                "buildid": "19215276",
                 "description": "Beta builds",
-                "timeupdated": "1748262004"
+                "timeupdated": "1752493783"
             }
         },
         "privatebranches": "1",
-        "workshopdepotdecryptionkey": ""
+        "workshopdepotdecryptionkey": "96cd098baf7512dc00dd2d141b1f4525c3e39caff321c41194dbd4de508462b3"
     }
 }
