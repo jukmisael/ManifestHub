@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "纵横七海：船运世界",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 23:15:06",
-    "change_number": 29670883,
+    "update_time": "2025-07-18 01:20:30",
+    "change_number": 30121457,
     "depot": {
         "2002571": {
             "config": {
@@ -13,19 +13,19 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3071251318000351406",
-                    "size": "5016212852",
-                    "download": "1015566656"
+                    "gid": "1915286688190150656",
+                    "size": "5019408475",
+                    "download": "1034586624"
                 },
                 "mactest": {
-                    "gid": "3071251318000351406",
-                    "size": "5016212852",
-                    "download": "1015566656"
+                    "gid": "1915286688190150656",
+                    "size": "5019408475",
+                    "download": "1034586624"
                 },
                 "publictest": {
-                    "gid": "3071251318000351406",
-                    "size": "5016212852",
-                    "download": "1015566656"
+                    "gid": "1915286688190150656",
+                    "size": "5019408475",
+                    "download": "1034586624"
                 }
             },
             "decryptionkey": "aa32c1da58ad926f546878097f7dcb24c4b1ed8e3e41e4b07f4042ce5340447f"
@@ -50,22 +50,23 @@
                     "size": "1622868690",
                     "download": "1201915008"
                 }
-            }
+            },
+            "decryptionkey": "350424c837a8115d7e855c35fba84a05fedae3c84939227ece880e78e04289d3"
         },
         "branches": {
             "public": {
-                "buildid": "18838736",
-                "timeupdated": "1749725956"
+                "buildid": "19077098",
+                "timeupdated": "1751628111"
             },
             "mactest": {
-                "buildid": "18838736",
+                "buildid": "19077098",
                 "description": "mac test",
-                "timeupdated": "1749725971"
+                "timeupdated": "1751628127"
             },
             "publictest": {
-                "buildid": "18838736",
+                "buildid": "19077098",
                 "description": "For public testers",
-                "timeupdated": "1749725984"
+                "timeupdated": "1751454683"
             }
         },
         "privatebranches": "1"
