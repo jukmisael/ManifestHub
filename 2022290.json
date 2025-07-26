@@ -1,0 +1,27 @@
+{
+    "appid": 2022290,
+    "name": "Amairo Chocolate 2",
+    "type": "Game",
+    "schinese_name": "巧克甜恋2",
+    "isfreeapp": 0,
+    "update_time": "2025-06-28 13:02:11",
+    "change_number": 29005396,
+    "depot": {
+        "2022291": {
+            "manifests": {
+                "public": {
+                    "gid": "3836091146848504894",
+                    "size": "2118101269",
+                    "download": "1856073456"
+                }
+            },
+            "decryptionkey": "3c1429ecd48b2e2395eea29bd465a8f5fcb0a0a92dd5b61c864f7b19359791d4"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11195519",
+                "timeupdated": "1683695819"
+            }
+        }
+    }
+}
