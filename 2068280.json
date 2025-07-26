@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "北欧的灰烬：诸神黄昏幸存者",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 05:56:38",
-    "change_number": 29684129,
+    "update_time": "2025-07-11 16:23:04",
+    "change_number": 30014543,
     "depot": {
         "hasdepotsindlc": "0",
         "2068281": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5692414022305770663",
-                    "size": "638394917",
-                    "download": "531278064"
+                    "gid": "3542576195431887384",
+                    "size": "642230758",
+                    "download": "532463232"
                 }
             },
             "decryptionkey": "ee7ffd7c9029c2c860eab9bb927eba2a68583d2327418c1fa50e13a0aa0e3534"
@@ -27,9 +27,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "225674762764593182",
-                    "size": "740249965",
-                    "download": "555344384"
+                    "gid": "5355636219534485482",
+                    "size": "744248186",
+                    "download": "557852992"
                 }
             },
             "decryptionkey": "01210614ee8eafe7be521b727beab3aefa41b46c6a42ba8299ee4478f6c890df"
@@ -40,9 +40,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5956388825354590778",
-                    "size": "676976282",
-                    "download": "535568624"
+                    "gid": "2398351466649527484",
+                    "size": "680710898",
+                    "download": "537744928"
                 }
             },
             "decryptionkey": "df31c8266051f43e78990b5d97bd3b9eb293126391b671e1b14a051d460bf91b"
@@ -142,8 +142,8 @@
         },
         "branches": {
             "public": {
-                "buildid": "18951062",
-                "timeupdated": "1750525980"
+                "buildid": "19192685",
+                "timeupdated": "1752247378"
             }
         },
         "privatebranches": "1"
