@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "魔饮心语",
     "isfreeapp": 0,
-    "update_time": "2025-06-22 06:00:34",
-    "change_number": 29685329,
+    "update_time": "2025-07-23 11:40:26",
+    "change_number": 30204619,
     "depot": {
         "2076141": {
             "config": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "3227616263309164051",
-                    "size": "705185065",
-                    "download": "418307296"
+                    "gid": "7744576148693431847",
+                    "size": "709266411",
+                    "download": "423699968"
                 }
             },
             "decryptionkey": "38c00b2e11a56563435dc1469d94558e9c10aa7b35096d267019be9fd87ec844"
@@ -28,9 +28,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "2581071849829765288",
-                    "size": "806483940",
-                    "download": "440089280"
+                    "gid": "2815023982173445609",
+                    "size": "810591726",
+                    "download": "458714864"
                 }
             },
             "decryptionkey": "56978492b8bf6780f27db8b2a51a8673d6c317d0c16be12425ce6d0a85249607"
@@ -39,9 +39,9 @@
             "dlcappid": "3047210",
             "manifests": {
                 "public": {
-                    "gid": "8541122064949537562",
-                    "size": "308281797",
-                    "download": "292571744"
+                    "gid": "7786796183442676736",
+                    "size": "308310815",
+                    "download": "292670512"
                 }
             },
             "decryptionkey": "01842d4b8f01a186b76208cf8cfd86487e8568f7c5c09e032301d5c18fa80040"
@@ -49,8 +49,8 @@
         "hasdepotsindlc": "1",
         "branches": {
             "public": {
-                "buildid": "18853892",
-                "timeupdated": "1750410087"
+                "buildid": "19315993",
+                "timeupdated": "1753267221"
             }
         },
         "privatebranches": "1"
