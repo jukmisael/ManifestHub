@@ -1,0 +1,28 @@
+{
+    "appid": 2003831,
+    "name": "RPG Maker MZ - Shop Materials Tileset - Interior / Exterior",
+    "type": "DLC",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-23 09:49:30",
+    "change_number": 26201212,
+    "depot": {
+        "2003831": {
+            "manifests": {
+                "public": {
+                    "gid": "3163016817625572478",
+                    "size": "224188080",
+                    "download": "103301584"
+                }
+            },
+            "dlcappid": "2003831",
+            "decryptionkey": "651bc7e4356ea55ed56aeff5dae116adf8151960b19f81d7d30ad4288ecce689"
+        },
+        "branches": {
+            "public": {
+                "buildid": "8930376",
+                "timeupdated": "1655170486"
+            }
+        }
+    }
+}
