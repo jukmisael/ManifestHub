@@ -1,0 +1,28 @@
+{
+    "appid": 204940,
+    "name": "Crusader Kings Complete",
+    "type": "Game",
+    "schinese_name": "十字军之王：完全版",
+    "isfreeapp": 0,
+    "update_time": "2025-07-06 19:10:35",
+    "change_number": 29920516,
+    "depot": {
+        "204941": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "1173103310247152392",
+                    "size": "527422304",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "5b174cd7b5f2abe3b7b05e340c357d7fa227f5c6183f72557647c67feaf7bfa3"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "29958"
+            }
+        }
+    }
+}
