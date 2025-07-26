@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "心门守卫",
     "isfreeapp": 0,
-    "update_time": "2025-06-20 05:16:17",
-    "change_number": 29651017,
+    "update_time": "2025-07-23 18:16:01",
+    "change_number": 30211397,
     "depot": {
         "hasdepotsindlc": "1",
         "baselanguages": "english",
@@ -15,6 +15,11 @@
                     "gid": "6865897602673168027",
                     "size": "3115300883",
                     "download": "1740076592"
+                },
+                "the-nowhere-throne-beta": {
+                    "gid": "6667078744842899524",
+                    "size": "3359476543",
+                    "download": "2033109920"
                 }
             },
             "decryptionkey": "8020620a882ace556b89574d5c6bbce83c6d3034bf72959e40f2e0988702e7bc"
@@ -26,6 +31,11 @@
                     "gid": "7877669104065052789",
                     "size": "137586196",
                     "download": "134667840"
+                },
+                "the-nowhere-throne-beta": {
+                    "gid": "7877669104065052789",
+                    "size": "137586196",
+                    "download": "134667840"
                 }
             },
             "decryptionkey": "51627f4bbb1aacbdae1721d28a86576389b54b4953819b8347387cb000877884"
@@ -34,6 +44,11 @@
             "public": {
                 "buildid": "17839643",
                 "timeupdated": "1742839268"
+            },
+            "the-nowhere-throne-beta": {
+                "buildid": "19220060",
+                "description": "The Nowhere Throne Update (Beta)",
+                "timeupdated": "1752518016"
             }
         },
         "privatebranches": "1"
