@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "七日世界",
     "isfreeapp": 1,
-    "update_time": "2025-06-22 05:54:01",
-    "change_number": 29683070,
+    "update_time": "2025-07-22 15:59:32",
+    "change_number": 30188511,
     "depot": {
         "baselanguages": "english,german,french,koreana,schinese,tchinese,russian,japanese,brazilian,latam",
         "228989": {
@@ -21,9 +21,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1649607400486463342",
-                    "size": "81644128272",
-                    "download": "79578453600"
+                    "gid": "1829494746786925603",
+                    "size": "81775074026",
+                    "download": "79062174736"
                 }
             },
             "decryptionkey": "78a785be75b7bf5ace231ff22287308bed5800f9afecb4b545a180f7f00b9c11"
@@ -34,9 +34,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1142655648614011603",
-                    "size": "81644128272",
-                    "download": "79572687456"
+                    "gid": "6651184665914412195",
+                    "size": "81775074026",
+                    "download": "79050430544"
                 }
             },
             "decryptionkey": ""
@@ -47,17 +47,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "1788602502784959358",
-                    "size": "81591130570",
-                    "download": "79557166976"
+                    "gid": "3154617151518362545",
+                    "size": "81722796696",
+                    "download": "79039018896"
                 }
             },
             "decryptionkey": "ad7c624324a12728521ce39b4e13e9a9bd4df554bc77e25484ade5072f77615e"
         },
         "branches": {
             "public": {
-                "buildid": "18919447",
-                "timeupdated": "1750290426"
+                "buildid": "19316401",
+                "timeupdated": "1753196368"
             }
         },
         "privatebranches": "1"
