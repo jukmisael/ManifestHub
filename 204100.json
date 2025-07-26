@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "马克思佩恩3",
     "isfreeapp": 0,
-    "update_time": "2025-06-11 00:53:27",
-    "change_number": 29490908,
+    "update_time": "2025-07-15 10:06:51",
+    "change_number": 30064772,
     "depot": {
         "overridescddb": "1",
         "204104": {
@@ -230,9 +230,9 @@
         "1899671": {
             "manifests": {
                 "public": {
-                    "gid": "4177720964978853031",
-                    "size": "230627596",
-                    "download": "187200304"
+                    "gid": "1313721849634300954",
+                    "size": "223812877",
+                    "download": "187185200"
                 }
             },
             "depotfromapp": "1899670",
