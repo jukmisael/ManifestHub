@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "亡者之地",
     "isfreeapp": 0,
-    "update_time": "2025-06-07 21:21:43",
-    "change_number": 29435546,
+    "update_time": "2025-07-23 16:14:46",
+    "change_number": 30209141,
     "depot": {
         "2131011": {
             "config": {
@@ -13,17 +13,17 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "5575288951559119552",
-                    "size": "911289571",
-                    "download": "513954128"
+                    "gid": "7963484501663031097",
+                    "size": "1642661346",
+                    "download": "1157328928"
                 }
             },
             "decryptionkey": "f8f00ff2d1c236f035e4f473ac76ad51ee2273d4bed592798505848c790e0f64"
         },
         "branches": {
             "public": {
-                "buildid": "17634098",
-                "timeupdated": "1741346712"
+                "buildid": "18532515",
+                "timeupdated": "1750945106"
             }
         },
         "privatebranches": "1"
