@@ -1,0 +1,27 @@
+{
+    "appid": 2126300,
+    "name": "Fix My Legs Doc",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-22 11:57:18",
+    "change_number": 29687447,
+    "depot": {
+        "2126301": {
+            "manifests": {
+                "public": {
+                    "gid": "340883901939866768",
+                    "size": "148845231",
+                    "download": "28770208"
+                }
+            },
+            "decryptionkey": "61996e4006d2cda8a8161d6799e7ca5c02760d07f78210e1f5afeae3effd9b1e"
+        },
+        "branches": {
+            "public": {
+                "buildid": "9385011",
+                "timeupdated": "1661417896"
+            }
+        }
+    }
+}
