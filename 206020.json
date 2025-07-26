@@ -1,0 +1,28 @@
+{
+    "appid": 206020,
+    "name": "Avernum 4",
+    "type": "Game",
+    "schinese_name": "阿佛纳姆4",
+    "isfreeapp": 0,
+    "update_time": "2025-07-13 17:11:00",
+    "change_number": 30036829,
+    "depot": {
+        "206021": {
+            "systemdefined": "1",
+            "manifests": {
+                "public": {
+                    "gid": "1065899897126098155",
+                    "size": "317244508",
+                    "download": "0"
+                }
+            },
+            "decryptionkey": "0be338f288ee92839fc939e64c39ace10ba9caf78d1c00b41307c999973b4465"
+        },
+        "overridescddb": "1",
+        "branches": {
+            "public": {
+                "buildid": "29991"
+            }
+        }
+    }
+}
