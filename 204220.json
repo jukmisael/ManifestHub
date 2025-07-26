@@ -4,7 +4,7 @@
     "type": "Game",
     "schinese_name": "快照",
     "isfreeapp": 0,
-    "update_time": "2025-05-21 03:14:18",
+    "update_time": "2025-06-23 14:38:04",
     "change_number": 29089107,
     "depot": {
         "204221": {
@@ -44,7 +44,7 @@
                 }
             },
             "dlcappid": "219380",
-            "decryptionkey": ""
+            "decryptionkey": "749880ecf32a1cf88ffb7ebae2b179c5421f958b7b29fe0bf79d17ce4a0c4ac6"
         },
         "204222": {
             "config": {
