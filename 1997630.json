@@ -1,0 +1,37 @@
+{
+    "appid": 1997630,
+    "name": "Ink: Tournament Paintball",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-06-27 13:59:19",
+    "change_number": 29787232,
+    "depot": {
+        "hasdepotsindlc": "1",
+        "1997631": {
+            "config": {
+                "language": "english"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "3964858511595360379",
+                    "size": "6157579324",
+                    "download": "1599692240"
+                }
+            },
+            "decryptionkey": "21de5e28c4888ecba7fbb2cfb30ea4bd893764a0e565149e5ddbe18dba1b7934"
+        },
+        "1997632": {
+            "config": {
+                "language": "english"
+            }
+        },
+        "branches": {
+            "public": {
+                "buildid": "19026571",
+                "timeupdated": "1751029154"
+            }
+        },
+        "privatebranches": "1"
+    }
+}
