@@ -1,0 +1,27 @@
+{
+    "appid": 2166640,
+    "name": "Family curse",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-19 15:52:40",
+    "change_number": 30147178,
+    "depot": {
+        "2166641": {
+            "manifests": {
+                "public": {
+                    "gid": "6921093050183205543",
+                    "size": "14245443858",
+                    "download": "6141274528"
+                }
+            },
+            "decryptionkey": "b44378717d9c1fb3e917603ef1cd49eeb98c900e3989d23d27fd5829f647149f"
+        },
+        "branches": {
+            "public": {
+                "buildid": "11497217",
+                "timeupdated": "1687106977"
+            }
+        }
+    }
+}
