@@ -1,0 +1,27 @@
+{
+    "appid": 2174320,
+    "name": "A Foreign World",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-20 17:49:35",
+    "change_number": 30156041,
+    "depot": {
+        "2174321": {
+            "manifests": {
+                "public": {
+                    "gid": "4277987819228792361",
+                    "size": "1316675751",
+                    "download": "1174919216"
+                }
+            },
+            "decryptionkey": "8c1d78a91ea3c2c6ab6fe835a21e09610339b28fdc54d4de11ef1dc9df4c7032"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19292069",
+                "timeupdated": "1753030172"
+            }
+        }
+    }
+}
