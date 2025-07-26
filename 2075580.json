@@ -1,0 +1,47 @@
+{
+    "appid": 2075580,
+    "name": "Under A New Sun",
+    "type": "Game",
+    "schinese_name": "",
+    "isfreeapp": 0,
+    "update_time": "2025-07-24 00:10:59",
+    "change_number": 30216280,
+    "depot": {
+        "228989": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "228990": {
+            "config": {
+                "oslist": "windows"
+            },
+            "depotfromapp": "228980",
+            "sharedinstall": "1"
+        },
+        "hasdepotsindlc": "0",
+        "baselanguages": "english",
+        "2075581": {
+            "config": {
+                "oslist": "windows",
+                "osarch": "64"
+            },
+            "manifests": {
+                "public": {
+                    "gid": "2521327955148154082",
+                    "size": "2144608890",
+                    "download": "2036625008"
+                }
+            },
+            "decryptionkey": "4e2907c1b708f00bfe4a2e01a8a13d8ea62b619cf5a3cd06f69163c60956464e"
+        },
+        "branches": {
+            "public": {
+                "buildid": "19334777",
+                "timeupdated": "1753304859"
+            }
+        }
+    }
+}
