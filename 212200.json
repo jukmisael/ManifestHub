@@ -4,8 +4,8 @@
     "type": "Game",
     "schinese_name": "洛奇",
     "isfreeapp": 1,
-    "update_time": "2025-06-18 06:15:53",
-    "change_number": 29613454,
+    "update_time": "2025-07-24 01:54:42",
+    "change_number": 30217406,
     "depot": {
         "212201": {
             "config": {
@@ -14,9 +14,9 @@
             },
             "manifests": {
                 "public": {
-                    "gid": "8898635990917381007",
-                    "size": "13094585050",
-                    "download": "12405853488"
+                    "gid": "7650877143959011066",
+                    "size": "13492816543",
+                    "download": "12722083792"
                 }
             },
             "decryptionkey": "a18ac0318ad0eff5c9052bb8e32d8d54757ddac953c7d10186934b3c36427ba3"
@@ -24,8 +24,8 @@
         "overridescddb": "1",
         "branches": {
             "public": {
-                "buildid": "18829155",
-                "timeupdated": "1749739262"
+                "buildid": "19167706",
+                "timeupdated": "1752155496"
             }
         },
         "privatebranches": "1"
