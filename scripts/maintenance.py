@@ -9,7 +9,7 @@ import sys
 import json
 import argparse
 import subprocess
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Dict, List, Any
 
@@ -142,7 +142,7 @@ def validate_data_integrity(config: Dict[str, Any]) -> Dict[str, Any]:
                 
                 # Verifica se tem timestamp
                 if 'timestamp' not in data:
-                    data['timestamp'] = datetime.utcnow().isoformat()
+                    data['timestamp'] = datetime.now(timezone.utc).isoformat()
                     with open(file_path, 'w', encoding='utf-8') as f:
                         json.dump(data, f, indent=2, ensure_ascii=False)
                     stats['files_repaired'] += 1
@@ -200,7 +200,7 @@ def generate_maintenance_report(config: Dict[str, Any]) -> Dict[str, Any]:
     logger.info("Gerando relatório de manutenção")
     
     report = {
-        'timestamp': datetime.utcnow().isoformat(),
+        'timestamp': datetime.now(timezone.utc).isoformat(),
         'system_info': {},
         'data_stats': {},
         'git_stats': {},

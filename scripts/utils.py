@@ -6,7 +6,7 @@ Utilitários compartilhados para o sistema de sincronização ManifestHub
 import os
 import json
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, Any, Optional
 from pathlib import Path
 
@@ -110,7 +110,7 @@ def save_json_data(data: Any, file_path: str, add_timestamp: bool = True) -> Non
     
     # Adiciona timestamp se solicitado
     if add_timestamp and isinstance(data, dict):
-        data['timestamp'] = datetime.utcnow().isoformat()
+        data['timestamp'] = datetime.now(timezone.utc).isoformat()
     
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
@@ -135,7 +135,7 @@ def log_updated_branches(branches: list, config: Optional[Dict[str, Any]] = None
     data_dir = ensure_data_directory(config)
     log_file = os.path.join(data_dir, config.get('cache', {}).get('updated_branches_log', 'updated_branches.log'))
     
-    timestamp = datetime.utcnow().isoformat()
+    timestamp = datetime.now(timezone.utc).isoformat()
     
     with open(log_file, 'a', encoding='utf-8') as f:
         for branch in branches:
@@ -152,7 +152,7 @@ def get_recently_updated_branches(hours: int = 24, config: Optional[Dict[str, An
     if not os.path.exists(log_file):
         return []
     
-    cutoff_time = datetime.utcnow() - timedelta(hours=hours)
+    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=hours)
     recent_branches = set()
     
     try:
@@ -183,7 +183,7 @@ def cleanup_old_logs(days: int = 30, config: Optional[Dict[str, Any]] = None) ->
     if not os.path.exists(log_file):
         return
     
-    cutoff_time = datetime.utcnow() - timedelta(days=days)
+    cutoff_time = datetime.now(timezone.utc) - timedelta(days=days)
     temp_file = log_file + '.tmp'
     
     try:

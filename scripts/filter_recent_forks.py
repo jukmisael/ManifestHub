@@ -78,7 +78,7 @@ def save_recent_forks(recent_forks: List[Dict[str, Any]], filename: str) -> None
     
     # Prepara dados de saída com informações adicionais
     output_data = {
-        'timestamp': datetime.utcnow().isoformat(),
+        'timestamp': datetime.now(timezone.utc).isoformat(),
         'total_recent_forks': len(recent_forks),
         'recent_forks': recent_forks
     }

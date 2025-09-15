@@ -8,7 +8,7 @@ import os
 import json
 import requests
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 
 def get_github_token() -> str:
@@ -78,7 +78,7 @@ def save_forks_data(forks_data: List[Dict[str, Any]], filename: str) -> None:
     
     # Adiciona timestamp aos dados
     output_data = {
-        'timestamp': datetime.utcnow().isoformat(),
+        'timestamp': datetime.now(timezone.utc).isoformat(),
         'total_forks': len(forks_data),
         'forks': forks_data
     }
