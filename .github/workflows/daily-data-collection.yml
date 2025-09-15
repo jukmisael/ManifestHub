@@ -28,6 +28,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests python-dateutil
     
+    - name: Create data directory
+      run: mkdir -p data
+    
     - name: Check if cache is valid
       id: check-cache
       run: |
@@ -42,9 +45,7 @@ jobs:
         echo "cache_valid=false" >> $GITHUB_OUTPUT
         echo "Cache is invalid or doesn't exist, proceeding with data collection"
     
-    - name: Create data directory
-      if: steps.check-cache.outputs.cache_valid == 'false'
-      run: mkdir -p data
+
     
     - name: Collect forks data
       if: steps.check-cache.outputs.cache_valid == 'false'

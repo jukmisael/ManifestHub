@@ -11,10 +11,22 @@ from typing import List, Dict, Any
 
 def load_forks_data(filename: str) -> Dict[str, Any]:
     """Carrega os dados dos forks do arquivo JSON"""
+    # Garante que o diretório data existe
+    os.makedirs('data', exist_ok=True)
+    
     filepath = os.path.join('data', filename)
     
     if not os.path.exists(filepath):
-        raise FileNotFoundError(f"Arquivo {filepath} não encontrado")
+        print(f"Arquivo {filepath} não encontrado. Criando estrutura vazia.")
+        # Cria arquivo vazio com estrutura básica
+        empty_data = {
+            'timestamp': datetime.now(datetime.timezone.utc).isoformat(),
+            'total_forks': 0,
+            'forks': []
+        }
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(empty_data, f, indent=2, ensure_ascii=False)
+        return empty_data
     
     with open(filepath, 'r', encoding='utf-8') as f:
         return json.load(f)

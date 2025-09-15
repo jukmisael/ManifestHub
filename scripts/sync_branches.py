@@ -13,10 +13,22 @@ from typing import List, Dict, Any, Tuple
 
 def load_recent_forks(filename: str) -> List[Dict[str, Any]]:
     """Carrega os dados dos forks mais recentes"""
+    # Garante que o diretório data existe
+    os.makedirs('data', exist_ok=True)
+    
     filepath = os.path.join('data', filename)
     
     if not os.path.exists(filepath):
-        raise FileNotFoundError(f"Arquivo {filepath} não encontrado")
+        print(f"Arquivo {filepath} não encontrado. Criando estrutura vazia.")
+        # Cria arquivo vazio com estrutura básica
+        empty_data = {
+            'timestamp': datetime.utcnow().isoformat(),
+            'total_recent_forks': 0,
+            'recent_forks': []
+        }
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(empty_data, f, indent=2, ensure_ascii=False)
+        return []
     
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -299,6 +311,15 @@ def main():
         
         # Volta para a branch main/master
         run_git_command(['git', 'checkout', 'main'])
+        
+        # Salva log de branches atualizadas
+        if all_updated_branches:
+            os.makedirs('data', exist_ok=True)
+            log_file = 'data/updated_branches.log'
+            with open(log_file, 'w') as f:
+                for branch in sorted(set(all_updated_branches)):
+                    f.write(f"{branch}\n")
+            print(f"Log de branches atualizadas salvo em {log_file}")
         
         print(f"\n=== RESUMO DA SINCRONIZAÇÃO ===")
         print(f"Total de branches atualizadas: {len(all_updated_branches)}")
