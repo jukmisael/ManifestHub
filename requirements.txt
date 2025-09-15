@@ -1,0 +1,19 @@
+# Dependências para o Sistema de Automação ManifestHub
+
+# Requisições HTTP
+requests>=2.31.0
+
+# Manipulação de datas
+python-dateutil>=2.8.2
+
+# Logging avançado (opcional)
+coloredlogs>=15.0.1
+
+# Validação de JSON (opcional)
+jsonschema>=4.17.0
+
+# Git Python para operações Git avançadas (opcional)
+GitPython>=3.1.31
+
+# Utilitários de sistema
+psutil>=5.9.0

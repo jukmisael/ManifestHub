@@ -1,0 +1,74 @@
+name: System Maintenance
+
+on:
+  schedule:
+    # Executa semanalmente aos domingos às 02:00 UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-dateutil
+    
+    - name: Create necessary directories
+      run: |
+        mkdir -p data logs
+    
+    - name: Clean up old logs
+      run: |
+        python scripts/maintenance.py --cleanup-logs
+    
+    - name: Validate data integrity
+      run: |
+        python scripts/maintenance.py --validate-data
+    
+    - name: Clean up temporary git remotes
+      run: |
+        git remote | grep -E '^fork_' | xargs -r -I {} git remote remove {}
+        echo "Cleaned up temporary remotes"
+    
+    - name: Optimize repository
+      run: |
+        git gc --aggressive --prune=now
+        echo "Repository optimized"
+    
+    - name: Generate maintenance report
+      run: |
+        python scripts/maintenance.py --generate-report
+    
+    - name: Commit maintenance changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        if git diff --staged --quiet; then
+          echo "No maintenance changes to commit"
+        else
+          git commit -m "Maintenance: cleanup and optimization - $(date +'%Y-%m-%d')"
+          git push
+        fi
+    
+    - name: Archive old data
+      run: |
+        # Compacta dados antigos se necessário
+        if [ -d "data" ]; then
+          find data -name "*.json" -mtime +30 -exec gzip {} \;
+          echo "Archived old data files"
+        fi

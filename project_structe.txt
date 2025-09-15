@@ -1,0 +1,88 @@
+Fluxo de Trabalho Completo de Monitoramento e Sincronização
+
+Você já tem os passos iniciais, que são cruciais para a otimização. O que falta é a execução prática da atualização.
+
+1. Verificação Inicial e Clonagem
+
+    Na primeira execução, o seu script deve verificar se o diretório do projeto ManifestHub já existe.
+
+    Se não existir, use o comando git clone --bare https://github.com/jukmisael/ManifestHub.git
+
+        Por que --bare? Ele cria um repositório "nu", sem uma cópia de trabalho, ideal para ser a sua "base" de monitoramento. Isso é mais leve e seguro para um servidor que só precisa sincronizar dados. A partir desse repositório, você pode extrair as informações que precisar.
+
+    A partir de agora, esse repositório local será a sua Base de referência.
+
+2. Coleta e Cache de Dados (Diário)
+
+    Se o jukmisael_ManifestHub_Forks_mescled.json tiver menos de 1 dia, seu script deve pular essa etapa. Se não, siga:
+
+    Use a API do GitHub para pegar o forks_count do repositório principal:
+
+        https://api.github.com/repos/jukmisael/ManifestHub
+
+        Use o valor forks_count para determinar quantas páginas você precisa percorrer.
+
+    Percorra as páginas do endpoint de forks:
+
+        https://api.github.com/repos/jukmisael/ManifestHub/forks?sort=pushed&per_page=100&page=X
+
+    Salve a lista completa de forks no arquivo jukmisael_ManifestHub_Forks_mescled.json.
+
+    Filtre essa lista para encontrar os 5 forks com o pushed_at mais recente e salve-os em LastPushAt_Forks_SteamCracks_ManifestHub.json. Essa lista é o seu foco para as atualizações.
+
+3. Sincronização das Branches (Ação Principal)
+
+Essa é a etapa final e crucial. Seu script deve executar essa rotina regularmente (por exemplo, a cada 1 ou 2 horas) com base na sua lista de forks mais recentes.
+
+    Iterar pelos Forks Recentes: Para cada fork listado em LastPushAt_Forks_SteamCracks_ManifestHub.json:
+
+        Obtenha a URL de clone_url do fork (ex: https://github.com/dingyangyang-dyy/ManifestHub.git).
+
+    Adicionar o Fork como um Novo "Remote" Temporário:
+
+        A partir do seu repositório local Base, adicione o fork como um "remote". Por exemplo, git remote add {nome_do_fork} {url_do_fork}. Isso cria uma referência para o fork.
+
+    Comparar e Encontrar as Branches Atualizadas:
+
+        Use o comando git fetch {nome_do_fork}. Isso baixa todos os commits e referências do fork para sua máquina local, sem mesclá-los.
+
+        Agora, para cada branch que existe no fork (você pode listá-las com git branch -r), compare a data do último commit com a data do último commit da sua branch correspondente na Base.
+
+        O comando git for-each-ref --sort=-committerdate refs/remotes/{nome_do_fork} --format='%(committerdate:iso8601)%09%(refname:short)' pode te ajudar a listar as branches do remote com a data do último commit.
+
+        Compare as datas. Se a data do commit da branch do fork for mais recente, essa branch foi atualizada.
+
+    Sincronizar a Base:
+
+        Para cada AppID(Branch) atualizado que você identificou, use o comando git pull {nome_do_fork} {branch_atualizada}:{branch_local}.
+            Agora vamos pegar o AppID(O nome da Branch) e usar uma API do steamcmd.net publica:
+                https://api.steamcmd.net/v1/info/{appid}
+                ele retorna algo como:
+                    {"data": {"740": {"_change_number": 27407663, "_missing_token": false, "_sha": "d7a50df8db12fcffe3fa20c8f594863b3ae61d6a", "_size": 1132, "appid": "740", "common": {"exfgls": "9", "freetodownload": "1", "gameid": "740", "name": "Counter-Strike Global Offensive - Dedicated Server", "oslist": "windows,linux", "parent": "730", "type": "Tool"}, "config": {"contenttype": "3", "installdir": "Counter-Strike Global Offensive Beta - Dedicated Server", "launch": {"0": {"executable": "testapp.exe"}}}, "depots": {"731": {"manifests": {"public": {"download": "13644292112", "gid": "1224088799001669801", "size": "32722411363"}}}, "740": {"manifests": {"public": {"download": "1061958416", "gid": "6998097922547485721", "size": "1983335199"}}}, "branches": {"public": {"buildid": "12426148", "timeupdated": "1697161507"}}}, "extended": {"developer": "", "gamedir": "Counter-Strike Global Offensive Beta Dedicated Server", "homepage": "", "icon": "", "noservers": "0", "primarycache": "740", "sourcegame": "1", "state": "eStateTool", "visibleonlywheninstalled": "1", "visibleonlywhensubscribed": "1"}}}, "status": "success"}
+                Podemos pegar os DepotsIDs, DLCs, ManifestIDs atuais(No caso são chamados de gid na API do steamcmd.net)
+
+        Isso puxa as alterações da branch do fork e as mescla na sua branch local correspondente.
+
+        Cada AppID(Branch) possui algumas extenções de arquivo, sendo elas:
+            {AppID}.json (ex: 2087450.json),
+            {AppID}.lua (ex: 20774450.lua),
+            {AppID}.lua (ex: 20774450.st),
+            {AppID}_{ManifestID}.manifest (ex: 2087452_5799655720804274487.manifest),
+            *.vdf (ex: key.vdf),
+        
+        a partir daqui vamos reestrutrar o {AppID}.lua:
+            A estrutura base dele é:
+                addappid(2087450) -- Essa linha contem o AppID, ele é fixo no topo do arquivo
+                addappid(2087452,0,"f6304fef724d7e3335e808dfe3303a3b9c6ad92f8e30fd26448003939b06e7e1") -- É esse que iremos usar para fazer a chamada na API da steamcmd.net, as vezes 1 arquivo lua tem vários dessa linha e devemos iterar sobre eles, nesse exemplo a o numero 2087452 é a referencia para atualizar a próxima linha
+                setManifestid(2087452,"5799655720804274487") -- Aqui que vamos atualizar, uma vez obtida os dados do AppID(nesse exemplo 2087450), teremos o DepotID(nesse exemplo 2087452), e com base nesses dados iremos filtrar os dados previamente obtidas da Api do SteamDB e atualizar o ManifestID(nesse exemplo 5799655720804274487, com o gid respectivo desse DepotID)
+            
+            o schema é:
+                addappid({AppID})
+                addappid({DepotID},0,"Hash")
+                setManifestid(DepotID,"ManifestID")
+
+        Após a mesclagem, a sua Base estará atualizada.
+
+    Limpar o Remote:
+
+        Após concluir a sincronização de todas as branches do fork, remova o remote temporário com git remote remove {nome_do_fork}. Isso mantém sua Base organizada e leve.

@@ -1,0 +1,36 @@
+{
+  "github": {
+    "repository": "jukmisael/ManifestHub",
+    "max_forks_to_track": 5,
+    "api_timeout": 30,
+    "rate_limit_delay": 1
+  },
+  "steamcmd": {
+    "api_base_url": "https://api.steamcmd.net/v1/info",
+    "request_timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 2
+  },
+  "cache": {
+    "forks_cache_hours": 24,
+    "data_directory": "data",
+    "forks_file": "jukmisael_ManifestHub_Forks_mescled.json",
+    "recent_forks_file": "LastPushAt_Forks_SteamCracks_ManifestHub.json",
+    "updated_branches_log": "updated_branches.log"
+  },
+  "git": {
+    "remote_prefix": "fork_",
+    "command_timeout": 300,
+    "default_branch": "main"
+  },
+  "sync": {
+    "max_concurrent_forks": 3,
+    "branch_pattern": "^\\d+$",
+    "skip_branches": ["main", "master", "develop", "dev"]
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/manifest_sync.log"
+  }
+}

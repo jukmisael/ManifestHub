@@ -1,0 +1,68 @@
+name: Sync Branches from Forks
+
+on:
+  schedule:
+    # Executa a cada 2 horas
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  sync-branches:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-dateutil
+    
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    
+    - name: Check for recent forks data
+      run: |
+        if [ ! -f "data/LastPushAt_Forks_SteamCracks_ManifestHub.json" ]; then
+          echo "Recent forks data not found. Running data collection first..."
+          python scripts/collect_forks_data.py
+          python scripts/filter_recent_forks.py
+        fi
+    
+    - name: Sync branches from recent forks
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python scripts/sync_branches.py
+    
+    - name: Update manifests
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python scripts/update_manifests.py
+    
+    - name: Commit and push changes
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Sync branches and update manifests - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+    
+    - name: Clean up temporary remotes
+      run: |
+        # Remove todos os remotes temporários que possam ter sobrado
+        git remote | grep -E '^fork_' | xargs -r -I {} git remote remove {}
+        echo "Cleanup completed"
