@@ -40,6 +40,16 @@ def get_repository_info(token: str) -> Dict[str, Any]:
         'Accept': 'application/vnd.github.v3+json'
     }
     
+    url = 'https://api.github.com/repos/SteamAutoCracks/ManifestHub'
+    return make_github_request(url, headers)
+
+def get_our_repo_info(token: str) -> Dict[str, Any]:
+    """Obtém informações do nosso repositório para usar o pushed_at como timestamp"""
+    headers = {
+        'Authorization': f'token {token}',
+        'Accept': 'application/vnd.github.v3+json'
+    }
+    
     url = 'https://api.github.com/repos/jukmisael/ManifestHub'
     return make_github_request(url, headers)
 
@@ -59,7 +69,7 @@ def collect_all_forks(token: str, forks_count: int) -> List[Dict[str, Any]]:
     for page in range(1, total_pages + 1):
         print(f"Processando página {page}/{total_pages}")
         
-        url = f'https://api.github.com/repos/jukmisael/ManifestHub/forks?sort=pushed&per_page={per_page}&page={page}'
+        url = f'https://api.github.com/repos/SteamAutoCracks/ManifestHub/forks?sort=pushed&per_page={per_page}&page={page}'
         forks_data = make_github_request(url, headers)
         
         if not forks_data:
@@ -72,13 +82,17 @@ def collect_all_forks(token: str, forks_count: int) -> List[Dict[str, Any]]:
     
     return all_forks
 
-def save_forks_data(forks_data: List[Dict[str, Any]], filename: str) -> None:
+def save_forks_data(forks_data: List[Dict[str, Any]], filename: str, timestamp: str = None) -> None:
     """Salva os dados dos forks em arquivo JSON"""
     os.makedirs('data', exist_ok=True)
     
+    # Usa timestamp fornecido ou data atual como fallback
+    if timestamp is None:
+        timestamp = datetime.now(timezone.utc).isoformat()
+    
     # Adiciona timestamp aos dados
     output_data = {
-        'timestamp': datetime.now(timezone.utc).isoformat(),
+        'timestamp': timestamp,
         'total_forks': len(forks_data),
         'forks': forks_data
     }
@@ -97,13 +111,18 @@ def main():
         # Obtém token do GitHub
         token = get_github_token()
         
-        # Obtém informações do repositório principal
+        # Obtém informações do repositório principal (SteamAutoCracks)
         print("Obtendo informações do repositório principal...")
         repo_info = get_repository_info(token)
         forks_count = repo_info.get('forks_count', 0)
         
         print(f"Repositório: {repo_info['full_name']}")
         print(f"Total de forks: {forks_count}")
+        
+        # Obtém informações do nosso repositório para usar o pushed_at como timestamp
+        print("Obtendo timestamp do nosso repositório...")
+        our_repo_info = get_our_repo_info(token)
+        our_timestamp = our_repo_info.get('pushed_at', datetime.now(timezone.utc).isoformat())
         
         if forks_count == 0:
             print("Nenhum fork encontrado.")
@@ -112,8 +131,8 @@ def main():
         # Coleta todos os forks
         all_forks = collect_all_forks(token, forks_count)
         
-        # Salva os dados
-        save_forks_data(all_forks, 'jukmisael_ManifestHub_Forks_mescled.json')
+        # Salva os dados usando o timestamp do nosso repositório
+        save_forks_data(all_forks, 'jukmisael_ManifestHub_Forks_mescled.json', our_timestamp)
         
         print(f"Coleta concluída! {len(all_forks)} forks coletados.")
         
