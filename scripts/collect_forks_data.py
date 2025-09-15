@@ -69,7 +69,7 @@ def collect_all_forks(token: str, forks_count: int) -> List[Dict[str, Any]]:
     for page in range(1, total_pages + 1):
         print(f"Processando página {page}/{total_pages}")
         
-        url = f'https://api.github.com/repos/SteamAutoCracks/ManifestHub/forks?sort=pushed&per_page={per_page}&page={page}'
+        url = f'https://api.github.com/repos/SteamAutoCracks/ManifestHub/forks?sort=newest&per_page={per_page}&page={page}'
         forks_data = make_github_request(url, headers)
         
         if not forks_data:
