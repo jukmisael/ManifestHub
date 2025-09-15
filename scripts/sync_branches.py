@@ -8,7 +8,7 @@ import os
 import json
 import subprocess
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any, Tuple
 
 def load_recent_forks(filename: str) -> List[Dict[str, Any]]:
@@ -22,7 +22,7 @@ def load_recent_forks(filename: str) -> List[Dict[str, Any]]:
         print(f"Arquivo {filepath} não encontrado. Criando estrutura vazia.")
         # Cria arquivo vazio com estrutura básica
         empty_data = {
-            'timestamp': datetime.utcnow().isoformat(),
+            'timestamp': datetime.now(timezone.utc).isoformat(),
             'total_recent_forks': 0,
             'recent_forks': []
         }

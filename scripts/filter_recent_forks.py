@@ -6,7 +6,7 @@ Filtra a partir do arquivo de forks completo e salva os mais recentes
 
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 
 def load_forks_data(filename: str) -> Dict[str, Any]:
@@ -20,7 +20,7 @@ def load_forks_data(filename: str) -> Dict[str, Any]:
         print(f"Arquivo {filepath} não encontrado. Criando estrutura vazia.")
         # Cria arquivo vazio com estrutura básica
         empty_data = {
-            'timestamp': datetime.now(datetime.timezone.utc).isoformat(),
+            'timestamp': datetime.now(timezone.utc).isoformat(),
             'total_forks': 0,
             'forks': []
         }

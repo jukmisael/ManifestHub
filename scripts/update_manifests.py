@@ -208,11 +208,19 @@ def find_lua_files() -> List[str]:
 
 def get_recently_updated_branches() -> List[str]:
     """Obtém lista de branches que foram atualizadas recentemente"""
+    # Garante que o diretório data existe
+    os.makedirs('data', exist_ok=True)
+    
     # Verifica se existe arquivo de log de branches atualizadas
     log_file = 'data/updated_branches.log'
     if os.path.exists(log_file):
         with open(log_file, 'r') as f:
             return [line.strip() for line in f if line.strip()]
+    else:
+        print(f"Arquivo {log_file} não encontrado. Criando arquivo vazio.")
+        # Cria arquivo vazio
+        with open(log_file, 'w') as f:
+            pass
     
     return []
 
