@@ -8,8 +8,9 @@ import os
 import json
 import subprocess
 import re
+import requests
 from datetime import datetime, timezone
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 
 def load_recent_forks(filename: str) -> List[Dict[str, Any]]:
     """Carrega os dados dos forks mais recentes"""
@@ -33,6 +34,112 @@ def load_recent_forks(filename: str) -> List[Dict[str, Any]]:
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
         return data.get('recent_forks', [])
+
+def get_latest_commits(fork_data: Dict[str, Any], per_page: int = 2) -> Optional[List[Dict[str, Any]]]:
+    """Busca os últimos commits de um fork usando a API do GitHub"""
+    full_name = fork_data['full_name']
+    api_url = f"https://api.github.com/repos/{full_name}/commits?per_page={per_page}"
+    
+    try:
+        print(f"Buscando últimos commits do fork {full_name}...")
+        response = requests.get(api_url, timeout=30)
+        
+        if response.status_code == 200:
+            commits = response.json()
+            print(f"Encontrados {len(commits)} commits recentes")
+            return commits
+        elif response.status_code == 403:
+            print(f"Rate limit atingido ou acesso negado para {full_name}")
+            return None
+        elif response.status_code == 404:
+            print(f"Fork {full_name} não encontrado ou privado")
+            return None
+        else:
+            print(f"Erro ao buscar commits: HTTP {response.status_code}")
+            return None
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Erro de rede ao buscar commits de {full_name}: {e}")
+        return None
+    except Exception as e:
+        print(f"Erro inesperado ao buscar commits de {full_name}: {e}")
+        return None
+
+def has_recent_commits(fork_data: Dict[str, Any], hours_threshold: int = 24) -> bool:
+    """Verifica se o fork tem commits mais recentes que o threshold especificado"""
+    commits = get_latest_commits(fork_data)
+    
+    if not commits:
+        return False
+    
+    # Pega o commit mais recente
+    latest_commit = commits[0]
+    commit_date_str = latest_commit['commit']['committer']['date']
+    
+    try:
+        # Converte a data do commit para datetime
+        commit_date = datetime.fromisoformat(commit_date_str.replace('Z', '+00:00'))
+        current_time = datetime.now(timezone.utc)
+        
+        # Calcula a diferença em horas
+        time_diff = current_time - commit_date
+        hours_diff = time_diff.total_seconds() / 3600
+        
+        print(f"Último commit em {commit_date_str} ({hours_diff:.1f} horas atrás)")
+        
+        return hours_diff <= hours_threshold
+        
+    except Exception as e:
+        print(f"Erro ao processar data do commit: {e}")
+        return False
+
+def get_fork_branches_api(fork_data: Dict[str, Any]) -> Optional[List[Dict[str, Any]]]:
+    """
+    Obtém lista de branches de um fork via API do GitHub
+    
+    Args:
+        fork_data: Dados do fork
+    
+    Returns:
+        Lista de branches com informações de commit ou None em caso de erro
+    """
+    full_name = fork_data['full_name']
+    url = f"https://api.github.com/repos/{full_name}/branches"
+    
+    try:
+        response = requests.get(url, params={'per_page': 100})
+        response.raise_for_status()
+        
+        branches = response.json()
+        # Filtra apenas branches que são AppIDs (numéricas)
+        appid_branches = []
+        for branch in branches:
+            if re.match(r'^\d+$', branch['name']):
+                appid_branches.append(branch)
+        
+        return appid_branches
+        
+    except requests.RequestException as e:
+        print(f"Erro ao obter branches do fork {full_name} via API: {e}")
+        return None
+
+def get_local_commit_sha(branch_name: str) -> Optional[str]:
+    """
+    Obtém o SHA do último commit da branch local
+    
+    Args:
+        branch_name: Nome da branch
+    
+    Returns:
+        SHA do commit ou None se a branch não existir
+    """
+    command = ['git', 'rev-parse', '--verify', f'{branch_name}^{{commit}}']
+    returncode, stdout, stderr = run_git_command(command)
+    
+    if returncode != 0:
+        return None
+    
+    return stdout.strip()
 
 def run_git_command(command: List[str], capture_output: bool = True) -> Tuple[int, str, str]:
     """Executa comando git e retorna código de saída, stdout e stderr"""
@@ -219,68 +326,62 @@ def sync_fork(fork_data: Dict[str, Any]) -> List[str]:
     remote_name = f"fork_{fork_name.replace('/', '_').replace('-', '_')}"
     updated_branches = []
     
+    # Primeiro, obtém lista de branches via API do GitHub
+    print(f"Obtendo lista de branches do fork {fork_name} via API...")
+    api_branches = get_fork_branches_api(fork_data)
+    
+    if not api_branches:
+        print(f"Não foi possível obter branches do fork {fork_name} via API")
+        return updated_branches
+    
+    if not api_branches:
+        print(f"Nenhuma branch AppID encontrada no fork {fork_name}")
+        return updated_branches
+    
+    print(f"Encontradas {len(api_branches)} branches AppID no fork")
+    
+    # Filtra branches que realmente precisam ser atualizadas
+    branches_to_sync = []
+    for branch_info in api_branches:
+        branch_name = branch_info['name']
+        remote_sha = branch_info['commit']['sha']
+        local_sha = get_local_commit_sha(branch_name)
+        
+        if local_sha is None:
+            print(f"Branch {branch_name} não existe localmente - será sincronizada")
+            branches_to_sync.append(branch_info)
+        elif local_sha != remote_sha:
+            print(f"Branch {branch_name} tem commits diferentes (local: {local_sha[:8]}, remote: {remote_sha[:8]}) - será sincronizada")
+            branches_to_sync.append(branch_info)
+        else:
+            print(f"Branch {branch_name} já está atualizada (SHA: {local_sha[:8]})")
+    
+    if not branches_to_sync:
+        print(f"Todas as branches do fork {fork_name} já estão atualizadas")
+        return updated_branches
+    
+    print(f"Sincronizando {len(branches_to_sync)} branches que precisam de atualização...")
+    
     try:
-        # Adiciona remote
+        # Adiciona remote apenas se há branches para sincronizar
         if not add_remote(fork_name, clone_url):
             return updated_branches
         
-        # Primeiro, faz um fetch básico apenas para obter as refs
-        print(f"Obtendo lista de branches do fork {fork_name}...")
-        returncode, stdout, stderr = run_git_command(['git', 'ls-remote', '--heads', remote_name])
-        
-        if returncode != 0:
-            print(f"Erro ao listar branches remotas: {stderr}")
-            return updated_branches
-        
-        # Processa a saída do ls-remote para encontrar branches AppID
-        remote_branches = []
-        for line in stdout.split('\n'):
-            if line.strip():
-                parts = line.split('\t')
-                if len(parts) >= 2:
-                    commit_hash = parts[0]
-                    ref = parts[1]
-                    branch_name = ref.replace('refs/heads/', '')
-                    
-                    # Filtra apenas branches que são AppIDs (numéricas)
-                    if re.match(r'^\d+$', branch_name):
-                        remote_branches.append(branch_name)
-        
-        if not remote_branches:
-            print(f"Nenhuma branch AppID encontrada no fork {fork_name}")
-            return updated_branches
-        
-        print(f"Encontradas {len(remote_branches)} branches AppID no fork")
-        
-        # Para cada branch AppID, faz fetch seletivo e verifica se precisa sincronizar
-        for branch_name in remote_branches:
-            print(f"Verificando branch {branch_name}...")
+        # Para cada branch que precisa ser sincronizada
+        for branch_info in branches_to_sync:
+            branch_name = branch_info['name']
+            print(f"Sincronizando branch {branch_name}...")
             
             # Faz fetch seletivo apenas desta branch
             if not fetch_specific_branch(remote_name, branch_name):
                 continue
             
-            # Obtém data da branch remota
-            returncode, stdout, stderr = run_git_command([
-                'git', 'log', '-1', '--format=%ci', f'{remote_name}/{branch_name}'
-            ])
-            
-            if returncode != 0:
-                print(f"Erro ao obter data da branch {branch_name}: {stderr}")
-                continue
-            
-            remote_date = stdout.strip()
-            local_date = get_local_branch_date(branch_name)
-            
-            if is_branch_updated(remote_date, local_date):
-                print(f"Branch {branch_name} está atualizada no fork (remote: {remote_date}, local: {local_date or 'não existe'})")
-                
-                if sync_branch(remote_name, branch_name):
-                    updated_branches.append(branch_name)
-                else:
-                    print(f"Falha ao sincronizar branch {branch_name}")
+            # Sincroniza a branch
+            if sync_branch(remote_name, branch_name):
+                updated_branches.append(branch_name)
+                print(f"Branch {branch_name} sincronizada com sucesso")
             else:
-                print(f"Branch {branch_name} já está atualizada localmente")
+                print(f"Falha ao sincronizar branch {branch_name}")
     
     finally:
         # Remove remote temporário
@@ -300,12 +401,32 @@ def main():
             print("Nenhum fork recente encontrado.")
             return
         
-        print(f"Processando {len(recent_forks)} forks recentes...")
+        print(f"Verificando {len(recent_forks)} forks para atividade recente...")
+        
+        # Filtra forks que tiveram commits recentes (últimas 24 horas)
+        active_forks = []
+        for fork_data in recent_forks:
+            # Ignora nosso próprio repositório
+            if fork_data['full_name'] == 'jukmisael/ManifestHub':
+                print(f"Ignorando repositório principal: {fork_data['full_name']}")
+                continue
+                
+            if has_recent_commits(fork_data, hours_threshold=24):
+                active_forks.append(fork_data)
+                print(f"✓ Fork {fork_data['full_name']} tem commits recentes")
+            else:
+                print(f"✗ Fork {fork_data['full_name']} sem commits recentes")
+        
+        if not active_forks:
+            print("Nenhum fork com commits recentes encontrado.")
+            return
+            
+        print(f"\nProcessando {len(active_forks)} forks com atividade recente...")
         
         all_updated_branches = []
         
-        # Processa cada fork
-        for fork_data in recent_forks:
+        # Processa cada fork ativo
+        for fork_data in active_forks:
             updated_branches = sync_fork(fork_data)
             all_updated_branches.extend(updated_branches)
         
