@@ -56,13 +56,37 @@ def add_remote(fork_name: str, clone_url: str) -> bool:
     return True
 
 def fetch_remote(remote_name: str) -> bool:
-    """Faz fetch do remote especificado"""
-    print(f"Fazendo fetch do remote: {remote_name}")
+    """Faz fetch básico do remote especificado (apenas refs)"""
+    print(f"Fazendo fetch básico do remote: {remote_name}")
     
-    returncode, stdout, stderr = run_git_command(['git', 'fetch', remote_name])
+    # Fetch apenas as refs sem baixar objetos desnecessários
+    returncode, stdout, stderr = run_git_command(['git', 'fetch', remote_name, '--dry-run'])
+    
+    if returncode != 0:
+        print(f"Erro ao verificar remote {remote_name}: {stderr}")
+        return False
+    
+    # Fetch real apenas das refs
+    returncode, stdout, stderr = run_git_command(['git', 'fetch', remote_name, '+refs/heads/*:refs/remotes/' + remote_name + '/*', '--depth=1'])
     
     if returncode != 0:
         print(f"Erro ao fazer fetch do remote {remote_name}: {stderr}")
+        return False
+    
+    return True
+
+def fetch_specific_branch(remote_name: str, branch_name: str) -> bool:
+    """Faz fetch de uma branch específica do remote"""
+    print(f"Fazendo fetch da branch {branch_name} do remote {remote_name}")
+    
+    returncode, stdout, stderr = run_git_command([
+        'git', 'fetch', remote_name, 
+        f'{branch_name}:refs/remotes/{remote_name}/{branch_name}',
+        '--depth=1'
+    ])
+    
+    if returncode != 0:
+        print(f"Erro ao fazer fetch da branch {branch_name}: {stderr}")
         return False
     
     return True
@@ -188,25 +212,52 @@ def sync_fork(fork_data: Dict[str, Any]) -> List[str]:
         if not add_remote(fork_name, clone_url):
             return updated_branches
         
-        # Faz fetch
-        if not fetch_remote(remote_name):
+        # Primeiro, faz um fetch básico apenas para obter as refs
+        print(f"Obtendo lista de branches do fork {fork_name}...")
+        returncode, stdout, stderr = run_git_command(['git', 'ls-remote', '--heads', remote_name])
+        
+        if returncode != 0:
+            print(f"Erro ao listar branches remotas: {stderr}")
             return updated_branches
         
-        # Obtém branches do remote
-        remote_branches = get_remote_branches(remote_name)
+        # Processa a saída do ls-remote para encontrar branches AppID
+        remote_branches = []
+        for line in stdout.split('\n'):
+            if line.strip():
+                parts = line.split('\t')
+                if len(parts) >= 2:
+                    commit_hash = parts[0]
+                    ref = parts[1]
+                    branch_name = ref.replace('refs/heads/', '')
+                    
+                    # Filtra apenas branches que são AppIDs (numéricas)
+                    if re.match(r'^\d+$', branch_name):
+                        remote_branches.append(branch_name)
         
         if not remote_branches:
-            print(f"Nenhuma branch encontrada no fork {fork_name}")
+            print(f"Nenhuma branch AppID encontrada no fork {fork_name}")
             return updated_branches
         
-        print(f"Encontradas {len(remote_branches)} branches no fork")
+        print(f"Encontradas {len(remote_branches)} branches AppID no fork")
         
-        # Verifica cada branch
-        for branch_name, remote_date in remote_branches:
-            # Pula branches que não são AppIDs (assumindo que AppIDs são numéricos)
-            if not re.match(r'^\d+$', branch_name):
+        # Para cada branch AppID, faz fetch seletivo e verifica se precisa sincronizar
+        for branch_name in remote_branches:
+            print(f"Verificando branch {branch_name}...")
+            
+            # Faz fetch seletivo apenas desta branch
+            if not fetch_specific_branch(remote_name, branch_name):
                 continue
             
+            # Obtém data da branch remota
+            returncode, stdout, stderr = run_git_command([
+                'git', 'log', '-1', '--format=%ci', f'{remote_name}/{branch_name}'
+            ])
+            
+            if returncode != 0:
+                print(f"Erro ao obter data da branch {branch_name}: {stderr}")
+                continue
+            
+            remote_date = stdout.strip()
             local_date = get_local_branch_date(branch_name)
             
             if is_branch_updated(remote_date, local_date):

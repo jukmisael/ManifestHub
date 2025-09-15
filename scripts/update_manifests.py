@@ -41,21 +41,21 @@ def make_steamcmd_request(app_id: str, max_retries: int = 3) -> Optional[Dict[st
     
     return None
 
-def parse_lua_file(file_path: str) -> Tuple[str, List[Tuple[str, str]], List[Tuple[str, str]]]:
+def parse_lua_file(file_path: str) -> Tuple[List[str], List[Tuple[str, str]], List[Tuple[str, str]]]:
     """Analisa arquivo .lua e extrai informações
     
     Returns:
         Tuple contendo:
-        - app_id: ID principal da aplicação
+        - app_ids: Lista de todos os AppIDs encontrados no arquivo
         - depot_entries: Lista de (depot_id, hash) das linhas addappid
         - manifest_entries: Lista de (depot_id, manifest_id) das linhas setManifestid
     """
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Extrai AppID principal (primeira linha addappid com apenas um parâmetro)
-    app_id_match = re.search(r'addappid\((\d+)\)', content)
-    app_id = app_id_match.group(1) if app_id_match else ""
+    # Extrai todos os AppIDs (linhas addappid com apenas um parâmetro)
+    app_id_matches = re.findall(r'addappid\((\d+)\)(?!,)', content)
+    app_ids = list(set(app_id_matches))  # Remove duplicatas
     
     # Extrai entradas de depot (addappid com 3 parâmetros)
     depot_pattern = r'addappid\((\d+),\s*[01],\s*"([^"]+)"\)'
@@ -65,7 +65,7 @@ def parse_lua_file(file_path: str) -> Tuple[str, List[Tuple[str, str]], List[Tup
     manifest_pattern = r'setManifestid\((\d+),\s*"([^"]+)"\)'
     manifest_entries = re.findall(manifest_pattern, content)
     
-    return app_id, depot_entries, manifest_entries
+    return app_ids, depot_entries, manifest_entries
 
 def get_depot_manifest_mapping(api_data: Dict[str, Any]) -> Dict[str, str]:
     """Extrai mapeamento depot_id -> manifest_id dos dados da API"""
@@ -132,37 +132,49 @@ def update_lua_file(file_path: str) -> bool:
     
     try:
         # Analisa o arquivo atual
-        app_id, depot_entries, manifest_entries = parse_lua_file(file_path)
+        app_ids, depot_entries, manifest_entries = parse_lua_file(file_path)
         
-        if not app_id:
-            print(f"  Erro: AppID não encontrado no arquivo {file_path}")
+        if not app_ids:
+            print(f"  Erro: Nenhum AppID encontrado no arquivo {file_path}")
             return False
         
-        print(f"  AppID: {app_id}")
+        print(f"  AppIDs encontrados: {app_ids}")
         print(f"  Depots encontrados: {len(depot_entries)}")
         print(f"  Manifests atuais: {len(manifest_entries)}")
         
-        # Busca dados na API
-        api_data = make_steamcmd_request(app_id)
-        if not api_data:
-            print(f"  Erro: Não foi possível obter dados da API para AppID {app_id}")
+        # Combina dados de manifests de todos os AppIDs
+        combined_depot_manifest_mapping = {}
+        
+        for app_id in app_ids:
+            print(f"  Buscando dados para AppID {app_id}...")
+            
+            # Busca dados na API
+            api_data = make_steamcmd_request(app_id)
+            if not api_data:
+                print(f"    Aviso: Não foi possível obter dados da API para AppID {app_id}")
+                continue
+            
+            # Extrai mapeamento depot -> manifest
+            depot_manifest_mapping = get_depot_manifest_mapping(api_data)
+            
+            if depot_manifest_mapping:
+                print(f"    Encontrados {len(depot_manifest_mapping)} manifests para AppID {app_id}")
+                combined_depot_manifest_mapping.update(depot_manifest_mapping)
+            else:
+                print(f"    Nenhum manifest encontrado para AppID {app_id}")
+        
+        if not combined_depot_manifest_mapping:
+            print(f"  Aviso: Nenhum manifest encontrado na API para nenhum dos AppIDs")
             return False
         
-        # Extrai mapeamento depot -> manifest
-        depot_manifest_mapping = get_depot_manifest_mapping(api_data)
-        
-        if not depot_manifest_mapping:
-            print(f"  Aviso: Nenhum manifest encontrado na API para AppID {app_id}")
-            return False
-        
-        print(f"  Manifests disponíveis na API: {len(depot_manifest_mapping)}")
+        print(f"  Total de manifests disponíveis: {len(combined_depot_manifest_mapping)}")
         
         # Lê conteúdo atual
         with open(file_path, 'r', encoding='utf-8') as f:
             original_content = f.read()
         
         # Atualiza conteúdo
-        updated_content, updates_count = update_lua_content(original_content, depot_manifest_mapping)
+        updated_content, updates_count = update_lua_content(original_content, combined_depot_manifest_mapping)
         
         if updates_count > 0:
             # Salva arquivo atualizado
@@ -227,12 +239,19 @@ def main():
         
         for lua_file in lua_files:
             file_name = os.path.basename(lua_file)
-            app_id = file_name.replace('.lua', '')
             
-            if app_id in recently_updated:
-                priority_files.append(lua_file)
-            else:
-                other_files.append(lua_file)
+            # Para arquivos com múltiplos AppIDs, verifica se algum está na lista de atualizados
+            try:
+                app_ids, _, _ = parse_lua_file(lua_file)
+                is_priority = any(app_id in recently_updated for app_id in app_ids)
+                
+                if is_priority:
+                    priority_files.append(lua_file)
+                else:
+                    other_files.append(lua_file)
+            except Exception as e:
+                print(f"Erro ao analisar {lua_file}: {e}")
+                other_files.append(lua_file)  # Adiciona aos outros em caso de erro
         
         print(f"Arquivos prioritários (branches atualizadas): {len(priority_files)}")
         print(f"Outros arquivos: {len(other_files)}")
